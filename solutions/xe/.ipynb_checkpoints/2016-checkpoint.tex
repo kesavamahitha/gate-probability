@@ -1,0 +1,28 @@
+Let 
+\begin{align}
+X_{i}\in \{0,1\}
+\end{align}
+represent the $i^{th}$ free throw, where 1 represents a successful free throw attempt and 0 represents an unsuccessful attempt.
+Let
+\begin{align}
+X=\sum_{i=1}^{n} X_{i}   
+\end{align}
+where n is the total number of free throws. Then, X has a binomial distribution with
+\begin{align}
+\pr {X=k}=\comb{n}{k} p^{k} q^{n-k}
+\end{align}
+Where,
+\begin{align}
+  &p=\frac{6}{10}\\
+  &q=1-p=\frac{4}{10}\\
+  &n=10
+\end{align}
+from the given information. Then,
+\begin{align}
+\pr{X=6}&=\comb{10}{6}\brak{\frac{6}{10}}^{6}\brak{\frac{4}{10}}^{4}
+\end{align}
+On simplifying we get,
+\begin{align}
+\pr{X=6}&=0.2508
+\end{align}
+Therefore, the probability that he will successfully make exactly 6 free throws in 10 attempts is 0.2508 and hence option (A) is correct.

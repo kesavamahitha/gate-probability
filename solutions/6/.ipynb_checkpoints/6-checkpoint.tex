@@ -1,0 +1,15 @@
+Let $X\in\mathbb{N}$ represent the number of times the experiment is performed. \\
+$X=k$ represents $k-1$ failures were obtained before getting 1 success. $p$ represents the probability of success
+\begin{align}
+	p_X(k) &=
+\begin{cases}
+\brak{1-p}^{k-1}\times p & k\in \mathbb{N}\\
+0 &  otherwise 
+\end{cases}
+\label{eq:final_result}
+\end{align}
+Using \eqref{eq:final_result} we get
+\begin{align}
+\pr{X=5}&=\brak{1-p}^{k-1}\times p\nonumber\\
+&=\brak{0.7}^4\times 0.3=0.07203
+\end{align}

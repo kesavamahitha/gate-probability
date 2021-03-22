@@ -1,0 +1,15 @@
+Let $X\in\mathbb{N}$ represent the number of times the experiment is performed. \\
+$X=k$ represents $k-1$ failures were obtained before getting 1 success. $p$ represents the probability of success
+\begin{align}
+	p_X(k) &=
+\begin{cases}
+\brak{1-p}^{k-1}\times p & k\in \mathbb{N}\\
+0 &  otherwise 
+\end{cases}
+\label{2020:eq:final_result}
+\end{align}
+Using \eqref{2020:eq:final_result} we get
+\begin{align}
+\pr{X=2}&=\brak{1-p}^{k-1}\times p\nonumber\\
+&=\brak{0.9}\times 0.1=0.09
+\end{align}
