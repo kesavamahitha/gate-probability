@@ -1,0 +1,32 @@
+
+Let's assume a random 3-digit number be $xyz$.\\
+Where $x,y,z$ are 3 random single-digit integers such that
+\begin{align}
+x\in \{1,2,3,4,5,6,7,8,9\}\\
+y\in \{0,1,2,3,4,5,6,7,8,9\}\\
+z\in \{0,1,2,3,4,5,6,7,8,9\}
+\end{align}
+\begin{enumerate}
+\item
+Probability of selecting $x$ without including 7
+\begin{align}
+    \Pr{(x\neq 7)}&=\frac{8}{9}
+\end{align}
+\item
+Probability of selecting $y$ without including 7
+\begin{align}
+    \Pr{(y\neq 7)}&=\frac{9}{10}
+\end{align}
+\item
+Probability of selecting $z$ without including 7
+\begin{align}
+    \Pr{(z\neq 7)}&=\frac{9}{10}
+\end{align}
+\end{enumerate}
+So,the total probability of a random 3-digit number $xyz$ will not contain 7\\
+\begin{align}
+    &=\Pr{(x\neq 7)}\times\Pr{(y\neq 7)}\times\Pr{(z\neq 7)}\\
+    &=\frac{8}{9}\times\frac{9}{10}\times\frac{9}{10}\\
+    &=\frac{18}{25}
+\end{align}
+The probability of a number selected at random between 100 and 999 (both inclusive) will not contain digit 7 is $\frac{18}{25}$

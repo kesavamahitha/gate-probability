@@ -1,0 +1,23 @@
+
+Let the random variable $X\in\{1,2\}$ represent the type of the chosen bulb. $X=1$ denotes a Type 1 bulb, while $X=2$ denotes a Type 2 bulb. Given,
+\begin{align}
+\tag{5.1}
+    n(X=1)=n(X=2)\\
+\tag{5.2}\Rightarrow p_{X}(1)=p_{X}(2)=\dfrac{1}{2}
+\end{align}
+Let the random variable $Y\in\{0,1\}$ represent if a bulb lasts more than 100 hours. $Y=1$ denotes that it lasts, while $Y=0$ denotes that it doesn't. Given, 
+\begin{align}
+\tag{5.3}
+    p_{Y|X}(1|1)=0.7\\
+\tag{5.4}
+    p_{Y|X}(1|2)=0.4
+\end{align}
+To find : $p_{Y}(1)$
+\begin{align}
+\tag{5.5}
+p_{Y}(1)&=p_{Y|X}(1|1)p_{X}(1)+p_{Y|X}(1|2)p_{X}(2)\\
+\tag{5.6}
+&p_{Y}(1)=(0.7)(0.5)+(0.4)(0.5)\\
+\tag{5.7}
+&\therefore p_{Y}(1)=0.55
+\end{align}

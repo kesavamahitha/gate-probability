@@ -1,0 +1,48 @@
+
+Let the random variable X represent which player gets six first. That is $X=0 $ when A gets a six first and $X=1 $ when B gets six first. \\
+Let another random variable Y represent getting a six on the dice. $Y=1 $ for six and $Y=0 $ for any other number. \\
+Let N be the number of turns until we get a six.
+\begin{align}
+    \Pr\brak{Y=0} = \frac{5}{6} \\
+    \Pr\brak{Y=1} = \frac{1}{6}
+\end{align}
+The event success is when B gets a six for first time and failure is when neither A nor B gets six. Let p denote probability of success 
+\begin{align}
+    p &= \Pr\brak{Y=1}  \\
+    \Pr\brak{Y=0} &= 1- p \\
+    p &= \frac{1}{6}
+\end{align}
+To get $X=1 $ in $N$ turns we have to get $N-1$ failures for B and $ N$ failures for A and finally one success for B. 
+Therefore the geometric distribution is,
+\begin{align}
+    f(N) &= \brak{1-p}^{n-1} \times p \times  \brak{1-p}^{n} \\
+    &  = \brak{1-p}^{2n-1} \times p \\
+    & = \brak{ \frac{5}{6}}^{2n-1} \times \frac{1}{6}
+\end{align}
+The result has been summarized in table \ref{tab:table geometric distribution}. \\
+\begin{table}[hbt!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{No. of turns} & \textbf{Probability} \\ \hline
+1                     & $5^1/6^2  $            \\ \hline
+2                     & $5^3/6^4 $             \\ \hline
+$\vdots  $              & $\vdots $              \\
+n                     & $5^{2n-1}/6^{2n} $         \\ \hline
+$\vdots $               & $\vdots $              \\ \hline
+\end{tabular}
+\caption{Summary of turns}
+\label{tab:table geometric distribution}
+\end{table}
+Thus the total probability is sum of these individual probabilities i.e.
+\begin{align}
+    \Pr\brak{X=1} &= \sum_{N=1}^{\infty} f(N) \\
+    &= \frac{5}{6^2} + \frac{5^3}{6^4} + \hdots + \frac{5^{2n-1}}{6^{2n}} +\hdots  \\
+    &= \frac{5}{6^2} \times \brak{1 + \frac{5^2}{6^2} + \frac{5^4}{6^4} + \hdots } 
+\end{align}
+By Using sum of infinite GP we have, 
+\begin{align}
+     \Pr\brak{X=1} &= \frac{5}{6^2} \times \brak{\frac{1}{1 - \frac{25}{36}}}  \\
+       &= \frac{5}{36} \times \frac{36}{11} \\
+       &= \frac{5}{11} = 0.45
+\end{align}

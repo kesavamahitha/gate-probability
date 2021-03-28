@@ -1,0 +1,60 @@
+
+For
+\begin{align}
+    \because Y = (X_1X_2) \oplus X_3 &= 0\\
+    \implies X_1X_2 &= X_3 \label{cs2015-37:all_equal}
+\end{align}
+\begin{align}
+    \pr{Y=0|X_3=0} &= \dfrac{\pr{Y=0,X_3=0}}{\pr{X_3=0}} \label{cs2015-37:eq:0.0.1}\\
+    &=\dfrac{\pr{X_1X_2 = X_3, X_3 = 0}}{\pr{X_3=0}}\\
+    \pr{X_3 = 0} &= \frac{1}{2} \label{cs2015-37:eq:0.0.2}
+\end{align}
+if $X_3 = 0$, from \eqref{cs2015-37:all_equal}
+\begin{align}
+    X_1X_2 &= 0
+\end{align}
+%The number of possibilities for $X_1X_2=0$
+%\begin{align}
+%    (X_1,X_2) = \begin{cases}
+%(0,0)\\(0,1)\\(1,0)
+%\end{cases}
+%\end{align}
+The random variables are independent of each other:
+%\begin{align}
+%    \pr{X_i = a, X_j = b} &= \pr{X_i=a} \cdot \pr{X_j=b}\\
+%    i \neq j,\quad i,j &\in \{1,2,3\}\\
+%    a,b &\in \{0,1\}
+%\end{align}
+\begin{table}[h!]
+    \centering
+    \resizebox{\columnwidth}{!}
+    {
+    \begin{tabular}{|c|c|c|}
+    \hline
+         $\pr{X_1=0,X_2=0}$& $\pr{X_1=0}\cdot\pr{X_2=0}$&$0.25 $\\ \hline
+         
+         $\pr{X_1=1,X_2=0}$&$\pr{X_1=1}\cdot\pr{X_2=0}$&$0.25$ \\  \hline
+         $\pr{X_1=0,X_2=1}$&$\pr{X_1=0}\cdot\pr{X_2=1}$&$0.25$\\
+         \hline
+    \end{tabular}
+    }
+    
+    \caption{Probabilities }
+    \label{cs2015-37:tab:my_label}
+\end{table}
+\begin{align}
+\nonumber
+\pr{X_1X_2=0} &= \pr{X_1=0,X_2=0} \\ \nonumber
+    &\quad+ \pr{X_1=0,X_2=1}\\ &\quad+ \pr{X_1=1,X_2=0}\\
+    &=\frac{1}{4} +\frac{1}{4} + \frac{1}{4}= \frac{3}{4} 
+\end{align}
+\begin{align}
+    \pr{Y=0,X_3=0} &= \pr{X_1X_2=X_3=0}\\
+    &= \pr{X_1X_2=0}\cdot\pr{X_3=0}\\
+    &=\frac{3}{4} \cdot \frac{1}{2}\\
+    &=\frac{3}{8} \label{cs2015-37:case_A}
+\end{align}
+Upon substituting \eqref{cs2015-37:case_A} and \eqref{cs2015-37:eq:0.0.2} in \eqref{cs2015-37:eq:0.0.1}
+\begin{align}
+    \pr{Y=0|X_3=0} = \dfrac{3}{4} = 0.75
+\end{align}
