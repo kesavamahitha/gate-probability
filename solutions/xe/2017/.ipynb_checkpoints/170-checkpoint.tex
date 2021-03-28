@@ -1,0 +1,29 @@
+Let X be a random variable which is equal to 1, when the product of the numbers appearing on the top faces of the dice is a perfect square and 0 when it is not a perfect square. \\
+The total no. of possible outcomes is 36.\\
+Outcomes corresponding to $ X =1 $ are listed in table \ref{tab:Outcomes}
+\begin{table}[hbt!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Squares} & \textbf{Favourable outcomes} \\ \hline
+1                & (1,1)                        \\ \hline
+4                & (1,4) , (2,2) , (4,1)        \\ \hline
+9                & (3,3)                        \\ \hline
+16               & (4,4)                        \\ \hline
+25               & (5,5)                        \\ \hline
+36               & (6,6)                        \\ \hline
+\end{tabular}
+\caption{Outcomes for X=1}
+\label{tab:Outcomes}
+\end{table}
+The total no. of favourable outcomes are 8. Therefore we have,
+\begin{align}
+    \Pr\brak{X=1}    &= \dfrac{8}{36}  \\
+     &= \dfrac{2}{9}
+\end{align}
+Similarly we have that the probability of not getting a perfect square as a product i.e. $X=0$
+\begin{align}
+    \Pr\brak{X=0} & = 1-  \Pr\brak{X=1} \\
+    &=  1-\dfrac{2}{9}  \\
+     &= \dfrac{7}{9}
+\end{align}

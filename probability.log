@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  22 MAR 2021 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  27 MAR 2021 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1574,7 +1574,17 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-(./probability.aux)
+(./probability.aux
+
+LaTeX Warning: Label `eq_0' multiply defined.
+
+
+LaTeX Warning: Label `eq_1' multiply defined.
+
+
+LaTeX Warning: Label `Figure_0' multiply defined.
+
+)
 \openout1 = `probability.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 89.
@@ -1587,7 +1597,8 @@ LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 89.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
 89.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 89.
@@ -1809,39 +1820,130 @@ Overfull \hbox (4.26837pt too wide) in paragraph at lines 24--24
 [] 
  []
 
-) (./solutions/3.tex
+) (./solutions/ec/2.tex) (./solutions/3.tex
 Overfull \hbox (18.87914pt too wide) detected at line 18
  []$[]   [] []$ 
  []
 
-<figs/3.png, id=32, 387.4475pt x 262.9825pt>
-File: figs/3.png Graphic file (type png)
-<use figs/3.png>
-Package pdftex.def Info: figs/3.png  used on input line 26.
-(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
-) (./solutions/4.tex [1
+
+Underfull \vbox (badness 6808) has occurred while \output is active []
+
+ [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figs/3.png>])
-(./solutions/6/6.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-Underfull \hbox (badness 2970) in paragraph at lines 222--223
+]
+<figs/3.png, id=87, 387.4475pt x 262.9825pt>
+File: figs/3.png Graphic file (type png)
+<use figs/3.png>
+Package pdftex.def Info: figs/3.png  used on input line 26.
+(pdftex.def)             Requested size: 252.0pt x 171.04893pt.
+) (./solutions/4.tex)
+(./solutions/6/6.tex)
+Underfull \hbox (badness 2970) in paragraph at lines 228--229
 []\OT1/txr/m/n/12 Given Set A = [2,3,4,5] and Set B =
  []
 
-(./solutions/11.tex
-Underfull \vbox (badness 3158) has occurred while \output is active []
 
- [2]
-Underfull \vbox (badness 4569) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+ [2 <./figs/3.png>] (./solutions/7/7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 249--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 33--35
+\OT1/txr/m/n/12 e-ments from set A and set B such that
+ []
+
+) (./solutions/ec/8.tex
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2.
+) [3pdfTeX warning (ext4): destination with the same identifier (name{equation.
+0.24}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.265 
+      ] (./solutions/11.texpdfTeX warning (ext4): destination with the same ide
+ntifier (name{equation.0.24}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \end{align}
+                
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/ec/12.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/ec/14/Assignment_2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+<solutions/ec/14/FIGURES/Figure.png, id=207, 390.45876pt x 262.9825pt>
+File: solutions/ec/14/FIGURES/Figure.png Graphic file (type png)
+<use solutions/ec/14/FIGURES/Figure.png>
+Package pdftex.def Info: solutions/ec/14/FIGURES/Figure.png  used on input line
+ 51.
+(pdftex.def)             Requested size: 252.0pt x 169.72873pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+(./solutions/ec/15/AI1103_Assignment2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./solutions/ec/14/FIGURES/Figure.png>]
+<solutions/ec/15/figures/assign2.png, id=252, 393.47pt x 279.0425pt>
+File: solutions/ec/15/figures/assign2.png Graphic file (type png)
+<use solutions/ec/15/figures/assign2.png>
+Package pdftex.def Info: solutions/ec/15/figures/assign2.png  used on input lin
+e 42.
+(pdftex.def)             Requested size: 252.0pt x 178.71431pt.
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+<solutions/ec/15/figures/assign2_2.png, id=255, 397.485pt x 279.0425pt>
+File: solutions/ec/15/figures/assign2_2.png Graphic file (type png)
+<use solutions/ec/15/figures/assign2_2.png>
+Package pdftex.def Info: solutions/ec/15/figures/assign2_2.png  used on input l
+ine 70.
+(pdftex.def)             Requested size: 252.0pt x 176.91325pt.
+<solutions/ec/15/figures/assign2_1.png, id=256, 390.45876pt x 280.04625pt>
+File: solutions/ec/15/figures/assign2_1.png Graphic file (type png)
+<use solutions/ec/15/figures/assign2_1.png>
+Package pdftex.def Info: solutions/ec/15/figures/assign2_1.png  used on input l
+ine 85.
+(pdftex.def)             Requested size: 252.0pt x 180.74167pt.
+
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+ [7 <./solutions/ec/15/figures/assign2.png> <./solutions/ec/15/figures/assign2_
+2.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
@@ -1853,63 +1955,263 @@ Package epstopdf Info: Source file: <./figs/figure7.eps>
 (epstopdf)                    size: 6944 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure7-eps-convert
 ed-to.pdf ./figs/figure7.eps>
-(epstopdf)             \includegraphics on input line 358.
+(epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure7-eps-converted-to.pdf, id=133, 323.2075pt x 146.5475pt>
+<./figs/figure7-eps-converted-to.pdf, id=290, 323.2075pt x 146.5475pt>
 File: ./figs/figure7-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure7-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure7-eps-converted-to.pdf  used on input lin
-e 358.
+e 380.
 (pdftex.def)             Requested size: 252.0pt x 114.26184pt.
+(./solutions/ec/17.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/19/19.tex [8 <./solutions/ec/15/figures/assign2_1.png> <./figs/fig
+ure7-eps-converted-to.pdf>]) (./solutions/ec/20/main.tex
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/ec/20/figures/graph_pdf.png, id=334, 403.5075pt x 264.99pt>
+File: solutions/ec/20/figures/graph_pdf.png Graphic file (type png)
+<use solutions/ec/20/figures/graph_pdf.png>
+Package pdftex.def Info: solutions/ec/20/figures/graph_pdf.png  used on input l
+ine 46.
+(pdftex.def)             Requested size: 252.0pt x 165.493pt.
+<solutions/ec/20/figures/graph_cdf.png, id=335, 390.45876pt x 264.99pt>
+File: solutions/ec/20/figures/graph_cdf.png Graphic file (type png)
+<use solutions/ec/20/figures/graph_cdf.png>
+Package pdftex.def Info: solutions/ec/20/figures/graph_cdf.png  used on input l
+ine 48.
+(pdftex.def)             Requested size: 252.0pt x 171.02438pt.
+)
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 421.
+(Font)              scaled to size 9.49997pt on input line 450.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 421.
+(Font)              scaled to size 6.64998pt on input line 450.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 421.
-(./solutions/24/latex2.tex
-<solutions/24/Figure.png, id=134, 479.99326pt x 254.1495pt>
+(Font)              scaled to size 4.74998pt on input line 450.
+
+(./solutions/ec/21.tex [9 <./solutions/ec/20/figures/graph_pdf.png> <./solution
+s/ec/20/figures/graph_cdf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--38
+
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 19--38
+\OT1/txr/m/n/12 Using this, we can form the fol-low-ing
+ []
+
+) (./solutions/24/latex2.tex
+<solutions/24/Figure.png, id=363, 479.99326pt x 254.1495pt>
 File: solutions/24/Figure.png Graphic file (type png)
 <use solutions/24/Figure.png>
 Package pdftex.def Info: solutions/24/Figure.png  used on input line 4.
 (pdftex.def)             Requested size: 252.0pt x 133.43048pt.
- [4 <./figs/figure7-eps-converted-to.pdf> <./solutions/24/Figure.png>]
+
 Overfull \hbox (30.06451pt too wide) detected at line 23
  []$[]  []$ 
  []
 
 
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+ [10 <./solutions/24/Figure.png>]
 Overfull \hbox (24.0pt too wide) in paragraph at lines 37--39
 [] 
  []
 
-) [5]
-Underfull \vbox (badness 2285) has occurred while \output is active []
+) (./solutions/ec/26.tex
+Underfull \hbox (badness 7576) in paragraph at lines 608--2
+\OT1/txr/m/n/12 twice. Let the ran-dom vari-able $\OML/txmi/m/it/12 X[] \OMS/tx
+sy/m/n/12 2
+ []
 
- [6]
-Underfull \hbox (badness 2351) in paragraph at lines 845--846
+
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+)
+(./solutions/ec/27.tex [11]) (./solutions/ec/28.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (16.56418pt too wide) in paragraph at lines 28--28
+[] 
+ []
+
+) (./solutions/ec/30.tex [12]) (./solutions/ec/34/Assignment_3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+<solutions/ec/34/Figures/Assignment_3_PDF.png, id=540, 396.48125pt x 266.9975pt
+>
+File: solutions/ec/34/Figures/Assignment_3_PDF.png Graphic file (type png)
+<use solutions/ec/34/Figures/Assignment_3_PDF.png>
+Package pdftex.def Info: solutions/ec/34/Figures/Assignment_3_PDF.png  used on 
+input line 160.
+(pdftex.def)             Requested size: 226.79846pt x 152.732pt.
+<solutions/ec/34/Figures/Assignment_3_CDF.png, id=541, 390.45876pt x 262.9825pt
+>
+File: solutions/ec/34/Figures/Assignment_3_CDF.png Graphic file (type png)
+<use solutions/ec/34/Figures/Assignment_3_CDF.png>
+Package pdftex.def Info: solutions/ec/34/Figures/Assignment_3_CDF.png  used on 
+input line 167.
+(pdftex.def)             Requested size: 226.79846pt x 152.75465pt.
+)
+Underfull \vbox (badness 3138) has occurred while \output is active []
+
+
+(./solutions/ec/39.tex [15 <./solutions/ec/34/Figures/Assignment_3_PDF.png> <./
+solutions/ec/34/Figures/Assignment_3_CDF.png>]) (./solutions/ec/40.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+)
+Underfull \vbox (badness 3396) has occurred while \output is active []
+
+ [16]
+(./solutions/ec/43/assignment2.tex
+Overfull \hbox (3.39615pt too wide) in paragraph at lines 8--8
+[]|\OT1/txr/bx/n/12 Symbol| 
+ []
+
+
+Overfull \hbox (5.44708pt too wide) in paragraph at lines 8--8
+[]|\OT1/txr/bx/n/12 Property| 
+ []
+
+
+Overfull \hbox (3.68307pt too wide) in paragraph at lines 8--8
+[]|\OT1/txr/bx/n/12 Random| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/txr/m/n/12 ar-rived dur-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/txr/m/n/12 call in in-ter-val
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 22--22
+[]|\OT1/txr/m/n/12 Average num-ber
+ []
+
+
+Overfull \hbox (2.1232pt too wide) in paragraph at lines 6--27
+ [][] 
+ []
+
+<solutions/ec/43/Figures/figure1.png, id=594, 528.17325pt x 65.043pt>
+File: solutions/ec/43/Figures/figure1.png Graphic file (type png)
+<use solutions/ec/43/Figures/figure1.png>
+Package pdftex.def Info: solutions/ec/43/Figures/figure1.png  used on input lin
+e 38.
+(pdftex.def)             Requested size: 252.0pt x 31.0327pt.
+<solutions/ec/43/Figures/figure2.png, id=596, 534.49687pt x 75.28125pt>
+File: solutions/ec/43/Figures/figure2.png Graphic file (type png)
+<use solutions/ec/43/Figures/figure2.png>
+Package pdftex.def Info: solutions/ec/43/Figures/figure2.png  used on input lin
+e 45.
+(pdftex.def)             Requested size: 252.0pt x 35.4936pt.
+
+Underfull \hbox (badness 1389) in paragraph at lines 35--50
+\OT1/txr/m/n/12 into n equal parts, where length of each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--50
+
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 51--52
+[]\OT1/txr/m/n/12 A call has prob-a-bil-ity $\OML/txmi/m/it/12 p$ \OT1/txr/m/n/
+12 for ar-riv-ing at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+[17 <./solutions/ec/43/Figures/figure1.png> <./solutions/ec/43/Figures/figure2.
+png>]
+Overfull \hbox (24.0pt too wide) detected at line 74
+[][][]
+ []
+
+
+Underfull \hbox (badness 6775) in paragraph at lines 104--106
+\OT1/txr/m/n/12 of Pois-son dis-tri-bu-tion, which gives us
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 2351) in paragraph at lines 894--895
 []\OT1/txr/m/n/12 To achieve min-i-mum prob-a-bil-ity of er-ror
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 854--855
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
 \OT1/txr/m/n/12 de-pend-ing on the
  []
 
 
-Underfull \hbox (badness 7344) in paragraph at lines 859--861
+Underfull \hbox (badness 7344) in paragraph at lines 908--910
 \OT1/txr/m/n/12 As-sume a thresh-old de-tec-tor with zero
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--861
+Underfull \hbox (badness 10000) in paragraph at lines 908--910
 
  []
 
+[18] (./solutions/ec/45/Assignment3.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 1043) has occurred while \output is active []
+ [19]
+<solutions/ec/45/Figures/Figure_3.png, id=687, 400.49625pt x 285.065pt>
+File: solutions/ec/45/Figures/Figure_3.png Graphic file (type png)
+<use solutions/ec/45/Figures/Figure_3.png>
+Package pdftex.def Info: solutions/ec/45/Figures/Figure_3.png  used on input li
+ne 60.
+(pdftex.def)             Requested size: 252.0pt x 179.37006pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
 (./solutions/46/Assignment3.tex)
 Package epstopdf Info: Source file: <./figs/figure1.eps>
 (epstopdf)                    date: 2021-03-18 12:55:00
@@ -1919,19 +2221,27 @@ Package epstopdf Info: Source file: <./figs/figure1.eps>
 (epstopdf)                    size: 5701 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure1-eps-convert
 ed-to.pdf ./figs/figure1.eps>
-(epstopdf)             \includegraphics on input line 886.
+(epstopdf)             \includegraphics on input line 937.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure1-eps-converted-to.pdf, id=271, 248.93pt x 123.46124pt>
+<./figs/figure1-eps-converted-to.pdf, id=691, 248.93pt x 123.46124pt>
 File: ./figs/figure1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure1-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure1-eps-converted-to.pdf  used on input lin
-e 886.
+e 937.
 (pdftex.def)             Requested size: 252.0pt x 124.98685pt.
- [7 <./figs/figure1-eps-converted-to.pdf>]
-Underfull \hbox (badness 1769) in paragraph at lines 899--900
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 950--951
 []\OT1/txr/m/n/12 Independence of P and Q im-plies that
  []
 
+[20 <./solutions/ec/45/Figures/Figure_3.png>] (./solutions/ec/48.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
 Package epstopdf Info: Source file: <./figs/figure2.eps>
 (epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 6234 bytes
@@ -1940,21 +2250,25 @@ Package epstopdf Info: Source file: <./figs/figure2.eps>
 (epstopdf)                    size: 3998 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure2-eps-convert
 ed-to.pdf ./figs/figure2.eps>
-(epstopdf)             \includegraphics on input line 922.
+(epstopdf)             \includegraphics on input line 975.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure2-eps-converted-to.pdf, id=305, 180.675pt x 143.53625pt>
+<./figs/figure2-eps-converted-to.pdf, id=727, 180.675pt x 143.53625pt>
 File: ./figs/figure2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure2-eps-converted-to.pdf  used on input lin
-e 922.
+e 975.
 (pdftex.def)             Requested size: 252.0pt x 200.20251pt.
 
-Underfull \hbox (badness 5175) in paragraph at lines 927--928
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 980--981
 []\OT1/txr/m/n/12 The cor-re-spond-ing cu-mu-la-tive dis-tri-bu-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--928
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
 
  []
 
@@ -1966,14 +2280,17 @@ Package epstopdf Info: Source file: <./figs/figure3.eps>
 (epstopdf)                    size: 4210 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure3-eps-convert
 ed-to.pdf ./figs/figure3.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 1003.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure3-eps-converted-to.pdf, id=310, 142.5325pt x 126.4725pt>
+<./figs/figure3-eps-converted-to.pdf, id=732, 142.5325pt x 126.4725pt>
 File: ./figs/figure3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure3-eps-converted-to.pdf  used on input lin
-e 950.
+e 1003.
 (pdftex.def)             Requested size: 252.0pt x 223.60542pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <./figs/figure4.eps>
 (epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 7259 bytes
@@ -1982,14 +2299,17 @@ Package epstopdf Info: Source file: <./figs/figure4.eps>
 (epstopdf)                    size: 4269 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure4-eps-convert
 ed-to.pdf ./figs/figure4.eps>
-(epstopdf)             \includegraphics on input line 955.
+(epstopdf)             \includegraphics on input line 1008.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure4-eps-converted-to.pdf, id=311, 139.52126pt x 125.46875pt>
+<./figs/figure4-eps-converted-to.pdf, id=733, 139.52126pt x 125.46875pt>
 File: ./figs/figure4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure4-eps-converted-to.pdf  used on input lin
-e 955.
+e 1008.
 (pdftex.def)             Requested size: 252.0pt x 226.62657pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <./figs/figure5.eps>
 (epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 6995 bytes
@@ -1998,13 +2318,13 @@ Package epstopdf Info: Source file: <./figs/figure5.eps>
 (epstopdf)                    size: 4248 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure5-eps-convert
 ed-to.pdf ./figs/figure5.eps>
-(epstopdf)             \includegraphics on input line 960.
+(epstopdf)             \includegraphics on input line 1013.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure5-eps-converted-to.pdf, id=312, 137.51375pt x 127.47626pt>
+<./figs/figure5-eps-converted-to.pdf, id=734, 137.51375pt x 127.47626pt>
 File: ./figs/figure5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure5-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure5-eps-converted-to.pdf  used on input lin
-e 960.
+e 1013.
 (pdftex.def)             Requested size: 252.0pt x 233.62743pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2017,13 +2337,13 @@ Package epstopdf Info: Source file: <./figs/figure6.eps>
 (epstopdf)                    size: 4065 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure6-eps-convert
 ed-to.pdf ./figs/figure6.eps>
-(epstopdf)             \includegraphics on input line 966.
+(epstopdf)             \includegraphics on input line 1019.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure6-eps-converted-to.pdf, id=313, 139.52126pt x 178.6675pt>
+<./figs/figure6-eps-converted-to.pdf, id=735, 139.52126pt x 178.6675pt>
 File: ./figs/figure6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure6-eps-converted-to.pdf  used on input lin
-e 966.
+e 1019.
 (pdftex.def)             Requested size: 252.0pt x 322.71626pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2036,208 +2356,304 @@ Package epstopdf Info: Source file: <./figs/figure12.eps>
 (epstopdf)                    size: 7261 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure12-eps-conver
 ted-to.pdf ./figs/figure12.eps>
-(epstopdf)             \includegraphics on input line 1012.
+(epstopdf)             \includegraphics on input line 1065.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure12-eps-converted-to.pdf, id=315, 364.36125pt x 183.68625pt>
+<./figs/figure12-eps-converted-to.pdf, id=737, 364.36125pt x 183.68625pt>
 File: ./figs/figure12-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure12-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure12-eps-converted-to.pdf  used on input li
-ne 1012.
+ne 1065.
 (pdftex.def)             Requested size: 252.0pt x 127.04073pt.
-[8 <./figs/figure2-eps-converted-to.pdf> <./figs/figure3-eps-converted-to.pdf> 
-<./figs/figure4-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
+[21 <./figs/figure1-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1165
 []\OT1/txr/m/n/12 Then,the value of $\OML/txmi/m/it/12 c$ \OT1/txr/m/n/12 is eq
 ual to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
+Underfull \hbox (badness 10000) in paragraph at lines 1163--1165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1173
 
  []
 
 
-Underfull \vbox (badness 1127) has occurred while \output is active []
+Underfull \vbox (badness 1275) has occurred while \output is active []
 
- [9 <./figs/figure5-eps-converted-to.pdf> <./figs/figure6-eps-converted-to.pdf>
- <./figs/figure12-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
+ [22 <./figs/figure2-eps-converted-to.pdf> <./figs/figure3-eps-converted-to.pdf
+> <./figs/figure4-eps-converted-to.pdf> <./figs/figure5-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1204
 \OT1/txr/m/n/12 Then $\OML/txmi/m/it/12 P []$ \OT1/txr/m/n/12 is equal to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1204
+
+ []
+
+(./solutions/ec/55.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./figs/figure6-eps-converted-to.pdf> <./figs/figure12-eps-converted-to.pd
+f>]
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1154--1156
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Overfull \hbox (1.716pt too wide) in paragraph at lines 1158--1159
+)
+Overfull \hbox (1.716pt too wide) in paragraph at lines 1212--1213
  []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1164
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1167
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1171--1172
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1172--1173
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+
+ []
+
+(./solutions/ec/56.tex
+Underfull \vbox (badness 3302) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1233--1236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1185--1186
+Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
-
- []
-
-
-Underfull \vbox (badness 4686) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1209
+Underfull \hbox (badness 10000) in paragraph at lines 1262--1264
 []\OT1/txr/m/n/12 Then $\OML/txmi/m/it/12 P []$ \OT1/txr/m/n/12 is equal to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1209
+Underfull \hbox (badness 10000) in paragraph at lines 1262--1264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1224--1226
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1239
+Underfull \hbox (badness 10000) in paragraph at lines 1293--1294
 []\OT1/txr/m/n/12 Then the con-di-tional prob-a-bil-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1273--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1280--1287
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1288--1295
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 1296--1303
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1304--1311
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1358
 
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 1317--1318
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1366
+
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 1372--1373
 []\OT1/txr/m/n/12 Suppose $\OML/txmi/m/it/12 X$ \OT1/txr/m/n/12 is a real-value
 d ran-dom vari-
  []
 
+[25] (./solutions/ec/63.tex
+Underfull \hbox (badness 1924) in paragraph at lines 9--13
+\OT1/txr/m/n/12 Since $[][] \OMS/txsy/m/n/12 ^^U \OT1/txr/m/n/12 0$ ,av-er-age 
+$\OML/txmi/m/it/12 E\OT1/txr/m/n/12 [(\OML/txmi/m/it/12 X \OMS/txsy/m/n/12 ^^@
+ []
 
-Overfull \hbox (1.716pt too wide) in paragraph at lines 1392--1393
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+) [26] (./solutions/ec/66.tex
+Underfull \hbox (badness 3769) in paragraph at lines 77--77
+[]|\OT1/txr/m/n/12 Probability of tak-ing
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 77--77
+[]|\OT1/txr/m/n/12 Probability of tak-ing
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27])
+Overfull \hbox (1.716pt too wide) in paragraph at lines 1449--1450
  []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1406
+Underfull \hbox (badness 10000) in paragraph at lines 1452--1463
 
  []
 
 
-Overfull \hbox (1.716pt too wide) in paragraph at lines 1437--1438
+Overfull \hbox (1.716pt too wide) in paragraph at lines 1494--1495
  []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1479
+Underfull \hbox (badness 10000) in paragraph at lines 1497--1498
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1511--1512
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1513--1522
+Underfull \hbox (badness 10000) in paragraph at lines 1568--1569
 
  []
 
 
-Overfull \hbox (1.716pt too wide) in paragraph at lines 1528--1529
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1579
+
+ []
+
+(./solutions/ec/73/Assignment-2.tex
+Underfull \vbox (badness 5077) has occurred while \output is active []
+
+ [28]
+<solutions/ec/73/Assignment2.png, id=995, 462.528pt x 346.896pt>
+File: solutions/ec/73/Assignment2.png Graphic file (type png)
+<use solutions/ec/73/Assignment2.png>
+Package pdftex.def Info: solutions/ec/73/Assignment2.png  used on input line 12
+.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+)
+Overfull \hbox (1.716pt too wide) in paragraph at lines 1588--1589
  []$ 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1569
+[29 <./solutions/ec/73/Assignment2.png>] (./solutions/ec/76.tex
+LaTeX Font Info:    Font shape `OT1/txr/b/sc' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/sc' tried instead on input line 10.
+
+Underfull \vbox (badness 6893) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1629--1632
+
+ []
+
+(./solutions/ec/77.tex [30]
+Overfull \hbox (17.73555pt too wide) in paragraph at lines 39--39
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31])
+(./solutions/ec/78.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
+ [32]
+(./solutions/ec/80.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
 Package epstopdf Info: Source file: <./figs/figure13.eps>
 (epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 9725 bytes
@@ -2246,59 +2662,390 @@ Package epstopdf Info: Source file: <./figs/figure13.eps>
 (epstopdf)                    size: 5265 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure13-eps-conver
 ted-to.pdf ./figs/figure13.eps>
-(epstopdf)             \includegraphics on input line 1662.
+(epstopdf)             \includegraphics on input line 1733.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure13-eps-converted-to.pdf, id=454, 298.11375pt x 218.8175pt>
+<./figs/figure13-eps-converted-to.pdf, id=1110, 298.11375pt x 218.8175pt>
 File: ./figs/figure13-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure13-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure13-eps-converted-to.pdf  used on input li
-ne 1662.
+ne 1733.
 (pdftex.def)             Requested size: 252.0pt x 184.9707pt.
-[13 <./figs/figure13-eps-converted-to.pdf>] (./solutions/in/2020.tex)
-(./solutions/in/2009.tex
+
+(./solutions/in/2020.tex [33 <./figs/figure13-eps-converted-to.pdf>])
+(./solutions/in/2009.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./solutions/xe/2016.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+(./solutions/in/2018.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/xe/2016.tex
+(./solutions/ec/2019/47/Assignment2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
-[15
+ [35])
+(./solutions/in/2006.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1704.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1704.
- (./probability.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1704.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1704.
+)
+<solutions/cs/2021/figures/qnfigure.png, id=1206, 255.20343pt x 143.78719pt>
+File: solutions/cs/2021/figures/qnfigure.png Graphic file (type png)
+<use solutions/cs/2021/figures/qnfigure.png>
+Package pdftex.def Info: solutions/cs/2021/figures/qnfigure.png  used on input 
+line 1807.
+(pdftex.def)             Requested size: 252.0pt x 141.98993pt.
+
+(./solutions/cs/2021/assignment2.tex [36 <./solutions/cs/2021/figures/qnfigure.
+png>]
+Overfull \hbox (2.34831pt too wide) in paragraph at lines 25--25
+[] 
+ []
+
+) (./solutions/xe/2015.tex) (./solutions/xe/2017/AI1103_Assignment3.tex
+Overfull \hbox (28.9805pt too wide) detected at line 36
+ []$[] \OT1/txr/m/n/12 = ^^F[][]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/xe/2017/figures/assign3_stem.png, id=1276, 397.485pt x 262.9825pt>
+File: solutions/xe/2017/figures/assign3_stem.png Graphic file (type png)
+<use solutions/xe/2017/figures/assign3_stem.png>
+Package pdftex.def Info: solutions/xe/2017/figures/assign3_stem.png  used on in
+put line 113.
+(pdftex.def)             Requested size: 252.0pt x 166.73119pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38])
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1839
+
+ []
+
+(./solutions/ee/2013.tex) (./solutions/cs/2020.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1847--2
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 12--15
+\OT1/txr/m/n/12 A pos-si-ble re-flex-ive re-la-tion on $\OML/txmi/m/it/12 A$ \O
+T1/txr/m/n/12 is $\OML/txmi/m/it/12 R[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+\OT1/txr/m/n/12 = $\OMS/txsy/m/n/12 f\OT1/txr/m/n/12 (1\OML/txmi/m/it/12 ; \OT1
+/txr/m/n/12 1)\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 (2\OML/txmi/m/it/12 ; \OT1/tx
+r/m/n/12 2)\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 (3\OML/txmi/m/it/12 ; \OT1/txr/m
+/n/12 3)\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 (1\OML/txmi/m/it/12 ; \OT1/txr/m/n/
+12 2)\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 (2\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 
+3)\OMS/txsy/m/n/12 g$ \OT1/txr/m/n/12 as ev-ery
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 12--15
+\OT1/txr/m/n/12 re-la-tion $\OML/txmi/m/it/12 R[]$ \OT1/txr/m/n/12 = $\OMS/txsy
+/m/n/12 f\OT1/txr/m/n/12 (1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 1)\OML/txmi/m/it
+/12 ; \OT1/txr/m/n/12 (2\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2)\OML/txmi/m/it/12
+ ; \OT1/txr/m/n/12 (1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2)\OMS/txsy/m/n/12 g$ 
+\OT1/txr/m/n/12 is not a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./solutions/xe/2017/figures/assign3_stem.png>] (./solutions/ee/2005.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 28--29
+\OT1/txr/m/n/12 have a zero prob-a-bil-ity. Since it isn't
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+) (./solutions/xe/2016-8.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40])
+(./solutions/xe/2017/17.tex
+Overfull \hbox (4.08453pt too wide) in paragraph at lines 4--35
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1868--58
+\OT1/txr/m/n/12 random from box-S and put in box-
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 1868--58
+\OT1/txr/m/n/12 T.Subsequently,the prob-a-bil-ity of draw-ing
+ []
+
+) (./solutions/ee/2010/27.tex) (./solutions/xe/2017/170.tex
+Underfull \hbox (badness 1939) in paragraph at lines 1879--20
+[]\OT1/txr/m/n/12 Two dice are thrown si-mul-ta-ne-ously. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1879--20
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41])
+(./solutions/in/2021/main.tex
+<solutions/in/2021/figures/figure.png, id=1380, 644.4075pt x 609.27625pt>
+File: solutions/in/2021/figures/figure.png Graphic file (type png)
+<use solutions/in/2021/figures/figure.png>
+Package pdftex.def Info: solutions/in/2021/figures/figure.png  used on input li
+ne 4.
+(pdftex.def)             Requested size: 252.0pt x 238.25826pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1892--1894
+
+ []
+
+[42 <./solutions/in/2021/figures/figure.png>] (./solutions/ee/2013/61.tex)
+(./solutions/xe/2019/1.tex
+Underfull \hbox (badness 3965) in paragraph at lines 1903--1
+\OT1/txr/m/n/12 pa-ram-e-ter $\OML/txmi/m/it/12 ^^U$ \OT1/txr/m/n/12 = 1. Then,
+ the prob-a-bil-ity
+ []
+
+<solutions/xe/2019/simulated_theoritical.png, id=1408, 387.4475pt x 248.93pt>
+File: solutions/xe/2019/simulated_theoritical.png Graphic file (type png)
+<use solutions/xe/2019/simulated_theoritical.png>
+Package pdftex.def Info: solutions/xe/2019/simulated_theoritical.png  used on i
+nput line 31.
+(pdftex.def)             Requested size: 252.0pt x 161.90892pt.
+) (./solutions/ee/2016/33/Assignment_2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1910--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1910--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1910--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1910--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1910--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1910--2
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./solutions/xe/2019/simulated_theoritical.png>]
+<solutions/ee/2016/33/Assignment_2_Fig_2.png, id=1439, 397.485pt x 262.9825pt>
+File: solutions/ee/2016/33/Assignment_2_Fig_2.png Graphic file (type png)
+<use solutions/ee/2016/33/Assignment_2_Fig_2.png>
+Package pdftex.def Info: solutions/ee/2016/33/Assignment_2_Fig_2.png  used on i
+nput line 35.
+(pdftex.def)             Requested size: 226.79846pt x 150.05806pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<solutions/ee/2016/33/Assignment_2_Fig_1.png, id=1441, 390.45876pt x 262.9825pt
+>
+File: solutions/ee/2016/33/Assignment_2_Fig_1.png Graphic file (type png)
+<use solutions/ee/2016/33/Assignment_2_Fig_1.png>
+Package pdftex.def Info: solutions/ee/2016/33/Assignment_2_Fig_1.png  used on i
+nput line 73.
+(pdftex.def)             Requested size: 226.79846pt x 152.75465pt.
+) [44 <./solutions/ee/2016/33/Assignment_2_Fig_2.png> <./solutions/ee/2016/33/A
+ssignment_2_Fig_1.png>] (./solutions/cs/2013/2.tex)
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+
+(./solutions/cs/2012/63/exercise_4_main_tex.tex
+<solutions/cs/2012/63/Figures/A_4_1.png, id=1470, 372.64218pt x 306.39468pt>
+File: solutions/cs/2012/63/Figures/A_4_1.png Graphic file (type png)
+<use solutions/cs/2012/63/Figures/A_4_1.png>
+Package pdftex.def Info: solutions/cs/2012/63/Figures/A_4_1.png  used on input 
+line 4.
+(pdftex.def)             Requested size: 258.0pt x 212.14189pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 4--5
+ [] 
+ []
+
+
+Overfull \hbox (34.20296pt too wide) in paragraph at lines 28--28
+[] 
+ []
+
+) (./solutions/ee/2019/40.tex
+Underfull \hbox (badness 3482) in paragraph at lines 1942--6
+\OT1/txr/m/n/12 cir-cuit. The prob-a-bil-ity of two or more
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 1942--6
+\OT1/txr/m/n/12 to two dec-i-mal places) is --- \OT1/txr/bx/n/12 So-lu-tion:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1942--6
+
+ []
+
+[45 <./solutions/cs/2012/63/Figures/A_4_1.png>]) (./solutions/xe/2021/9.tex
+Underfull \hbox (badness 2318) in paragraph at lines 1947--30
+[]\OT1/txr/m/n/12 A per-son who speaks truth $3$ out of $4$
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 1947--30
+\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 Y \OMS/txsy/m/n/12 2 f\OT1/txr/m/n/12 1\
+OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 3\OML/t
+xmi/m/it/12 ; \OT1/txr/m/n/12 4\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 5\OML/txmi/m
+/it/12 ; \OT1/txr/m/n/12 6\OMS/txsy/m/n/12 g$ \OT1/txr/m/n/12 rep-re-sent ran-d
+om
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--30
+\OT1/txr/m/n/12 vari-able,where $1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txm
+i/m/it/12 ; \OT1/txr/m/n/12 3\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 4\OML/txmi/m/i
+t/12 ; \OT1/txr/m/n/12 5\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 6$ rep-re-sents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--30
+\OT1/txr/m/n/12 per-son in-forms out-come of dice is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+) (./solutions/ee/2015/10.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46])
+(./solutions/ec/29/Assignment4.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/cs/2015/54.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+(./solutions/cs/2014/48.tex) (./solutions/xe/2019/1.tex
+File: solutions/xe/2019/simulated_theoritical.png Graphic file (type png)
+<use solutions/xe/2019/simulated_theoritical.png>
+Package pdftex.def Info: solutions/xe/2019/simulated_theoritical.png  used on i
+nput line 31.
+(pdftex.def)             Requested size: 252.0pt x 161.90892pt.
+) [48]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1991.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1991.
+
+(./probability.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1991.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1991.
 
 Package rerunfilecheck Info: File `probability.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1704.
+(rerunfilecheck)             Checksum: A9F35DB4E6F03619B39AE8AD88AAA60E;127.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1991.
  ) 
 Here is how much of TeX's memory you used:
- 51433 strings out of 481239
- 1277565 string characters out of 5920377
- 1764312 words of memory out of 5000000
- 65301 multiletter control sequences out of 15000+600000
- 612550 words of font info for 194 fonts, out of 8000000 for 9000
+ 53220 strings out of 481239
+ 1312650 string characters out of 5920377
+ 1803392 words of memory out of 5000000
+ 66155 multiletter control sequences out of 15000+600000
+ 614648 words of font info for 198 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,16n,98p,728b,1068s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,16n,102p,728b,2165s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on probability.pdf (15 pages, 164248 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
+xfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on probability.pdf (48 pages, 535058 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 591 compressed objects within 6 object streams
- 396 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1855 PDF objects out of 2073 (max. 8388607)
+ 1676 compressed objects within 17 object streams
+ 1117 named destinations out of 1200 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

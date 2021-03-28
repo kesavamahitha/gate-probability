@@ -1,0 +1,45 @@
+Let $X \in \{0,1\}$ represent the random variable,where $0$ represents person speaking false,$1$ represents person speaking truth.\\
+Let $Y \in \{1,2,3,4,5,6\}$  represent random variable,where $1,2,3,4,5,6$ represents person informs outcome of dice is $1,2,3,4,5,6$,respectively.\\
+\begin{table}[h!]
+\resizebox{\columnwidth}{!}
+{ 
+\begin{tabular}{|c|c|c|}
+\hline
+Event & definition & value\\
+\hline
+$ \pr{X=1} $ & Probability of person  & $\frac{3}{4}$\\
+&speaking truth & \\
+\hline
+$ \pr{X=0} $ & Probability of person & $\frac{1}{4}$ \\
+& speaking false & \\
+\hline
+$\pr{Y=5|X=1}$ & Probability of person  & \\
+&  informing outcome is $5$ & $\frac{1}{6}$  \\
+& if person speaks truth & \\
+\hline
+$\pr{Y=5|X=0}$ & Probability of person & \\
+& informing outcome is $5$ &  $\frac{5}{6}$ \\
+& if person speaks false & \\ 
+\hline
+\end{tabular}
+}
+\caption{Table 1} 
+\label{xe2021-9:tab:1}
+\end{table}
+From Baye's theorem
+\begin{align}
+\pr{Y=5}&=\pr{Y=5|X=1} \times \pr{X=1} \notag \\
+ & +\pr{Y=5|X=0} \times \pr{X=0}  \label{xe2021-9:1}
+ \end{align}
+Substiting values from table \eqref{xe2021-9:tab:1} in \eqref{xe2021-9:1}
+\begin{align}
+\pr{Y=5} &=\frac{8}{24} \label{xe2021-9:2} \\
+\pr{(X=1)(Y=5)}&= \pr{Y=5|X=1} \notag \\
+& \times \pr{X=1} \\ 
+&= \frac{3}{24}  \label{xe2021-9:3}
+\end{align}
+We need to find $\pr{X=1|Y=5}$ \\
+\begin{align}
+\pr{X=1|Y=5} &= \frac{\pr{(X=1 ) (Y=5)}}{\pr{Y=5}} \\
+&=\frac{3}{8}
+\end{align}

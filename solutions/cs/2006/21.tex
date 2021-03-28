@@ -1,0 +1,13 @@
+
+The number of elements chosen is equal to the number of heads obtained by 2n coin tosses.
+Let X be a random variable with value of X equal to the number of heads obtained.\\
+Probability of getting a head, $p=\frac{1}{2}$\\
+Probability of getting a tail, $q=\frac{1}{2}$\\
+Probability that n elements are chosen out of 2n elements is \pr{X=n}\\
+From binomial distribution we know that,
+\begin{align}
+\pr{X=r}&=\comb{2n}{r}p^{r}q^{2n-r}\\
+\pr{X=n}&=\comb{2n}{n} \times \brak{\frac{1}{2}}^{n}  \times \brak{\frac{1}{2}}^{n}\\
+        &=\frac{\comb{2n}{n}}{4^{n}}
+\end{align}
+Hence option (A) is correct.

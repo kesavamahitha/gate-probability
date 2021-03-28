@@ -1,0 +1,25 @@
+Before we start the proof we need to know 3 properties of expectation
+\begin{equation}
+E[f\brak{x}+g\brak{x}] = E[f\brak{x}]+E[g\brak{x}]
+\end{equation}
+If $k$ is a constant value then 
+\begin{align}
+E[k\cdot g\brak{x}] &= k\cdot E[g\brak{x}]\\
+E[k]&=k
+\end{align}
+Now variance of random $X$ is given by 
+\begin{align}
+\nonumber \nonumber Var\brak{X} &= E[\brak{X-\mu}^2] \quad \text{where} \: \mu =E[X]\\
+\nonumber \\
+\nonumber Var\brak{X}&= E[X^2-2\mu\cdot X + \mu^2]\\
+\nonumber\\
+\nonumber &= E[X^2]-E[2\mu\cdot X] + E[\mu^2] \:\: \text{from } \brak{1}\\
+\nonumber\\
+\nonumber &=E[X^2]-2\mu\cdot E[X] + \mu^2 \:\: \text{from} \brak{2} \text{and} \brak{3}\\
+\nonumber \\
+\nonumber &=E[X^2]-2\mu^2+\mu^2 \quad \brak{\because E[X]=\mu}\\
+\nonumber \\
+\nonumber &= E[X^2]-\mu^2\\
+\nonumber \\
+\nonumber &= E[X^2]-E^2[X] \quad \brak{\because \: \mu = E[X]}
+\end{align}

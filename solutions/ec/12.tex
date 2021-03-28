@@ -1,0 +1,59 @@
+Let A represent the event that P applies for the job. Let B represent the event that Q applies for the job. 
+
+According to the given information in the question,
+\begin{align}
+\pr{A} = \frac{1}{4} \\
+\pr{A|B} = \frac{1}{2} \\
+\pr{B|A} = \frac{1}{3} 
+\end{align}
+According to the definition of Conditional Probability,
+\begin{align}
+\pr{A|B} = \frac{\pr{AB}}{\pr{B}} \label{2.0.4} \\
+\pr{B|A} = \frac{\pr{AB}}{\pr{A}} \label{2.0.5}
+\end{align}
+On substituting the values of $\pr{A}$, $\pr{B|A}$ in \eqref{2.0.5}, we get
+\begin{align}
+\frac{1}{3} = \frac{\pr{AB}}{\frac{1}{4}} \\
+\pr{AB} = \left(\frac{1}{3} \right) \left(\frac{1}{4} \right) \\
+\therefore \pr{AB} = \frac{1}{12}
+\end{align}
+Now substituting the values of $\pr{A|B}$, $\pr{AB}$ in \eqref{2.0.4}, we get
+\begin{align}
+\frac{1}{2} = \frac{\frac{1}{12}}{\pr{B}} \\
+\pr{B} = \frac{\left(\frac{1}{12} \right)}{\left(\frac{1}{2} \right)} \\
+\therefore \pr{B} = \frac{1}{6}
+\end{align}
+The probability that P does not apply for the job given that Q does not apply for the job is given by $\pr{A^{'}|B^{'}}$.
+
+Now,
+\begin{align}
+A^{'}B^{'} = (A + B)^{'} \\
+\Rightarrow \pr{A^{'}B^{'}} = \pr{(A + B)^{'}} \\
+\therefore \pr{A^{'}B^{'}} = 1 - \pr{A + B} \label{2.0.14}
+\end{align}
+As we know that,
+\begin{align}
+\pr{A+B} = \pr{A} + \pr{B} - \pr{AB} \label{2.0.15}
+\end{align}
+By substituting the values of $\pr{A}$, $\pr{B}$, $\pr{AB}$ in \eqref{2.0.15}, we get
+\begin{align}
+\pr{A+B} = \frac{1}{4} + \frac{1}{6} - \frac{1}{12} \\
+= \frac{3 + 2 - 1}{12} \\
+\therefore \pr{A+B} = \frac{1}{3}
+\end{align}
+$\therefore$ Required Probability is 
+\begin{align}
+\pr{A^{'}|B^{'}} = \frac{\pr{A^{'}B^{'}}}{\pr{B^{'}}} \label{2.0.19}   
+\end{align}
+By substituting the values of $\pr{B}$, $\pr{A^{'}B^{'}}$ [from \eqref{2.0.14}] in \eqref{2.0.19}, we get
+\begin{align}
+\pr{A^{'}|B^{'}} = \frac{1 - \pr{A + B}}{1 - \pr{B}} \\
+\pr{A^{'}|B^{'}} = \frac{1 - \left(\frac{1}{3} \right)}{1 - \left(\frac{1}{6} \right)} \\
+\Rightarrow \pr{A^{'}|B^{'}} = \frac{\left(\frac{2}{3} \right)}{\left(\frac{5}{6} \right)} = \frac{4}{5}\\
+\end{align}
+$\therefore$ $\pr{A^{'}|B^{'}}$ = $\frac{4}{5}$ = 0.8
+
+Hence, the probability that P does not apply for the job given that Q does not apply for the job is equal to $\frac{4}{5}$
+
+$\therefore$ The correct option is (A) $\frac{4}{5}$ .
+

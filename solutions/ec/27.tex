@@ -1,0 +1,49 @@
+Let $M \sim B\brak{n,h}$ be a random variable representing number of 'heads' in 10 tosses.
+So M has a binomial distribution :
+\begin{align}
+    \pr{M=k} = \comb{n}{k} \times (h)^{n-k} \times (t)^{k}\label{0.0.1}
+\end{align}
+Where
+\begin{itemize}
+    \item n = Total number of tosses = 10
+    \item h = Probability that 'head' appears in a toss = \( \frac{1}{2} \)
+    \item t = Probability that 'tail' appears in a toss = \( \frac{1}{2} \)
+\end{itemize}
+\bigskip
+So,
+\begin{align}
+    \pr{M=k} = \comb{10}{k} \times \brak{\frac{1}{2}}^{10-k} \times \brak{\frac{1}{2}}^{k}\label{0.0.2}
+\end{align}
+\begin{table}[!ht]
+    \begin{center}
+        \small
+        \resizebox{\columnwidth}{!}
+        {
+            \begin{tabular}{|c|c|}
+                \hline
+                n            & 10                                                                            \\
+                \hline
+                $\pr{M = 2}$ & $\comb{10}{2} \times \brak{\frac{1}{2}}^{10-2} \times \brak{\frac{1}{2}}^{2}$ \\
+                \hline
+                Calculation  & $\comb{10}{2} \times \brak{\frac{1}{2}}^{10}$                                 \\
+                \hline
+                Value        & 0.043945                                                                      \\
+                \hline
+            \end{tabular}
+        }
+    \end{center}
+\end{table}
+\begin{itemize}
+    \item Number of ways of choosing 2 positions from 10 tosses = $\comb{10}{2}$
+          \bigskip
+    \item Number of favourable outcome = 1 (Choosing FIRST and SECOND tosses as heads)
+          \bigskip
+    \item Probability that chosen 2 'heads' are from FIRST and SECOND tosses = \(\displaystyle \frac{1}{\comb{10}{2}}\)
+          \bigskip
+\end{itemize}
+Probability that ONLY the first 2 tosses yield heads
+\begin{align}
+    = & \pr{M = 2} \times \displaystyle \frac{1}{\comb{10}{2}}                    \\
+    = & \comb{10}{2} \times \brak{\frac{1}{2}}^{10} \times \frac{1}{\comb{10}{2}} \\
+    = & \brak{\frac{1}{2}}^{10}
+\end{align}

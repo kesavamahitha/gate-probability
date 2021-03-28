@@ -1,0 +1,28 @@
+\begin{align}
+    \pr{X = 1|Y = 0}&=\frac{\pr{\{X=1\}\{Y=0\}}}{\pr{Y=0}} \label{eq:1}\\
+    \pr{Y = 0|X = 1}&=\frac{\pr{\{X=1\}\{Y=0\}}}{\pr{X=1}} \label{eq:2}
+\end{align}
+From \eqref{eq:2},
+\begin{align}
+    \pr{\{X=1\}\{Y=0\}} &= \pr{Y = 0|X = 1}\pr{X=1} \label{eq:3}
+\end{align}
+Substituting \eqref{eq:3} in \eqref{eq:1},
+\begin{align}
+    \pr{X = 1|Y = 0} &= \frac{\pr{Y = 0|X = 1}\pr{X=1}}{\pr{Y=0}} \label{eq:7}
+\end{align}
+Given data,
+\begin{align}
+    \pr{Y = 0|X = 1} =\frac{1}{7}, \pr{Y =0|X=0}=\frac{6}{7} \label{eq:4}
+\end{align}
+\begin{multline}
+    \pr{Y=0} = \pr{Y = 0|X = 1}\pr{X=1} +\\ \pr{Y = 0|X = 0}\pr{X=0} \label{eq:6}
+\end{multline}
+Substituting the values from \eqref{eq:4} and the data given in the question in \eqref{eq:6},
+\begin{align}
+    \pr{Y=0} &= \frac{2}{7} \label{eq:5}
+\end{align}
+Substituting \eqref{eq:4}, \eqref{eq:5} and the data given in the question in \eqref{eq:7},
+\begin{align}
+    \pr{X = 1|Y = 0} = 0.4
+\end{align}
+

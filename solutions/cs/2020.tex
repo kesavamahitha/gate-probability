@@ -1,0 +1,25 @@
+Let $A$ be a set of n numbers. No. of pairs formed from elements of $A$:\\
+\begin{align}
+     \comb{n}{1} \times \comb{n}{1} = n^2\label{cs2020:eq1}
+\end{align}
+\\For each pair we have 2 choices, whether to include it in the relation or not. \\$\therefore$ Number of binary relations on $A$:\\
+\begin{align}
+    2\times2\times...\text{ $n^{2}$ times } = 2^{n^2}\label{cs2020:eq2}
+\end{align}
+\begin{definition}
+A reflexive relation is one in which every element maps to itself, i.e., a relation $R$ on set $A$ is reflexive if $(a,a) \in R\; \forall\; a \in A$.
+\end{definition}
+For example, consider the set $A$\hspace{0.2cm}=\hspace{0.2cm}$\{1,2,3\}$. A possible reflexive relation on $A$ is $R_1$\hspace{0.2cm}=\hspace{0.2cm}$\{(1,1), (2,2), (3,3), (1,2), (2,3)\}$ as every element in $A$ is related to itself in $R_1$ while relation $R_2$\hspace{0.2cm}=\hspace{0.2cm}$\{(1,1),(2,2),(1,2)\}$ is not a reflexive relation on $A$ as 3 $\in A$ but $(3,3) \notin R_2$.\\
+In a reflexive relation, out of the $n^2$ pairs \eqref{eq1}, n have to be included (n pairs of the form (a,a)) which means there is only 1 way to include them. For the remaining $n^2-n$ pairs we have 2 choices, whether to include it in the relation or not.\\
+$\therefore$ Number of reflexive relations are:\\
+\begin{align}
+    1\times2^{n^{2}-n} = 2^{n^{2}-n} \label{cs2020:eq3}
+\end{align}
+\\
+Let $X \in \{0,1\}$ be a random variable where 0 represents reflexive relation chosen from $\mathcal{R}$ and 1 represents non-reflexive relation chosen from $\mathcal{R}$. In this case, n=3.
+\\
+\begin{align}
+    \pr{X=0} &= \frac{2^{n^{2}-n}}{2^{n^{2}}} \nonumber\\
+    &= \frac{2^{6}}{2^{9}}\\
+    \therefore \text{ Answer }= \frac{1}{8}
+\end{align}

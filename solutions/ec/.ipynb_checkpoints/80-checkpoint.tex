@@ -1,0 +1,29 @@
+The variance of a distribution is given by
+\begin{align}
+    \sigma^2 %&= \sum_{X \in \mathbb{R}} \left(  (E\left[ X-E[X] \right])^2 \pr{X} \label{varience} \right)\\
+    = E[X^2] - E[X]^2
+\end{align}
+As variance is always positive, 
+\begin{align}
+    E[X^2] - E[X]^2 \geq 0
+\end{align}
+is a necessary condition for any real valued random variable. Computing the value of $E[X^2] - E[X]^2$ for the options, we have
+\begin{enumerate}[label=(\Alph*)]
+\setlength\itemsep{2em}
+\item 0 and 1
+\begin{align}
+    \implies E[X^2] - E[X]^2 = 1 -0^2 = 1 \geq 0
+\end{align}
+\item 2 and 3
+\begin{align}
+    \implies E[X^2] - E[X]^2 =3 -2^2 =-1 \leq 0 \label{negative_variance}
+\end{align}
+\item $\dfrac{1}{2}$ and $\dfrac{1}{3}$
+\begin{align}
+    \implies E[X^2] - E[X]^2 = \frac{1}{3} - \frac{1}{2}^2 = \frac{1}{12}\geq 0
+\end{align}
+\item 2 and 5
+\begin{align}
+    \implies E[X^2] - E[X]^2 = 5 -2^2 = 1 \geq 0
+\end{align}
+\end{enumerate}

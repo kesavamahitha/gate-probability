@@ -1,0 +1,38 @@
+We know that,
+\begin{equation}
+    f_{Y|X=x}(y)=\frac{f(x,y)}{f_{X}(x)} \label{ec56:eq:2.0.1}
+\end{equation}
+Given that $f_{Y|X=x}(y)$ is uniform over the interval (x-1,x+1).
+\begin{equation}
+    \Rightarrow f_{Y|X=x}(y)=
+    \begin{cases}
+    \frac{1}{2} & y \in \brak{x-1,x+1}\\
+    0 & \text{otherwise}
+    \end{cases}\label{ec56:eq:2.0.2}
+\end{equation}
+Given $E(X)=1$
+\begin{equation}
+    \Rightarrow \int_{-\infty}^{\infty}x f_{X}(x)dx=1 \label{ec56:eq:2.0.3}
+\end{equation}
+Now consider $E(Y|X=x)$,
+\begin{equation}
+    E(Y|X=x)=\int_{-\infty}^{\infty}yf_{Y|X=x}(y)dy
+\end{equation}
+From \eqref{ec56:eq:2.0.2} it simplifies to,
+\begin{multline}
+    \Rightarrow E(Y|X=x)=\int_{-\infty}^{x-1}yf_{Y|X=x}(y)dy+\\ \int_{x-1}^{x+1}yf_{Y|X=x}(y)dy+\int_{x+1}^{\infty}yf_{Y|X=x}(y)dy
+\end{multline}
+\begin{align}
+    \Rightarrow E(Y|X=x)&=\int_{x-1}^{x+1}y\brak{\frac{1}{2}}dy\\
+    &=x
+\end{align}
+Now we can write ,\\
+\begin{align}
+    E(Y)&=\int_{-\infty}^{\infty}E(Y|X=x)f_{X}(x)dx\\
+    &=\int_{-\infty}^{\infty}xf_{X}(x)dx\\
+    &=E(X)
+\end{align}
+From \eqref{ec56:eq:2.0.3} we get 
+\begin{equation}
+    E(Y)=1.
+\end{equation}

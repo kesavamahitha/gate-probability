@@ -1,0 +1,59 @@
+Given, a fair die, which is tossed twice. Let the random variable $X_{i}\in\{1,2,3,4,5,6\},i=1,2,$ represent the outcome of the number on the die in the first, second toss respectively.  
+The probability  mass function (PMF) for a fair die is expressed as \begin{align}
+    \tag{26.1}
+    \label{eq:pmf}
+    p_{X_{i}}(n)=\Pr(X_{i}=n) = 
+	\begin{cases}
+	\dfrac{1}{6}, & 1\leq n\leq6 \\~\\[-1em]
+	0, & otherwise
+	\end{cases}
+\end{align}
+Using \eqref{eq:pmf}, the cumulative distribution function (CDF) is obtained to be
+\begin{align}
+    \tag{26.2}
+    F_{X_{i}}(r)=\Pr(X_{i}\leq r) = 
+	\begin{cases}
+	\dfrac{r}{6}, & 1\leq r\leq6 \\~\\[-1em]
+	1, & r \geq 7 \\~\\[-1em]
+	0, & otherwise
+	\end{cases}
+	\label{eq:26.2}
+\end{align}
+\begin{align}
+    \tag{26.3}
+    X_{1}<X_{2}\Rightarrow X_{2}=k,X_{1}\leq k-1
+\end{align}
+$\because X_{1},X_{2}$ are independent,
+\begin{align}
+    \tag{26.4}
+    Pr(X_{1}<X_{2})=E\left[F_{X_{1}}(X_{2}-1)\right]
+    \label{eq:probeqn}
+\end{align}
+After unconditioning \eqref{eq:probeqn}, we get
+\begin{align}
+    \tag{26.5}
+    Pr(X_{1}<X_{2})=\sum_{k=1}^{6}p_{X_{2}}(k) F_{X_{1}}(k-1)
+\end{align}
+Substituting \eqref{eq:pmf} and \eqref{eq:26.2}, we get
+\begin{align}
+    \tag{26.6}
+    Pr(X_{1}<X_{2})=\sum_{k=1}^{6}\dfrac{1}{6}\left(\dfrac{k-1}{6} \right)
+\end{align}
+On solving, we get
+\begin{align}
+    \tag{26.7}
+    Pr(X_{1}<X_{2})=\dfrac{5}{12}\text{(option (C))}
+\end{align}
+\begin{table}[h!]
+\centering
+\caption{Cases and their theoretical probabilities}
+\label{table:1}
+\begin{tabular}{|c||c|c|c|}
+    \hline
+    Case & $X_{1}<X_{2}$& $X_{1}>X_{2}$& $X_{1}=X_{2}$ \\
+    \hline
+    %& & &\\
+    Probability & $\dfrac{5}{12}$ & $\dfrac{5}{12}$ & $\dfrac{1}{6}$\\[1ex]
+    \hline
+\end{tabular}
+\end{table}
