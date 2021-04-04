@@ -1,0 +1,25 @@
+
+Let $X_i \in \cbrak{0,1}$ where $\pr{X_1 = 1}$ represents the computer is faulty before testing, $\pr{X_2 = 1}$ represents the testing process gives the correct result.
+\begin{table}[h]
+\centering 
+\caption{}
+\begin{tabular}{|c|c|c|}
+\hline
+           & $X_1 = 0$  & $X_1 = 1$\\
+\hline
+$X_2 = 0$  & (1-p)(1-q) & (1-q)p \\
+\hline
+$X_2 = 1$  &  (1-p)q    &  pq \\
+\hline
+\end{tabular}
+\label{cs2010-26:table:}
+\end{table}
+ 
+Table \ref{cs2010-26:table:} represents the probabilities of all possible cases.The probability of a computer being declared as faulty is 
+\begin{align}
+\tag{1.1}
+     &= \pr{(X_2 = 1)(X_1 = 1)}+\pr{(X_2 = 0)(X_1 = 0)}\\
+\tag{1.2}
+     &= pq+(1-p)(1-q) 
+\end{align}
+The required option is (A).

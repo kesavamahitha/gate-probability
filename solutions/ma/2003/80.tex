@@ -1,0 +1,59 @@
+%
+Since events $E_1$ and $E_2$ are independent, 
+\begin{align}
+    \pr{E_1E_2}&=\pr{E_1}\times\pr{E_2} \nonumber\\\nonumber\\
+    \pr{E_2|E_1}&=\frac{\pr{E_1E_2}}{\pr{E_1}} = \pr{E_2} \nonumber\\ \nonumber\\
+     \therefore \pr{E_2} &= \frac{1}{2}
+\end{align}
+\\[1000pt]
+From the given information we get,\\
+\begin{table}[h]
+\centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+         &0 &1    \\ \hline
+        $\pr{X}$ &$\frac{3}{4}$ &$\frac{1}{4}$   \\ \hline
+        $\pr{Y}$ &$\frac{1}{2}$ &$\frac{1}{2}$ \\ \hline
+    \end{tabular}
+\caption{Probability of $X \in \{0,1\}$ and $Y \in \{0,1\}$}
+\label{ma2003-80:table=1}
+\end{table}
+%
+$F_X(x)=
+\begin{cases}
+1, &x\geq1\\
+\frac{3}{4}, & 0\leq x \leq1\\
+0, &x<0
+\end{cases}$
+$F_Y(y)=
+\begin{cases}
+1, &y\geq1\\
+\frac{1}{2}, & 0\leq y \leq1\\
+0, &y<0
+\end{cases}$
+\\
+\begin{enumerate}[label=(\arabic*)]
+    \item $X$ is not uniformly distributed on the set $\{0,1\}$ as it is not continuous in $\{0,1\}$ (both $X$ and $Y$ are Bernoulli Distributions).\\
+    $\therefore$ Statement $\alpha$ is incorrect.\label{ma2003-80:a}\\ 
+    \item Since $F_X(x)\neq F_Y(y)$, $X$ and $Y$ are not identically distributed.\\
+    $\therefore$ Statement $\beta$ is incorrect.\label{ma2003-80:b}\\
+    \item $\pr{X^2+Y^2=1}$\label{ma2003-80:c}
+    \begin{align}
+        &=\pr{X=0,Y=1}+\pr{X=1,Y=0}\nonumber\\
+        &= \frac{1}{2}
+    \end{align}
+    $\therefore$ Statement $\gamma$ is correct.\\
+    \item $\pr{XY=X^2Y^2}$\label{ma2003-80:d}
+    \begin{align}
+        &=\sum_{i=0}^1\sum_{j=0}^1\pr{X=i,Y=j}\nonumber\\
+        &= 1
+    \end{align}
+    $\therefore$ Statement $\delta$ is correct.\\
+\end{enumerate}
+\begin{enumerate}[label=(\alph*)]
+    \item This option is incorrect as statement $\alpha$ is incorrect \ref{ma2003-80:a} and statement $\beta$ is incorrect \ref{ma2003-80:b}.\\
+    \item This option is incorrect as statement $\gamma$ is correct \ref{ma2003-80:c} but statement $\alpha$ is incorrect \ref{ma2003-80:a}.\\
+    \item This option is incorrect as statement $\gamma$ is correct \ref{ma2003-80:c} but statement $\beta$ is incorrect \ref{ma2003-80:b}.\\
+    \item This option is correct as statement $\gamma$ is correct \ref{ma2003-80:c} and statement $\delta$ is correct \ref{ma2003-80:d}.\\
+\end{enumerate}
+$\therefore$ Option (d), $(\gamma,\delta)$, is the answer.

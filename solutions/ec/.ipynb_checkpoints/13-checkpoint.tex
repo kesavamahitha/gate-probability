@@ -1,0 +1,30 @@
+Let $X\in\{1,2,3,4,5,6\}$ be the random variable representing out come of a dice.\\
+Probability of getting a six on a fair dice
+\begin{align}
+\Pr(X=6) &=\frac{1}{6}
+\end{align}
+Probability of not getting a six on a fair dice
+\begin{align}
+\Pr(X\neq6)=\frac{5}{6}
+\end{align}
+The probability of some one wining in their $n^{th}$ trail is
+    \begin{multline}
+        \Pr{(X_n=6|X_k\neq6,k=1,2,3...,n-1)}\\
+    =\frac{1}{6}\brak{\frac{5}{6}}^{n-1}
+    \end{multline}
+Let the probability of a wining the game is $\Pr{(A)}$\\
+If A start's the game then A can win on odd numbered trail$(n)$\\
+\begin{align}
+n&=2m+1
+\end{align}
+Inorder for A to win B must lose in all of it's trails until A gets a six.\\
+Therefore,
+\begin{align}
+   \Pr{(A)}&=\Pr{(X_1=6)}+\Pr{(X_3=6)}+\Pr{(X_5=6)}+....\\
+    \Pr{(A)}&=\brak{\frac{1}{6}}+\brak{\frac{1}{6}\brak{\frac{5}{6}}^{2}}+\brak{\frac{1}{6}\brak{\frac{5}{6}}^{4}}...\\
+    &=\frac{1}{6}\sum_{m=0}^{\infty}\brak{\frac{5}{6}}^{2m}\\
+    &=\frac{\frac{1}{6}}{1-\brak{\frac{5}{6}}^2}\\
+    &=\frac{6}{11}\\
+    \implies \Pr{(A)}&=\frac{6}{11}
+\end{align}
+Therefore, The probability that A wins the game=$\Pr{(A)=\frac{6}{11}}$

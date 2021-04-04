@@ -1,0 +1,14 @@
+
+Let $X$ represent the number of heads obtained in a trial involving 3 tosses.\\
+Then, X is a binomial random variable defined by: $X \sim B(n,p)$ where $n = 3$ and $p = \frac{1}{2}$ and:
+\begin{align}
+    \pr{X = k} = \comb{n}{k} p^k (1-p)^{n-k}
+\end{align}
+To find:
+\begin{align}
+    \pr{X\geq 1}\\
+    =1 - \pr{X < 1}\\
+    =1 - \pr{X = 0}\\
+    =1 - \comb{3}{0}p^0(1-p)^3\\
+    = \frac{7}{8}
+    \end{align}

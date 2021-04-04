@@ -1,0 +1,19 @@
+
+Let X denote the number of white balls in the first draw and Y be the number of white balls in second draw and let E be the event mentioned in question.
+\begin{multline}
+\Pr(E) = \Pr(X=1)\times \Pr(Y=0/X=1) \\
++ \Pr(X=0)\times \Pr(Y=1/X=0)
+\end{multline}
+Let m and n be the number of black and white balls in the box.
+\begin{align}
+&\Pr(X=0) = \frac{m}{m+n} \\ 
+&\Pr(X=1)=\frac{n}{m+n}\\
+&\Pr(Y=0/X=0)=\frac{m-1}{m+n-1}\\
+&\Pr(Y=1/X=0)=\frac{n}{m+n-1}\\
+&\Pr(Y=0/X=1)=\frac{m}{m+n-1}\\
+&\Pr(Y=1/X=1)=\frac{n-1}{m+n-1}
+\end{align}
+\begin{multline}
+\Pr(E)=\frac{n}{m+n}\times \frac{m}{m+n-1}\\
++\frac{m}{m+n}\times\frac{n}{m+n-1}=\frac{1}{2}
+\end{multline}

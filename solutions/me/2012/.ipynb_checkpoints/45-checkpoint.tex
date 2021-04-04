@@ -1,0 +1,39 @@
+
+This problem uses Hyper-Geometric distribution which involves selection of certain number of \newline successes from a given sample without replacement.
+\begin{itemize}
+    \item Number of Red balls = 4
+    \item Number of Black balls = 6
+\end{itemize}
+Let M be a variable representing the number of black balls in a selection of 3 balls.
+M has a \newline Hyper-Geometric probability mass function:
+\begin{equation}
+    p_M(k) = \pr{M = k} = \frac{\comb{K}{k} \times \comb{N-K}{n-k}}{\comb{N}{n}}
+\end{equation}
+Here Success refers to selecting a black ball,
+\begin{table}[!ht]
+    \begin{center}
+        \resizebox{\columnwidth}{!}
+        {
+            \begin{tabular}{|c|c|c|}
+                \hline
+                K & Total successes in population & 6\\
+                \hline
+                N & Population size & 6 + 4 = 10\\
+                \hline
+                k & Total observed successes & 2\\
+                \hline
+                n & Number of draws & 3\\
+                \hline
+            \end{tabular}
+        }
+    \end{center}
+\end{table}
+Probability that the selected set contains 2 black balls and 1 red ball = $\pr{M = 2}$
+\begin{align}
+    \pr{M = 2} = \hspace{0.2cm}& \frac{\comb{K}{2} \times \comb{N-K}{n-2}}{\displaystyle{\comb{N}{n}}}\\[0.3cm]
+               = \hspace{0.2cm}& \frac{\comb{6}{2} \times \comb{10-6}{3-2}}{\displaystyle{\comb{10}{3}}}\\[0.3cm]
+               = \hspace{0.2cm}& \frac{\comb{6}{2} \times \comb{4}{1}}{\displaystyle{\comb{10}{3}}}\\[0.3cm]
+               = \hspace{0.2cm}& \frac{15 \times 4}{120}\\[0.3cm]
+               = \hspace{0.2cm}& \frac{1}{2}
+\end{align}
+So the probability that the selected set of 3 balls contain 2 black balls and 1 red ball is $\displaystyle{\frac{1}{2}}$.

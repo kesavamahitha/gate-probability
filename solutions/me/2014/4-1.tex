@@ -1,0 +1,23 @@
+
+Let the random variable $X\in\{0,1\}$ represent the gender of the person. $X=0$ denotes a female, while $X=1$ denotes a male. Given,
+\begin{align}
+\tag{4.1}
+    n(X=0)=n(X=1)\\
+\tag{4.2}\Rightarrow p_{X}(0)=p_{X}(1)=\dfrac{1}{2}
+\end{align}
+Let the random variable $Y\in\{0,1\}$ represent if the person is employed. $Y=0$ denotes unemployed, while $Y=1$ denotes employed. Given, 
+\begin{align}
+\tag{4.3}
+    p_{Y|X}(0|0)=0.5\Rightarrow p_{Y|X}(1|0)=0.5\\
+\tag{4.4}
+    p_{Y|X}(0|1)=0.2\Rightarrow p_{Y|X}(1|1)=0.8
+\end{align}
+To find : $p_{Y}(1)$
+\begin{align}
+\tag{4.5}
+p_{Y}(1)&=p_{Y|X}(1|0)p_{X}(0)+p_{Y|X}(1|1)p_{X}(1)\\
+\tag{4.6}
+&p_{Y}(1)=(0.5)(0.5)+(0.8)(0.5)\\
+\tag{4.7}
+&\therefore p_{Y}(1)=0.65
+\end{align}
