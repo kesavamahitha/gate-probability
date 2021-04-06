@@ -1,0 +1,19 @@
+
+Given, The lifetime of a component $X \sim \exp(2)$. The probability density function (PDF) of random variable X is given by:
+\begin{align}
+  f_X(x) = 
+  \begin{cases}
+     \lambda e^{-\lambda x}, & \text{for } 0<x<\infty\\
+    0, & \text{otherwise } 
+  \end{cases}
+\end{align}
+where: the parameter $\lambda = 2$.
+Since, the PDF of the random variable is exponentially distributed,
+Expected Lifetime = $E(X)=\frac{1}{\lambda}=\frac{1}{2}=0.5$
+\begin{align}
+\pr{X > E(X) } &= \int_{\frac{1}{\lambda}}^{\infty} \lambda e^{-\lambda x} \,dx\\
+&= -e^{-\lambda x} \Bigr|_{\frac{1}{\lambda}}^{\infty} \\
+&= \lim_{x \to \infty} (-e^{-\lambda x}) - (-e^{-\lambda\times \frac{1}{\lambda}})\\
+&= \frac{1}{e}\\
+&= 0.36787944117
+\end{align}
