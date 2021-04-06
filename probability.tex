@@ -891,27 +891,30 @@ The probability $P(X+Y \leqslant 1)$ is .......
 \end{enumerate}
 \solution
 \input{solutions/ec/43/assignment2.tex}
-\item Consider a communication scheme where the binary valued signal X satisfies $P\{X = +1\} = 0.75$ and $P\{X = -1\} = 0.25$. The received signal $Y = X+Z$, where Z is a Gaussian random variable with zero mean and variance $\sigma^2$. The received signal Y is fed to the threshold detector. The output of the threshold detector $\hat X$ is:\\
-{\centering $
-{\hat X}= 
-\begin{cases} 
-+1 & Y> \tau \\
--1 & Y \leqslant \tau 
+\item Consider a communication scheme where the binary valued signal X satisfies $\pr{X=+1} = 0.75$ and $\pr{X=-1} = 0.25$. The received signal $Y = X+Z$, where Z is a Gaussian random variable with zero mean and variance $\sigma^2$. The received signal Y is fed to the threshold detector. The output of the threshold detector $\hat X$ is:
+\begin{align}
+\hat{X} =&
+\begin{cases}
+    +1 & Y> \tau \\
+    -1 & Y \leqslant \tau
 \end{cases}
-$\\}
+\label{ec44:given_eqn}
+ \end{align}
 To achieve minimum probability of error $P\{\hat X \neq X\}$, the threshols $ \tau$ should be
 
-\begin{enumerate}
+\begin{enumerate}[]
 \begin{multicols}{2}
-\setlength\itemsep{2em}
+\setlength\itemsep{0.1em}
 
-\item strictly positive
-\item zero
-\item strictly negative
-\item strictly positive, zero or strictly negative depending on the nonzero value of $\sigma ^2$
-
+\item strictly positive \label{ec44:option A}
+\item zero \label{ec44:option B}
+\item strictly negative \label{ec44:option C}
+\item strictly positive, zero or strictly negative depending on the nonzero value of $\sigma ^2$ \label{ec44:option D}
 \end{multicols}
 \end{enumerate}
+%
+\solution
+\input{solutions/ec/44/Assignment3.tex}
 
 \item Consider a discrete-time channel $Y = X+Z$, where the additive noise Z is signal-dependent. In particular, given the transmitted symbol $X \in \{-a,+a\}$ at any instant, the noise sample Z is chosen independently from a Gaussian distribution with mean $\beta X$ and unit variance. Assume a threshold detector with zero threshold at the receiver.\\
 When $\beta = 0$, the BER was found to be $Q(a) = 1 \times {10^-8}$.\\
@@ -1582,7 +1585,10 @@ P((0,x])=
 x &  \frac{1}{2} \leqslant x \leqslant 1
 \end{cases}
 $ \\
-Then $P \bigg ( \{ \frac{1}{2} \} \bigg )$ is equal to.......
+Then $P  \brak{ \frac{1}{2} } $ is equal to.......
+\\
+\solution
+\input{solutions/ec/72/Assignment_2_AI1103.tex}
 
 \item Let X be a random variable with the following cumulative distribution function: \\
 
@@ -1596,7 +1602,7 @@ x^2 & 0 \leqslant x < \frac{1}{2} \\
 \end{cases}
 $ \\
 
-Then $P({\frac{1}{4}}<x<1)$ is equal to........
+Then $P\brak{{\frac{1}{4}}<x<1}$ is equal to........
 \\
 \solution
 \input{solutions/ec/73/Assignment-2.tex}
@@ -2552,7 +2558,80 @@ Given that Aishwarya studies computer science on Monday, what is the probablity 
 %
 \solution
 \input{solutions/cs/2008/27.tex}
-
+%
+\item A batch of one hundred bulbs is inspected by testing four randomly chosen bulbs. The batch is rejected if even one of the bulbs is defective. A batch typically has five defective bulbs. The probability that the current batch is accepted is ---. \\
+%
+\solution
+\input{solutions/me/2014/10.tex}
+%
+\item A box contains following three coins.
+ \begin{enumerate}[label=\Roman*.]
+ \item A coin with head on one face and tail on other face.
+ \item A coin with heads on both the faces.
+ \item A coin with tails on both the faces.
+\end{enumerate}
+A coin is picked randomly from the box and tossed .Out of the two remaining coins in the box ,one coin is then picked randomly and tossed.If the first toss results in a head,Then the probability of getting head in second toss is :
+\begin{enumerate}
+\begin{multicols}{2}
+\item $ \frac{2}{5}$\\
+\item $\frac{1}{3}$\\
+\item $ \frac{1}{2}$\\
+\item $\frac{2}{3}$
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/2021/7.tex}
+%
+\item Two people, P and Q decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability that one of them wins on the third trial is?
+%
+\solution
+\input{solutions/cs/2018/15.tex}
+%
+\item A continuous random variable X has a probability density function $f\brak{x}=e^{-x}$, $0<x<\infty$, then  $\pr{X>1}$ is
+%
+\solution
+\input{solutions/in/2013/16.tex}
+%
+\item If two fair coins are flipped and atleast one of the outcomes is known to be a head, what is the probability that both outcomes are heads ?
+	\begin{enumerate}
+	\item $\dfrac{1}{3}$\\
+	\item $\dfrac{1}{4}$\\
+	\item $\dfrac{1}{2}$\\
+	\item $\dfrac{2}{3}$
+	
+	\end{enumerate}
+    %
+\solution
+\input{solutions/cs/2011/3.tex}
+%
+\item If 20 percent of managers are technocrats , the probability that a random committee of 5 managers consists of exactly 2 technocrats is: 
+\begin{enumerate}
+    \item 0.2048
+    \item 0.4000
+    \item 0.4096
+    \item 0.9421
+\end{enumerate}
+    %
+\solution
+\input{solutions/me/1993/7.1.tex}
+%
+%
+\item Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is
+\begin{enumerate}[label=\alph*)]
+    \item $\frac{1}{16}$\\
+    \item $\frac{1}{8}$\\
+    \item $\frac{7}{8}$\\
+    \item $\frac{15}{16}$
+\end{enumerate}
+    %
+\solution
+\input{solutions/cs/2002/41.tex}
+%
+\item Given set A = \{2,3,4,5\} and set B = \{11,12,13,14,15\}, two numbers are randomly selected , one from each set. What is the probability that sum of two numbers is equal to 16?
+    %
+\solution
+\input{solutions/cs/2015/3/assignment4.tex}
 
 \end{enumerate}
 \end{document}

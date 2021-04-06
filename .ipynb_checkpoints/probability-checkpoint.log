@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  6 APR 2021 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  6 APR 2021 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1574,7 +1574,11 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-(./probability.aux)
+(./probability.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+)
 \openout1 = `probability.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 89.
@@ -1587,7 +1591,8 @@ LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 89.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
 89.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 89.
@@ -2252,7 +2257,7 @@ Package epstopdf Info: Source file: <./figs/figure2.eps>
 ed-to.pdf ./figs/figure2.eps>
 (epstopdf)             \includegraphics on input line 986.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure2-eps-converted-to.pdf, id=815, 180.675pt x 143.53625pt>
+<./figs/figure2-eps-converted-to.pdf, id=816, 180.675pt x 143.53625pt>
 File: ./figs/figure2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure2-eps-converted-to.pdf  used on input lin
@@ -2278,7 +2283,7 @@ Package epstopdf Info: Source file: <./figs/figure3.eps>
 ed-to.pdf ./figs/figure3.eps>
 (epstopdf)             \includegraphics on input line 1014.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure3-eps-converted-to.pdf, id=820, 142.5325pt x 126.4725pt>
+<./figs/figure3-eps-converted-to.pdf, id=821, 142.5325pt x 126.4725pt>
 File: ./figs/figure3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure3-eps-converted-to.pdf  used on input lin
@@ -2297,7 +2302,7 @@ Package epstopdf Info: Source file: <./figs/figure4.eps>
 ed-to.pdf ./figs/figure4.eps>
 (epstopdf)             \includegraphics on input line 1019.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure4-eps-converted-to.pdf, id=821, 139.52126pt x 125.46875pt>
+<./figs/figure4-eps-converted-to.pdf, id=822, 139.52126pt x 125.46875pt>
 File: ./figs/figure4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure4-eps-converted-to.pdf  used on input lin
@@ -2316,7 +2321,7 @@ Package epstopdf Info: Source file: <./figs/figure5.eps>
 ed-to.pdf ./figs/figure5.eps>
 (epstopdf)             \includegraphics on input line 1024.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure5-eps-converted-to.pdf, id=822, 137.51375pt x 127.47626pt>
+<./figs/figure5-eps-converted-to.pdf, id=823, 137.51375pt x 127.47626pt>
 File: ./figs/figure5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure5-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure5-eps-converted-to.pdf  used on input lin
@@ -2335,7 +2340,7 @@ Package epstopdf Info: Source file: <./figs/figure6.eps>
 ed-to.pdf ./figs/figure6.eps>
 (epstopdf)             \includegraphics on input line 1030.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure6-eps-converted-to.pdf, id=823, 139.52126pt x 178.6675pt>
+<./figs/figure6-eps-converted-to.pdf, id=824, 139.52126pt x 178.6675pt>
 File: ./figs/figure6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure6-eps-converted-to.pdf  used on input lin
@@ -2354,7 +2359,7 @@ Package epstopdf Info: Source file: <./figs/figure12.eps>
 ted-to.pdf ./figs/figure12.eps>
 (epstopdf)             \includegraphics on input line 1076.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure12-eps-converted-to.pdf, id=825, 364.36125pt x 183.68625pt>
+<./figs/figure12-eps-converted-to.pdf, id=826, 364.36125pt x 183.68625pt>
 File: ./figs/figure12-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure12-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure12-eps-converted-to.pdf  used on input li
@@ -2374,13 +2379,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./figs/figure3-eps-converted-to.pdf> <./figs/figure4-eps-converted-to.pdf
 > <./figs/figure5-eps-converted-to.pdf> <./figs/figure6-eps-converted-to.pdf>]
-<solutions/ec/52/figures/pdfimage.png, id=889, 309.40594pt x 194.22563pt>
+<solutions/ec/52/figures/pdfimage.png, id=890, 309.40594pt x 194.22563pt>
 File: solutions/ec/52/figures/pdfimage.png Graphic file (type png)
 <use solutions/ec/52/figures/pdfimage.png>
 Package pdftex.def Info: solutions/ec/52/figures/pdfimage.png  used on input li
 ne 17.
 (pdftex.def)             Requested size: 252.0pt x 158.19615pt.
-<solutions/ec/52/figures/cdfimage.png, id=891, 298.86656pt x 197.98969pt>
+<solutions/ec/52/figures/cdfimage.png, id=892, 298.86656pt x 197.98969pt>
 File: solutions/ec/52/figures/cdfimage.png Graphic file (type png)
 <use solutions/ec/52/figures/cdfimage.png>
 Package pdftex.def Info: solutions/ec/52/figures/cdfimage.png  used on input li
@@ -2466,7 +2471,7 @@ LaTeX Warning: Command \textless invalid in math mode on input line 10.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 10.
 
-<solutions/ec/54/codes/graph.png, id=917, 387.4475pt x 279.0425pt>
+<solutions/ec/54/codes/graph.png, id=918, 387.4475pt x 279.0425pt>
 File: solutions/ec/54/codes/graph.png Graphic file (type png)
 <use solutions/ec/54/codes/graph.png>
 Package pdftex.def Info: solutions/ec/54/codes/graph.png  used on input line 14
@@ -2558,7 +2563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1278--1
 []\OT1/txr/m/n/12 Then $\OML/txmi/m/it/12 P []$ \OT1/txr/m/n/12 is equal to
  []
 
-<solutions/ec/58/CDF.png, id=989, 390.45876pt x 279.0425pt>
+<solutions/ec/58/CDF.png, id=990, 390.45876pt x 279.0425pt>
 File: solutions/ec/58/CDF.png Graphic file (type png)
 <use solutions/ec/58/CDF.png>
 Package pdftex.def Info: solutions/ec/58/CDF.png  used on input line 14.
@@ -2702,7 +2707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
  []
 
 (./solutions/ec/72/Assignment_2_AI1103.tex
-<solutions/ec/72/Assignment_2_AI1103.png, id=1156, 387.4475pt x 279.0425pt>
+<solutions/ec/72/Assignment_2_AI1103.png, id=1157, 387.4475pt x 279.0425pt>
 File: solutions/ec/72/Assignment_2_AI1103.png Graphic file (type png)
 <use solutions/ec/72/Assignment_2_AI1103.png>
 Package pdftex.def Info: solutions/ec/72/Assignment_2_AI1103.png  used on input
@@ -2725,7 +2730,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1595--1604
 (./solutions/ec/73/Assignment-2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/ec/73/Assignment2.png, id=1194, 462.528pt x 346.896pt>
+<solutions/ec/73/Assignment2.png, id=1195, 462.528pt x 346.896pt>
 File: solutions/ec/73/Assignment2.png Graphic file (type png)
 <use solutions/ec/73/Assignment2.png>
 Package pdftex.def Info: solutions/ec/73/Assignment2.png  used on input line 12
@@ -3486,53 +3491,28 @@ Overfull \hbox (37.13918pt too wide) in paragraph at lines 27--27
  [] 
  []
 
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <14> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2631.
+) [85
 
- (./solutions/cs/2015/3/assignment4.tex
-<solutions/cs/2015/3/figures/assignment4_plot2.png, id=2628, 1110.0672pt x 549.
-9747pt>
-File: solutions/cs/2015/3/figures/assignment4_plot2.png Graphic file (type png)
-
-<use solutions/cs/2015/3/figures/assignment4_plot2.png>
-Package pdftex.def Info: solutions/cs/2015/3/figures/assignment4_plot2.png  use
-d on input line 36.
-(pdftex.def)             Requested size: 252.0pt x 124.8467pt.
-<solutions/cs/2015/3/figures/assignment4_plot1.png, id=2629, 462.528pt x 346.89
-6pt>
-File: solutions/cs/2015/3/figures/assignment4_plot1.png Graphic file (type png)
-
-<use solutions/cs/2015/3/figures/assignment4_plot1.png>
-Package pdftex.def Info: solutions/cs/2015/3/figures/assignment4_plot1.png  use
-d on input line 40.
-(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [85] [86
-
- <./solutions/cs/2015/3/figures/assignment4_plot2.png> <./solutions/cs/2015/3/f
-igures/assignment4_plot1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2637.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2637.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2632.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2632.
  (./probability.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2637.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2637.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2632.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2632.
 
 Package rerunfilecheck Info: File `probability.out' has not changed.
 (rerunfilecheck)             Checksum: 05EE629C69D731336BF470D87959604B;213.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2637.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2632.
  ) 
 Here is how much of TeX's memory you used:
- 54778 strings out of 481239
- 1339221 string characters out of 5920377
- 1807762 words of memory out of 5000000
- 66640 multiletter control sequences out of 15000+600000
+ 54748 strings out of 481239
+ 1338315 string characters out of 5920377
+ 1807767 words of memory out of 5000000
+ 66628 multiletter control sequences out of 15000+600000
  644464 words of font info for 272 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  65i,30n,102p,728b,2165s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3550,10 +3530,10 @@ onts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on probability.pdf (86 pages, 1005934 bytes).
+Output written on probability.pdf (85 pages, 959280 bytes).
 PDF statistics:
- 3106 PDF objects out of 3580 (max. 8388607)
- 2812 compressed objects within 29 object streams
- 1933 named destinations out of 2073 (max. 500000)
- 369 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3085 PDF objects out of 3580 (max. 8388607)
+ 2797 compressed objects within 28 object streams
+ 1922 named destinations out of 2073 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 

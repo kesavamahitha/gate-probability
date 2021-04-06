@@ -1,0 +1,23 @@
+Let $X=\{0,1\}$ be the set of random variables where 0 represents \textbf{Tail}, 1 represent \textbf{Head}, $x_1,x_2$ represent the outcomes of coins 1 and 2. Let A,B be the events that $x_1=1,x_2=1$ respectively.
+\begin{align}
+& \pr{X=n}= \begin{cases}
+\frac{1}{2} & \text{ if } n=0\\
+\frac{1}{2}  & \text{ if } n=1
+\end{cases}
+\end{align}
+Let P denote the probability that both outcomes are heads given atleast one is a head,
+\begin{align}
+\implies & P=\pr{AB|A+B}\\
+\implies & P=\dfrac{\pr{AB(A+B)}}{\pr{A+B}}\\
+\text{But, }&AB(A+B)=ABA+ABB=AB+AB=AB\\ 
+\implies & P=\dfrac{\pr{AB}}{\pr{A+B}}\\
+\implies & P=\dfrac{\pr{AB}}{\pr{A}+\pr{B}-\pr{AB}}
+\end{align}
+Since $A$ and $B$ are independent events we can write
+\begin{align}
+ \pr{AB}&=\pr{A}\pr{B}\\
+ \implies P&=\dfrac{\pr{A}\pr{B}}{\pr{A}+\pr{B}-\pr{A}\pr{B}}\\
+\implies P&= \dfrac{\frac{1}{2}\times \frac{1}{2}}{\frac{1}{2}+\frac{1}{2}-\frac{1}{2}\times \frac{1}{2}}\\
+\implies P&=\dfrac{1}{3}
+\end{align}
+Therefore the probability of both outcomes are heads given atleast one outcome is head is $P=\dfrac{1}{3}$ option (\textbf{A}).
