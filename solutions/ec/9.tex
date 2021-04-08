@@ -1,0 +1,73 @@
+Let flipping a coin twice be event H.\\
+Sample space of event H = \cbrak{HH,HT,TH,TT}\\
+Let a random variable X; $X_{i}=i$, where i=1,2,3. \\
+ $X_{1}$ represents outcome \cbrak{TT}, 
+ \\$X_{2}$ represents getting outcome \cbrak{TH} or output Y,
+ \\ $X_{3}$ represents getting output N.\\
+The state transition matrix P is shown below :
+\begin{align}
+\begin{array}{c c} &
+\begin{array}{c c c} X_{1}  & X_{2} & X_{3} \\
+\end{array}
+\\
+\begin{array}{c c c}
+X_{1} \\
+X_{2}\\
+X_{3}
+\end{array}
+&
+\left[
+\begin{array}{c c c}
+\frac{1}{4} & \frac{1}{4} & \frac{1}{2} \\
+0 & 1 & 0 \\
+0 & 0 & 1 
+\end{array}
+\right]
+\end{array}
+\end{align}
+\\
+\begin{figure}[h]
+\caption*{\textbf{Markov chain diagram}}
+\centering
+\begin{tikzpicture}
+       
+             % Setup the style for the states
+        \tikzset{node style/.style={state, 
+                                    minimum width=1cm,
+                                    line width=0.7mm,
+                                    fill=gray!20!white}}
+        % Draw the states
+        \node[node style] at (3, 0)      (bull)     {$X_{1}$};
+        \node[node style] at (0, -3)      (bear)     {$X_{2}$};
+        \node[node style] at (6, -3) (stagnant) {$X_{3}$};
+        % Connect the states with arrows
+        \draw[every loop,
+              auto=right,
+              line width=0.7mm,
+              >=latex,
+              draw=orange,
+              fill=orange]
+           (bull)     edge[bend left=20]            node {$\frac{1}{2}$} (stagnant)
+            (bull)     edge[bend right=20] node {$\frac{1}{4}$} (bear)
+            
+            
+            (bull) edge[loop above]             node  {$\frac{1}{4}$} (bull)
+            (bear) edge[loop below]             node  {1} (bear)
+            (stagnant) edge[loop below]             node  {1} (stagnant);
+    \end{tikzpicture}
+\end{figure}\\
+From the transition matrix, we have 1 transient state and 2 absorbing states.\\ Q = $\begin{bmatrix} \frac{1}{4} \end{bmatrix}$ and R = $\begin{bmatrix} \frac{1}{4} & \frac{1}{2} \end{bmatrix}$
+\begin{align}
+ N ={}& \brak{I - Q}^{-1}\\
+ ={}& \brak{\sbrak{1} - \sbrak{\frac{1}{4}}}^{-1}\\
+ ={}& \sbrak{\frac{4}{3}}
+\end{align}
+We know that probability of being absorbed by state j after starting in state i is given by the $M_{i,j}$, where M = NR.\\
+\begin{align}
+M = \begin{bmatrix} \frac{1}{3} & \frac{2}{3} \end{bmatrix}
+\end{align}.\\
+ Hence the probability of being absorbed by state Y $\brak{1^{st} \text{element of R}}$ after starting with state $X_{1}\brak{1^{st}\text{element of Q}}$ is $M_{1,1}$\\
+ \\
+\begin{align}
+\therefore \pr{Y}=\frac{1}{3}=0.33 \brak{\text{correct upto 2 decimal places}}.
+\end{align}
