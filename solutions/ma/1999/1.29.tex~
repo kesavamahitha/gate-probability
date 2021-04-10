@@ -1,0 +1,21 @@
+ Let A be the event that the choosen coin is fair.\\
+     Let B be the event that the choosen coin is double headed.\\
+     Let C be the event that two heads appear.\\
+    As both events A and B are equally likely.\\
+    \Pr\brak{\textbf{A}}= \Pr\brak{\textbf{B}}=\frac{1}{2}\\
+    
+    \begin{align}
+    \centering
+    \tag{1}
+  \Pr\brak{\textbf{C}}&=\brak{\Pr\brak{\textbf{A}}\times 1 \times 1}+\brak{\Pr\brak{\textbf{B}}\times \frac{1}{2} \times \frac{1}{2}}\label{ma1999-1.29:eq1}\\
+  \tag{2}
+  \Pr\brak{\textbf{C}}&=\brak{\frac{1}{2}\times 1\times 1}+\brak{\frac{1}{2}\times \frac{1}{2}\times \frac{1}{2}}\label{ma1999-1.29:eq2}\\
+  \tag{3}
+  \Pr\brak{\textbf{C}}&=\frac{5}{8}\label{ma1999-1.29:eq3}\\
+  \tag{4}
+  \Pr\brak{\textbf{A} | \textbf{C}}&=\frac{\Pr\brak{\textbf{A}\textbf{C}}}{\Pr\brak{\textbf{C}}}\label{ma1999-1.29:eq4}\\
+  \tag{5}
+  \Pr\brak{\textbf{A} | \textbf{C}}&=\frac{\brak{\frac{1}{2}}}{\brak{\frac{5}{8}}}\label{ma1999-1.29:eq5}\\
+  \tag{6}
+  \Pr\brak{\textbf{A} | \textbf{C}}&=\frac{4}{5}\label{ma1999-1.29:eq6}
+   \end{align}
