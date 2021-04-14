@@ -1,0 +1,26 @@
+Let $X_1 \in \{0,1,2\}$ and $X_2 \in \{0,1,2\}$ be two Random Variables representing the colour of socks taken in $1^{st}$ draw and in $2^{nd}$ draw respectively.
+$X_1 = 0$, $X_1 = 1$, $X_1 = 2$ represent choosing Red, Green, Blue socks in the first draw respectively.
+Similarly, $X_2 = 0$, $X_2 = 1$, $X_2 = 2$ represent choosing Red, Green, Blue socks in the second draw respectively.
+Now, the probability that the socks drawn in $1^{st}$ draw and $2^{nd}$ draw are of the same colour is given by
+\begin{align*}
+\pr{X_1 = X_2}    
+\end{align*}
+Now,
+\begin{align}
+\pr{X_1 = X_2} &= \sum_{k = 0}^{k = 2} \pr{X_1 = X_2 = k} \\
+&= \sum_{k = 0}^{k = 2} \pr{X_1 = k, X_2 = k} \\
+&= \sum_{k = 0}^{k = 2} \pr{X_1 = k} \pr{(X_2 = k) | (X_1 = k)}
+\end{align}
+\begin{align}
+&= \pr{X_1 = 0} \pr{(X_2 = 0) | (X_1 = 0)} \\ \nonumber
+& \quad + \pr{X_1 = 1} \pr{(X_2 = 1) | (X_1 = 1)} \\ \nonumber
+& \quad + \pr{X_1 = 2} \pr{(X_2 = 2) | (X_1 = 2)}
+\end{align}
+From the given information in the question,
+\begin{align}
+\pr{X_1 = X_2} &= \left(\frac{3}{10} \right) \left(\frac{2}{9} \right) + \left(\frac{4}{10} \right) \left(\frac{3}{9} \right) + \left(\frac{3}{10} \right) \left(\frac{2}{9} \right) \\
+&= \left(\frac{6}{90} \right) + \left(\frac{12}{90} \right) + \left(\frac{6}{90} \right) \\
+&= \frac{24}{90} = \frac{4}{15}
+\end{align}
+Therefore, the probability that the two socks are of same colour is $\frac{4}{15}$.
+Hence, the correct option is 4) $\frac{4}{15}$.

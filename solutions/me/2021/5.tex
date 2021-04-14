@@ -1,0 +1,42 @@
+Given a binomial random variable \textbf{X} 
+\begin{align}
+\Rightarrow X \sim B\brak{r,p}
+\end{align}
+also given that $X_1,X_2,...,X_n$ are independent and identically distributed samples 
+\begin{align}
+    \Rightarrow X_1=X_2=...=X_n=X \sim B\brak{r,p}
+\end{align}
+also given that
+\begin{align}
+Y&=\displaystyle\sum_{i=1}^n X_i
+\end{align}
+We know that the characteristic equation of binomial trials with n elements is \begin{align}
+    \phi_X\brak{t}&={\brak{1-p+p e^{it}}}^n
+\end{align}
+consider two sets of Bernoulli trials containing $r_1 \& r_2$ elements respectively where both trials have the same probability 'p'$\brak{X\sim B\brak{r_1,p},Y\sim\brak{r_2,p}}$. Now considering both as a whole set
+\begin{align}
+B\brak{r_1,p}+B\brak{r_2,p}&=\Phi_{X+Y}\brak{t}\\
+&=\Phi_X\brak{t}\times \Phi_Y\brak{t}\nonumber\\
+&={\brak{1-p+p e^{it}}}^{r_1}\nonumber\\
+&\hspace*{1cm}\times {\brak{1-p+p e^{it}}}^{r_2}\\
+&={\brak{1-p+p e^{it}}}^{r_1+r_2}\\
+&=B\brak{r_1+r_2,p}\nonumber\\
+\therefore B\brak{r_1,p}+B\brak{r_2,p}&=B\brak{r_1+r_2,p}
+\end{align}
+using this recursively we get
+\begin{align}
+    Y&=B\brak{r n,p}
+\end{align}
+$\Rightarrow$ using standard formulae
+\begin{align}
+\text{mean of Y } \mu_Y&=nrp \nonumber\\
+\text{and variance } \sigma^2_Y&=nrp\brak{1-p}
+\end{align}
+By central limit theorem\brak{CLT}
+\begin{align}
+    Z_n &= \sqrt{n}\brak{\frac{\frac{Y}{n} - \mu_Y}{\sigma_Y}}\nonumber\\
+    &=\frac{Y-n \mu_Y}{\sqrt{n} \sigma_Y}
+\end{align}
+$\lim_{n \rightarrow \infty} Z_n \sim N\brak{0,1}$ \\
+Which is a normal distribution\\
+$\therefore$ the correct answer is option D

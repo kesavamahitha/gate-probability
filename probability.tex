@@ -38,6 +38,7 @@
 \usepackage{pgfplots}
 \usepackage{verbatim}
 \usepackage{tfrupee}
+\usepackage{blkarray}
 \usepackage[breaklinks=true]{hyperref}
 %\usepackage{stmaryrd}
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
@@ -346,7 +347,7 @@ f(x) =
 \begin{cases}
 a+bx
 &  0<x<1
-\\
+\\      
 0
 & \text{otherwise}
 \end{cases}
@@ -2592,6 +2593,101 @@ Given that Aishwarya studies computer science on Monday, what is the probablity 
 %
 \solution
 \input{solutions/cs/1996/5.tex}
+%
+\item Suppose we uniformly and randomly select a permutation from the 20\(!\) permutations of 1,2,3,\ldots,20. What is the probability that 2 appears at an earlier position than any other even number in the selected permutation.
+\begin{enumerate}[label=(\Alph*)]
+    \item \(\displaystyle\frac{1}{2}\)\newline
+    \item \(\displaystyle\frac{1}{10}\)\newline
+    \item \(\displaystyle\frac{9!}{20!}\)\newline
+    \item \normalsize{None of the above.}\newline
+\end{enumerate}
+
+%
+\solution
+\input{solutions/cs/1996/5.tex}
+%
+\item  Consider a single machine workstation to which jobs arrive according to a
+Poisson distribution with a mean arrival rate of 12 jobs/hour. The process
+time of the workstation is exponentially distributed with a mean of 4
+minutes. The expected number of jobs at the workstation at any given
+point of time is \ldots (\textit{round off to the nearest integer}).
+%
+\solution
+\input{solutions/me/2021/42.tex}
+%
+\item Consider a binomial random variable X. If \textbf{$X_1,X_2,...,X_n$} are independent and identically distributed samples from the distribution of \textbf{X} with sum Y=$\Sigma_{i=1}^n X_i$, then the distribution of \textbf{Y} as $n\rightarrow \infty$ can be approximated as
+\begin{enumerate}
+    \item Exponential
+    \item Bernoulli 
+    \item Binomial
+    \item Normal
+\end{enumerate}
+%
+\solution
+\input{solutions/me/2021/5.tex}
+%
+\item Let \(X\) be a continuous random variable denoting the temperature measured. The range of temperature is [0,100] degree Celsius and let probability density function of \(X\) be \(f(x)\)=0.01 for 0 \(\leq X \leq\) 100.\newline
+The mean of \(X\) is ?\newline
+%
+\begin{enumerate}[label=(\Alph*)]
+    \item \(2.5\)
+    \item \(5.0\)
+    \item \(25.0\)
+    \item \(50.0\)
+\end{enumerate}
+%
+\solution
+\input{solutions/ee/2021/8.tex}
+%
+\item Two die are thrown. What is the probability that sum of numbers on the two dice is eight \\
+\begin{enumerate}[label=(\alph*)]
+\item $\frac{5}{36}$\\
+\item $\frac{5}{18}$ \\
+\item$\frac{1}{4}$\\
+\item$\frac{1}{3}$
+\end{enumerate}
+%
+%
+\solution
+\input{solutions/me/2002/1.1.tex}
+%
+\item A binary symmetric channel $\brak{BSC}$ has a transition probability of $\frac{1}{8}$. If the binary symbol X is such that P $\brak{X = 0}$ = $\frac{9}{10}$ , then the probability of error for an optimum receiver will be 
+\begin{enumerate}[]
+\begin{multicols}{2}
+\setlength\itemsep{0.1em}
+\item $\frac{7}{80}$ \label{ec2012-35option A}
+\item $\frac{63}{80}$ \label{ec2012-35option B}
+\item $\frac{63}{80}$ \label{ec2012-35option C}
+\item  $\frac{1}{10}$ \label{ec2012-35option D}
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/2012/35.tex}
+%
+\item If a fair coin is tossed four times,what is the probability that two tails and two heads will result?
+%
+\solution
+\input{solutions/cs/2004/25.tex}
+%
+\item Customers arrive at a shop according to Poisson distribution with a mean of 10 customers/hour. The manager notes that no customer arrives for the first 3 minutes after the shop opens. The probability that a customer arrives within the next 3 minutes is
+
+%
+\solution
+\input{solutions/me/2021/33.tex}
+%
+\item  There are 3 red socks, 4 green socks and 3 blue socks. You choose 2 socks. The probability that they are of the same colour is 
+
+\begin{enumerate}
+    \item $\frac{1}{5}$
+    \item $\frac{7}{30}$
+    \item $\frac{1}{4}$ 
+    \item $\frac{4}{15}$ 
+\end{enumerate}
+%
+\solution
+\input{solutions/cs/2017/60.tex}
 
 \end{enumerate}
 \end{document}
+
