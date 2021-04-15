@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.4.14)  14 APR 2021 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.4.14)  15 APR 2021 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3672,20 +3672,32 @@ Overfull \hbox (12.93077pt too wide) in paragraph at lines 24--24
  [] 
  []
 
-) [95]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2692.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2692.
- (./probability.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2692.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2692.
+) (./solutions/ec/2016/28.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+Overfull \hbox (33.66899pt too wide) in paragraph at lines 49--49
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [96]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2705.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2705.
+
+(./probability.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2705.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2705.
 
 Package rerunfilecheck Info: File `probability.out' has not changed.
 (rerunfilecheck)             Checksum: 5C464FEAE78FC782F41EBB64681C7870;256.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2692.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2705.
  ) 
 Here is how much of TeX's memory you used:
- 57805 strings out of 492615
- 1332550 string characters out of 6131390
+ 57830 strings out of 492615
+ 1332933 string characters out of 6131390
  1581339 words of memory out of 5000000
  58297 multiletter control sequences out of 15000+600000
  650485 words of font info for 288 fonts, out of 8000000 for 9000
@@ -3705,10 +3717,10 @@ onts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on probability.pdf (95 pages, 971962 bytes).
+Output written on probability.pdf (96 pages, 975002 bytes).
 PDF statistics:
- 3332 PDF objects out of 3580 (max. 8388607)
- 3045 compressed objects within 31 object streams
- 2088 named destinations out of 2487 (max. 500000)
+ 3362 PDF objects out of 3580 (max. 8388607)
+ 3074 compressed objects within 31 object streams
+ 2110 named destinations out of 2487 (max. 500000)
  357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
