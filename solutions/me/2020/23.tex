@@ -1,0 +1,20 @@
+Let $X \in \{0,1,2,3\}$ denotes the number of woman candidates chosen. 
+\begin{align}
+ \pr{X=x}=\frac{\comb{3}{x}\times \comb{5}{4-x}}{\comb{8}{4}} \label{me/2020/23/2.0.2}
+  \end{align}
+  
+  \begin{table}[h]
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|}
+    \hline
+    X & 0 & 1 & 2  & 3  \\ \hline 
+P(X) & $\frac{\comb{3}{0}\times\comb{5}{4}}{\comb{8}{4}}$ & $\frac{\comb{3}{1}\times\comb{5}{3}}{\comb{8}{4}}$ & $\frac{\comb{3}{2}\times\comb{5}{2}}{\comb{8}{4}}$ & $\frac{\comb{3}{3}\times\comb{5}{1}}{\comb{8}{4}}$  \\ 
+\hline
+\end{tabular}
+}\end{table}
+  The complement of the event "at least one woman candidate is chosen" is "no woman candidate being chosen"
+  \begin{align}
+      \pr{X \geq 1} &=1- \pr{X=0}\\
+      &=1-\frac{\comb{3}{0}\times \comb{5}{4-0}}{\comb{8}{4}}\\
+      &=\frac{13}{14}
+  \end{align}

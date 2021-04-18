@@ -1,11 +1,13 @@
 Let $X_1,X_2,X_3,....,X_n$ be the random variable for n independent trials such that 
 \begin{align}
-X=X_1 + X_2 + X_2 + X_3 + \cdots + X_n \nonumber 
+X &= X_1 + X_2 + X_2 + X_3 + \cdots + X_n \nonumber \\ 
+X &= \sum_{i=1}^n X_i \nonumber 
 \end{align}
-where p = success (1) and 1 - p = failure (0) \\ \\
+p = success (1) and 1 - p = failure (0) 
 Expected Value for n trials : 
 \begin{align}
 E(X_i) &= X_i\cdot p_i \nonumber\\
+E(X_i) &= 1\cdot p + 0\cdot (1-p)\nonumber\\
 E(X_i) &= p
 \end{align}
 We know that,
@@ -13,15 +15,16 @@ We know that,
 E(X) &= \sum_{i=1}^n E (X_i) \nonumber\\
 E(X) &= np
  \end{align}
-Mean of a binomial distribution for n independent trials is \textbf{np}.\\ \\
+Mean of a binomial distribution for n independent trials is \textbf{np}.
 Now,
 \begin{align}
 E(X_i^2) &= X_i^2\cdot p_i \nonumber\\
+E(X_i^2) &= 1^2\cdot p + 0^2\cdot (1-p)\nonumber\\
 E(X_i^2) &= p
 \end{align}
 For variance,
 \begin{align}
-    Var(X_i) &= E(X_i^2) - E(X_i)^2 \\
+    Var(X_i) &= E(X_i^2) - E(X_i)^2 \nonumber\\
     Var(X_i) &= p - p^2 
     \end{align}
 We can add Var($X_i$)  to get Var(X)  as these are independent trials
@@ -30,5 +33,5 @@ Var(X) &= \sum_{i=1}^n Var(X_i) \nonumber \\
 Var(X) &= n(p - p^2)\nonumber\\
 Var(X) &= np(1-p)
 \end{align}
-Variance of a binomial distribution for n independent trials is \textbf{np(1-p)}.\\ \\
-Hence, (D) is correct option.
+Variance of a binomial distribution for n independent trials is \textbf{np(1-p)}.
+Hence, (4) is correct option.
