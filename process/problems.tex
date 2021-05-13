@@ -1,0 +1,64 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item $X(t)$ is a random process with a constant mean value of 2 and the autocorrelation function 
+\begin{align}
+    R_x(\tau)=4\brak{e^{-0.2|\tau|}+1}.
+    \label{process/1}
+\end{align}
+%
+Let Y and Z be the random variables obtained by sampling $X(t)$ at $t=2$ and $t=4$ respectively. Let $W=Y-Z$. The variance of W is
+\begin{enumerate}
+    \item 13.36
+    \item 9.36
+    \item 2.64
+    \item 8.00
+\end{enumerate}
+%
+\solution
+\input{process/solutions/1.tex}
+%
+\item Let Y and Z be the random variables obtained by sampling $X(t)$ at $t=2$ and $t=4$ respectively. Let W = Y-Z. The variance of W is
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+\item 13.36
+\item 9.36
+\item 2.64
+\item 8.00
+
+\end{multicols}
+\end{enumerate}
+
+\item Consider the random process\\
+$ X(t) = U+Vt$,\\
+where U is a zero-mean Gaussian random variable and V is a random variable distributed between 0 and 2. Assume that U and V are statistically independent. The mean value of the random  process at t=2 is........
+%
+\solution
+\input{solutions/46/Assignment3.tex}
+
+%
+\item $X(t)$ is a random process with a constant mean value of 2 and the autocorrelation function:
+\begin{align}
+    R_x\brak{\tau} = 4\sbrak{e^{-0.2|\tau|} + 1}
+    \label{autocorrelation}
+\end{align}
+Let $X$ be the Gaussian Random Variable obtained by sampling the process at $t = t_i$, and let 
+\begin{align}
+    Q\brak{\alpha} = \int_{\alpha}^{\infty} \frac{1}{\sqrt{2\pi}} e^{\frac{-y^2}{2}}\,dy
+    \label{Q}
+\end{align}
+Find $\pr{X \leq 1}$\\
+(A) \(1 - Q(0.5)\) \hspace{1cm}
+(B) \(Q(0.5)\) \\
+(C) \(Q(\frac{1}{2\sqrt{2}})\) \hspace{1.6cm}
+(D) \(1 - Q(\frac{1}{2\sqrt{2}})\)\\
+\solution
+\input{solutions/ec/2003/65.tex}
+
+\end{enumerate}

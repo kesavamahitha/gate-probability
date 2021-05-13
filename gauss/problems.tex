@@ -1,0 +1,125 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+
+\item Let U and V be two independent zero mean Gaussian random variables of variances $\dfrac{1}{4}$ and $\dfrac{1}{9}$ respectively. The probability $P(3V\geqslant2U)$ is
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+\item $
+\dfrac{4}{9}
+$
+\item $
+\dfrac{1}{2}
+$
+\item $
+\dfrac{2}{3}
+$
+\item $
+\dfrac{5}{9}
+$
+\end{multicols}
+\end{enumerate}
+%
+\item Consider a binary digital communication system with equally likely 0's and 1's. When binary 0 is transmitted the voltage at the detector input can lie between the level -0.25V and +0.25V with equal probability: when binary 1 is transmitted, the voltage at the detector can have any value between 0 and 1V with equal probability. If the detector has a threshold of 2.0V (i.e., if the received signal is greater than 0.2V, the bit is taken as 1), the average bit error probability is
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+
+\item 0.15
+\item 0.2
+\item 0.05
+\item 0.5
+\end{multicols}
+\end{enumerate}
+%
+\item Let X be the Gaussian random variable obtained by sampling the process at $t=t_i$ and let 
+\begin{equation*}
+Q(\alpha)={\int_{\alpha}^{\infty}}\dfrac{1}{\sqrt{2\pi}}e^{\frac{-y^2}{2}}dy
+\end{equation*}
+%
+The probability that $[\textit{X}\leqslant1]$ is \dots
+%
+\item Let X be a zero mean unit variance Gaussian random variable. $E[|X|]$ is equal to .........
+%
+\\
+\solution
+\input{solutions/ec/42.tex}
+
+\item Consider a discrete-time channel $Y = X+Z$, where the additive noise Z is signal-dependent. In particular, given the transmitted symbol $X \in \{-a,+a\}$ at any instant, the noise sample Z is chosen independently from a Gaussian distribution with mean $\beta X$ and unit variance. Assume a threshold detector with zero threshold at the receiver.\\
+When $\beta = 0$, the BER was found to be $Q(a) = 1 \times {10^-8}$.\\
+$$
+\bigg(Q(v)= \dfrac{1}{\sqrt{2 \pi}} \int_{v}^{\infty} e^{\frac{-u^2}{2}}du$$, and for $v>1$, use $Q(v) \approx e^{\frac{-v^2}{2}} \bigg)$ \\
+When $\beta = -0.3$, the BER is closet to
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $10^-7$
+\item $10^-6$
+\item $10^-4$ \label{option C}
+\item $10^-2$
+
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/45/Assignment3.tex}
+\item Suppose $X$ and $Y$ are two random variables such that $aX + bY$ is a normal random variable for all $a,b \in \mathbb{R}$. Consider the following statements P,Q,R and S:
+
+
+ (P): $X$ is a standard normal random variable.\\
+ (Q): The conditional distribution of $X$ given $Y$ is normal.\\
+ (R): The conditional distribution of $X$ given $X$ + $Y$ is normal.\\
+ (S): $X$ - $Y$ has mean $0$.\\
+
+Which of the above statements ALWAYS hold TRUE?
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item both P and Q
+\item both Q and R
+\item both Q and S
+\item both P and S
+
+\end{multicols}
+\end{enumerate}
+
+\item A random variable $X$ takes values -1 and +1 with probabilities 0.2 and 0.8, respectively.
+It is transmitted across a channel which adds noise $N$, so that the random variable at the
+channel output is $Y = X + N$. The noise $N$ is independent of $X$, and is uniformly
+distributed over the interval [-2 , 2]. The receiver makes a decision
+\[
+\hat{X} = \begin{cases}
+            -1, &\text{if}\quad Y \leq \theta \\
+             +1, &\text{if}\quad Y \geq \theta\\
+            \end{cases}
+\]
+where the threshold $\theta  \in [-1,1]$ is chosen so as to minimize the probability of error
+\pr {\hat{X} \neq X}. The minimum probability of error, rounded off to 1 decimal place, is \dots
+\\
+\solution
+\input{solutions/ec/2019/47/Assignment2.tex}
+
+%
+\item  Let $U$ and $V$ be two independent zero mean Gaussian random variables of variances $\frac{1}{4}$ and $\frac{1}{9}$ respectively. The probability $\pr{3V\geq2U }$ is
+\begin{enumerate}
+    \item $4/9$
+    \item $1/2$
+    \item $2/3$
+    \item $5/9$
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/2013/26.tex}
+%
+
+
+\end{enumerate}

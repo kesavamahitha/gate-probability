@@ -1,0 +1,182 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT divisible by 2,3 or 5 is......
+\\
+\solution
+\input{solutions/11.tex}
+
+\item P and Q are considering to apply for a job. The probability that P applies for the job is $\dfrac{1}{4}$, the probability that P applies for the job given that Q applies for the job is $\dfrac{1}{2}$, and the probability that Q applies for the job given that P applies for the job is $\dfrac{1}{3}$. Then the probability that P does not apply for the job given that Q does not apply for the job is 
+
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+
+\item $
+\dfrac{4}{5}
+$
+
+\item $
+\dfrac{5}{6}
+$
+
+\item $
+\dfrac{7}{8}
+$
+
+\item $
+\dfrac{11}{12}
+$
+
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/12.tex}
+%
+\item Suppose A and B are two independent events with probabilities $P(A)\neq 0$ and $P(B)\neq0$. Let $\widetilde A$ and $\widetilde B$ be their complements. Which one of the following statements is FALSE?
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{1em}
+{\scriptsize
+\item $
+P(A \cap B) = P(A)P(B)
+$
+\item $
+P(A|B) = P(A)
+$
+\item $
+P(A \cup B) = P(A)+P(B)
+$
+\item $
+P(\widetilde A \cap \widetilde B) = P(\widetilde A)P(\widetilde B)
+$
+}
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/39.tex}
+
+\item If P and Q are two random events, then the following is TRUE:
+
+\begin{enumerate}
+
+\item Independence of P and Q implies that $\Pr{P \cap Q} = 0$
+\item $\Pr(P \cup Q)\geqslant \Pr(P)+\Pr(Q)$
+\item If P and Q are mutually exclusive, then they must be independent
+\item $\Pr(P \cap Q)\leqslant \Pr(P)$
+
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/48.tex}
+
+\item If P and Q are two random events, then the following is true:
+\begin{enumerate}[label = (\alph*)]
+    \item Independence of P and Q implies that probability $(P\cap Q)=0 $ 
+    \item Probability $(P\cup Q) \leq   $ Probability $(P)$ + Probability(Q) 
+    \item If P and Q are mutually exclusive, then they must be independent
+    \item Probability $(P\cap Q) \leq$ Probability $(P)$
+\end{enumerate}
+%
+\solution
+\input{solutions/ee/2005.tex}
+
+%
+\item Let $S$ be a sample space and two mutually exclusive events $A$ and $B$ be such that $A + B = S$. If $P(\cdot)$ denotes the probability of the event, the maximum value of $P(A)P(B)$ is
+\\
+\solution
+\input{solutions/cs/2014/48.tex}
+
+%
+\item P and Q are considering to apply for a job.The probability that P applies for the job is 1/4 ,the probability that P applies for the job given that Q applies for the job is 1/2, and the probability that Q applies for the job given that P applies for the job is 1/3.Then the probability that P does not apply for the job given that Q does not apply for the job is\\ 
+(A) 4/5\quad\quad(B)5/6\quad\quad(C)7/8\quad\quad(D)11/12
+\\
+\solution
+\input{solutions/cs/2017/26.tex}
+%
+%
+\item $E_1$, $E_2$ are independent events such that,
+\begin{align*}
+    \pr{E_1} = \frac{1}{4},\,\pr{E_2|E_1} = \frac{1}{2} \text{ and } \pr{E_1|E_2} = \frac{1}{4}
+\end{align*}
+Define random variables $X$ and $Y$ by\\
+\begin{align}
+X=
+\begin{cases}
+1, &\text{ if $E_1$ occurs}\\
+0, &\text{ if $E_1$ does not occur}
+\end{cases}
+\\
+Y=
+\begin{cases}
+1, &\text{ if $E_2$ occurs}\\
+0, &\text{ if $E_2$ does not occur}
+\end{cases}
+\end{align}
+Consider the following statements
+\begin{itemize}
+    \item[$\alpha:$]$X$ is uniformly distributed on the set $\{0,1\}$
+    \item[$\beta:$]$X$ and $Y$ are identically distributed
+    \item[$\gamma:$]$\pr{X^2 + Y^2 = 1} = \frac{1}{2}$
+    \item[$\delta:$]$\pr{XY=X^2Y^2} = 1$
+\end{itemize}
+Choose the correct combination
+\begin{enumerate}[label = (\alph*)]
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+    \item $(\alpha,\beta)$
+    \item $(\alpha,\gamma)$
+    \item $(\beta,\gamma)$
+    \item $(\gamma,\delta)$
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ma/2003/80.tex}
+
+%
+\item Two dice are thrown simultaneously. The probability that at least one of them will have 6 facing up is
+\begin{enumerate}[label={\Alph*)}]
+    \item 1/36
+    \item 1/3
+    \item 25/36
+    \item 11/36
+\end{enumerate}
+%
+\solution
+\input{solutions/cs/1996/5.tex}
+
+%
+\item A box contains two coins,one of which is fair and the other is two headed.One coin is choosen at random and tossed twice.If two heads appear,then  the probability that the choosen coin is two headed is?
+%
+\solution
+\input{solutions/ma/1999/1.29.tex}
+
+%
+\item The probability that it will rain today is 0.5. The probability that it will rain tomorrow is 0.6. The probability that it will rain either today or tomorrow is 0.7 What is the probability that it will rain today and tomorrow?
+%
+\solution
+\input{solutions/cs/1997/1.tex}
+
+\item Let P(E) denote the probability of the event E. Given P(A)=1, P(B)=$\frac{1}{2}$, the values of P(A$|$B) and P(B$|$A) respectively are
+%
+\begin{enumerate}
+    \item $\frac{1}{4},\frac{1}{2}$
+    \item $\frac{1}{2},\frac{1}{4}$
+    \item $\frac{1}{2},1$
+    \item $1,\frac{1}{2}$
+\end{enumerate}
+%
+\solution
+\input{solutions/cs/2003/3.tex}
+%
+
+
+
+\end{enumerate}

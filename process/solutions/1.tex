@@ -1,0 +1,29 @@
+Let  $t_1 =2, t_2 =4$ such that
+\begin{align}
+ Y = X(t_1), 
+ Z = X(t_2)
+\end{align}
+From the given information, 
+\begin{align}
+    \mean{Y} &= \mean{Z} = 0, \\
+    \implies 
+    \sigma_W^2 & = \mean{Y-Z}^2 \\
+ &= \mean{X^2(t_1)}+\mean{X^2(t_2)}-2\mean{X(t_1)X(t_2)}\\
+           & = 2\mean{X^2(t_1)}-2\mean{X(t_1)X(t_1+2)}\\
+           & = 2R_X(0)-2R_X(2)
+           \label{process/1/var}
+        \end{align}
+        $\because$
+        \begin{align}
+            \begin{split}
+            \implies R_X(\tau) & =\mean{X(t)X(t+\tau)}\\
+            \implies R_X(0) & =\mean{X^2(t)}
+            \end{split}
+            \label{process/1/auto}
+            \end{align}
+        From     \eqref{process/1},  \eqref{process/1/var} and  \eqref{process/1/auto},
+        \begin{align}
+            \sigma_W^2        =  2.64
+        \end{align}
+    
+So,option 3 is correct.

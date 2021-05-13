@@ -1,0 +1,86 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item The input X to the binary Symmetric Channel (BSC) shown in Fig. \ref{fig:7} is '1' with probability 0.8. The cross-over probability is $\dfrac{1}{7}$. If the received bit Y=0, the conditional probability that '1' was transmitted is........\\
+
+
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure7.eps}
+\caption{}
+\label{fig:7}
+\end{figure}
+%
+\solution
+\input{solutions/ec/17.tex}
+%
+\item A binary symmetric channel (BSC) has a transition probability of $\dfrac{1}{8}$. If the binary transmit symbol X is such that $P(X=0)=\dfrac{9}{10}$, then the probability of error for an optimum receiver will be
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+\item $
+\dfrac{7}{80}
+$
+\item $
+\dfrac{63}{80}
+$
+\item $
+\dfrac{9}{10}
+$
+\item $
+\dfrac{1}{10}
+$
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/24/latex2.tex}
+%
+\item A digital communication system uses a repetition code for channel encoding/decoding. During transmission, each bit is repeated three times(0 is transmitted as 000, and 1 is transmitted as 111). It is assumed that the source puts out symbols independently and with equal probability. The decoder operates as follows: In a block of three received bits, if the number of zeros exceeds the number of ones, the decoder decides in favour of a 0, and if the number of ones exceeds the number of zeros, the decoder decides in favour of a 1. Assuming a binary symmetric channel with crossover probability p = 0.1, the average probability of error is ........
+%
+\\
+\solution
+\input{solutions/ec/40.tex}
+%
+\item Consider the Z-channel given in Fig. \ref{fig:1}. The input is 0 or 1 with equal probability.
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure1.eps}
+\caption{}
+\label{fig:1}
+\end{figure}
+If the output is 0, the probability that the input is also 0 equals......
+
+\item A sender(S) transmits a signal,which can be one of two kinds: H and L with probabilities 0.1 and 0.9 respectively, to a receiver (R).\\
+In the graph below,the weight of an edge(u,v) is the probability of receiving v when u is transmitted,where u,v $\in$ \{H,L\}.For example the probability that the received signal is L given the transmitted signal is H is 0.7.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{solutions/cs/2021/figures/qnfigure.png}
+\end{figure}
+%
+If the received signal is H, the probability that the transmitted signal was H is \underline{\quad\quad\quad} ?
+
+\solution
+\input{solutions/cs/2021/assignment2.tex}
+
+
+%
+\item A binary symmetric channel $\brak{BSC}$ has a transition probability of $\frac{1}{8}$. If the binary symbol X is such that P $\brak{X = 0}$ = $\frac{9}{10}$ , then the probability of error for an optimum receiver will be 
+\begin{enumerate}[]
+\begin{multicols}{2}
+\setlength\itemsep{0.1em}
+\item $\frac{7}{80}$ \label{ec2012-35option A}
+\item $\frac{63}{80}$ \label{ec2012-35option B}
+\item $\frac{63}{80}$ \label{ec2012-35option C}
+\item  $\frac{1}{10}$ \label{ec2012-35option D}
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/2012/35.tex}
+
+
+
+\end{enumerate}

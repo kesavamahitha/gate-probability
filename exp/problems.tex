@@ -1,0 +1,42 @@
+%
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+
+\item Arrivals at a telephone booth are considered to be Poisson, with an average time of 10 minutes between successive arrivals.The length of a phone call is distributed exponentially with mean 3 minutes.The probability that an arrival does not have to wait before service is
+\begin{enumerate}
+    \item{0.3}
+    \item{0.5}
+    \item{0.7}
+    \item{0.9}
+\end{enumerate}
+%
+\solution
+\input{solutions/me/2002/2.4.tex}
+%
+\item  Let Z be an exponential random variable with mean 1. That is, the cumulative distribution function of Z is given by 
+\begin{align}
+    F_Z(x) =
+    \begin{cases}
+    1 - {e^{-x}}, & if\ x \ge 0\\
+    0, & if\ x<0.
+    \end{cases}
+\end{align}
+Then Pr{(Z>2 | Z>1)}, rounded off to two decimal places, is equal to 
+%
+\solution
+\input{solutions/ec/2019/20.tex}
+
+%
+\item The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter 2. For a randomly picked component of this type, what is the probability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) ?
+%
+\solution
+\input{solutions/cs/2021/18.tex}
+
+
+\end{enumerate}

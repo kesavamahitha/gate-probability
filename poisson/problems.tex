@@ -1,0 +1,76 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item If calls arrive at a telephone exchange such that the time of arrival of any call is independent of the time of arrival of earlier or future calls, the probability distribution function of the toatl number of calls in a fixed time interval will be
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item Poisson
+\item Gaussian
+\item Exponential
+\item Gamma
+
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/43/assignment2.tex}
+
+%
+\item Let $X$ be the Poisson random variable with parameter $\lambda$ = 1. Then, the probability 
+$\pr{2 \leq X \leq 4}$ equals ............
+%
+\\
+\solution
+\input{solutions/xe/2019/1.tex}
+
+%
+\item  Suppose $p$ is the number of cars per minute passing through a certain road junction between $5$ $PM$ and $6$ $PM,$ and $p$ has a Poisson distribution with mean $3$. What is the probability of observing fewer than $3$ cars during any given minute in this interval$?$
+\begin{enumerate}
+    \item $8/(2e^3)$
+    \item $9/(2e^3)$
+    \item $17/(2e^3)$
+    \item $26/(2e^3)$
+\end{enumerate}
+\solution
+\input{solutions/cs/2013/2.tex}
+
+%
+\item Let $X$ be the Poisson random variable with parameter $\lambda$ = 1. Then, the probability 
+$\pr{2 \leq X \leq 4}$ equals ............
+%
+\solution
+\input{solutions/xe/2019/1.tex}
+
+%
+\item Customers arrive at a shop according to Poisson distribution with a mean of 10 customers/hour. The manager notes that no customer arrives for the first 3 minutes after the shop opens. The probability that a customer arrives within the next 3 minutes is
+
+%
+\solution
+\input{solutions/me/2021/33.tex}
+
+%
+\item  Consider a single machine workstation to which jobs arrive according to a
+Poisson distribution with a mean arrival rate of 12 jobs/hour. The process
+time of the workstation is exponentially distributed with a mean of 4
+minutes. The expected number of jobs at the workstation at any given
+point of time is \ldots (\textit{round off to the nearest integer}).
+%
+\solution
+\input{solutions/me/2021/42.tex}
+
+%
+\item Cars arrive at a service station according to Poisson's distribution with a mean rate of 5 per hour.The service time per car is exponential with a mean of 10 minutes.At a steady state,the average waiting time in the queue is 
+%
+\solution
+\input{solutions/me/2011/19.tex}
+
+
+
+\end{enumerate}

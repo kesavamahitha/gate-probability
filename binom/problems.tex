@@ -1,0 +1,251 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item A fair coin is tossed 10 times. What is the probability that ONLY the first two tosses will yield heads?
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{1em}
+{\small
+\item $
+\brak{\frac{1}{2}}^2
+$
+\item $
+{\comb{10}{2}}\brak{\frac{1}{2}}^2
+$
+\item $
+\brak{\frac{1}{2}}^{10}
+$
+\item $
+{\comb{10}{2}}\brak{\frac{1}{2}}^{10}
+$
+}
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/27.tex}
+%
+\item Let the random variable X represent the number of times a fair coin needs to be tossed till two consecutive heads appear for the first time. The expectation of X is......
+
+\item Let $X\in[0,1]$ and $Y\in[0,1]$ be two independent binary random variables. If $P(X=0) = p$ and $P(Y=0) = q$, then $P(X+Y\geqslant1)$ is equal to
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{1em}
+{\small
+\item $
+pq + (1-p)(1-q)
+$
+\item pq
+\item $p(1-q)$
+\item $1-pq$
+}
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/38.tex}
+\item A fair coin is tossed three times in succession. If the first toss produces a head, then the probability of getting exactly two heads in three tosses is:
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{1em}
+
+\item $\frac{1}{8}$
+\item $\frac{1}{2}$
+\item $\frac{3}{8}$
+\item $\frac{3}{4}$
+
+\end{multicols}
+\end{enumerate}
+
+\item A player throws a ball at a basket kept at a distance. The probability that the ball falls into the basket in a single attempt is 0.1. The player attempts to throw the ball twice. Considering each attempt to be independent, the probability that this player puts the ball into the basket only in the second attempt is.........
+\\
+\solution
+\input{solutions/in/2020.tex}
+
+\item Shaquille O’ Neal is a 60\% career free throw shooter, meaning that he successfully makes 60 free throws out of 100 attempts on average. What is the probability that he will successfully make exactly 6 free throws in 10 attempts?
+\begin{enumerate} [label={\Alph*)}]
+\item 0.2508
+\item 0.2816
+\item 0.2934
+\item 0.6000
+\end{enumerate}
+%
+\solution
+\input{solutions/xe/2016.tex}
+
+%
+\item  Consider a sequence of tossing a fair coin where outcomes of tosses are independent.The probability of getting the head for the third time in the fifth toss is
+    \begin{enumerate}[label=(\Alph*)]
+      \item $\dfrac{5}{16}$  \item $\dfrac{3}{16}$ \item $\dfrac{3}{5}$ \item $\dfrac{9}{16}$
+    \end{enumerate}
+    \solution
+\input{solutions/in/2018.tex}
+
+\item A box has ten light bulbs out of which two are defective, Two light bulbs are drawn from this box one after the other without replacement. The probability that both light bulbs drawn are not defective is 
+\begin{enumerate}[label={\Alph*)}]
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+\item $\dfrac{8}{45}$
+\item $\dfrac{28}{45}$
+\item $\dfrac{16}{25}$
+\item $\dfrac{4}{5}$
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/xe/2015.tex}
+
+\item Three fair dies are rolled simultaneously. The probability of getting a sum of 5 is
+\begin{enumerate}
+    \item $\frac{1}{108}$
+    \item $\frac{1}{72}$
+    \item $\frac{1}{54}$
+    \item $\frac{1}{36}$
+\end{enumerate}
+%
+\solution
+\input{solutions/xe/2017/AI1103_Assignment3.tex}
+
+%
+\item The probability of a resistor being defective is 0.02. There are 50 such resistors in a circuit. The probability of two or more defective resistors in the circuit (round off to two decimal places) is ---
+%
+\solution
+\input{solutions/ee/2019/40.tex}
+
+%
+\item For each element in a set of size 2n, an unbiased coin is tossed. The 2n coin tosses are independent. An element is chosen if the corresponding coin toss were head. The probability that exactly n elements are chosen is:\\
+\begin{enumerate}
+    \item $\frac{\comb{2n}{n}}{4^{n}}$ \hspace{1cm}\\
+    \item $\frac{\comb{2n}{n}}{2^{n}}$ \hspace{1cm}\\
+    \item $\frac{1}{\comb{2n}{n}}$ \hspace{1cm}\\
+    \item $\frac{1}{2}$
+\end{enumerate}
+%
+\solution
+\input{solutions/cs/2006/21.tex}
+
+%
+\item  In an industry, the probability of an accident occurring in a given month is $\frac{1}{100}$. Let $\pr{n}$ denote the probability that there will be no accident over a period of '$n$' months. Assume that the events of individual months are independent of each other. The smallest integer value of '$n$' such that $\pr{n}\le \frac{1}{2} $ is .............(\textit{round off to the nearest integer}).\\
+%
+\solution
+\input{solutions/xe/2020/14.tex}
+
+
+\item A fair coin is tossed $n$ times. The probability that the difference between number of heads and tails is $(n-3)$ is 
+\begin{enumerate}
+    \item $2^{-n}$
+    \item 0
+    \item $\comb{n}{n-3}2^{-n}$
+    \item $2^{-n+3}$
+\end{enumerate}
+\solution
+\input{solutions/ee/2014/27.tex}
+
+\item  A lot has $10\%$ defective items. Ten items are chosen randomly from this lot. The probability that exactly $2$ of the chosen items are defective is
+%
+\solution
+\input{solutions/me/2005/2.tex}
+
+%
+\item A fair coin is tossed 20
+ times. The probability that ‘head’ will appear exactly 4
+ times in the first ten tosses, and ‘tail’ will appear exactly 4
+ times in the next ten tosses is....(round off to 3
+ decimal places)
+%
+\\
+\solution
+\input{solutions/me/2020/36.tex}
+%
+
+%
+\item If three coins are tossed simultaneously, the probability of getting atleast one head is:\\
+\begin{enumerate}
+    \item $\frac{1}{8}$
+    \newline
+    \item $\frac{3}{8}$
+    \newline
+    \item $\frac{1}{2}$
+    \newline
+    \item $\frac{7}{8}$
+\end{enumerate}
+%
+\solution
+\input{solutions/me/2009/4.tex}
+
+%
+\item The mean and variance, respectively of a binomial distribution for n independent trials with the probability of success as p, are \\
+\begin{enumerate}
+    \item $\sqrt{np}$, $np(1-2p)$\\
+    \item $\sqrt{np}$, $\sqrt{np(1-p)}$\\
+    \item $np, np$ \\
+    \item $np, np(1-p)$ 
+\end{enumerate}
+%
+\solution
+ \input{solutions/me/2021/3.tex}
+
+ \item A company is hiring to fill four managerial positions. The candidates are five men and three women. If every candidate is equally likely to be chosen then the probability that at least one woman is chosen is
+ %
+ \solution
+  \input{solutions/me/2020/23.tex}
+ 
+%
+\item If a fair coin is tossed four times,what is the probability that two tails and two heads will result?
+%
+\solution
+\input{solutions/cs/2004/25.tex}
+
+\item A die is rolled three times The probability that exactly one odd number turns up among the three outcomes is?
+%
+\solution
+\input{solutions/cs/1999/1.tex}
+%
+
+%
+\item A coin is picked randomly from the box and tossed .Out of the two remaining coins in the box ,one coin is then picked randomly and tossed.If the first toss results in a head,Then the probability of getting head in second toss is :
+\begin{enumerate}
+
+\item $ \frac{2}{5}$\\
+\item $\frac{1}{3}$\\
+\item $ \frac{1}{2}$\\
+\item $\frac{2}{3}$
+
+\end{enumerate}  
+%
+%\solution
+%\input{solutions/ec/2021/27.tex}
+
+%
+\item A six-faced fair dice is rolled five times. The probability (in percentage ) of obtaining “ONE” at least four times is 
+\begin{enumerate}
+    \item 33.3
+    \item 3.33
+    \item 0.33
+    \item 0.0033
+\end{enumerate}
+%
+\solution
+\input{solutions/me/2018/18.tex}
+
+%
+\item A coin is tossed 4 times. What is the probability of getting heads exactly three times ?
+\begin{enumerate}
+    \item $\frac{1}{4}$ 
+    \item $\frac{3}{8}$
+    \item $\frac{1}{2}$
+    \item $\frac{3}{4}$
+    
+\end{enumerate}
+%
+\solution
+\input{solutions/me/2008/4.tex}
+
+
+\end{enumerate}

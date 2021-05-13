@@ -1,0 +1,572 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item A continuous random variable X has a probability density function $f(x) = e^{-x}, 0<x<\infty$. Then $P(X>1)$ is
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+
+\item $0.368$
+\item $0.5$
+\item $0.632$
+\item $1.0$
+
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/14/Assignment_2.tex}
+
+\item A random variable X has probability density function $f(x)$ as given below:\\
+\begin{align}
+f(x) =
+\begin{cases}
+a+bx
+&  0<x<1
+\\      
+0
+& \text{otherwise}
+\end{cases}
+\label{a}
+\end{align}
+\\
+If the expected value $E[X]=\dfrac{2}{3}$, then $Pr[X<0.5]$ is..........
+\\
+\solution
+\input{solutions/ec/15/AI1103_Assignment2.tex}
+
+\item Let X be a random variable with a probability density function
+\begin{align}
+f(x) = 
+\begin{cases}
+0.2 & \abs{x}\leq1
+\\
+0.1 & 1\leq\abs{x}\leq4
+\\
+0 & otherwise
+\end{cases}
+\label{pdf}
+\end{align}
+
+Find $\pr{0.5< X \leq 5}$
+\\
+\solution
+\input{solutions/ec/20/main.tex}
+%
+\item Consider two identically distributed zero-mean random variables U and V. Let the cumulative distribution functions of U and 2V be F(\textit{x}) and G(\textit{x}) respectively. Then,for all values of \textit{x}
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+{\small
+\item $
+F(x)-G(x)\leqslant0
+$
+\item $
+F(x)-G(x)\geqslant0
+$
+\item $
+(F(x)-G(x))\textit{x}\leqslant0
+$
+\item $
+(F(x)-G(x))\textit{x}\geqslant0
+$
+}
+\end{multicols}
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/21.tex}
+%
+\item A probability density function is of the form\\
+{\centering $p(\textit{x}) = Ke^{-\alpha |x|}, \textit{x}\in(-\infty,\infty)$\\}
+The value of K is 
+
+\begin{enumerate}
+\begin{multicols}{4}
+\setlength\itemsep{2em}
+
+\item 0.5
+\item 1
+\item $0.5\alpha$
+\item $\alpha$
+
+\end{multicols}
+\end{enumerate}
+
+
+\item The probability density function (PDF) of a random variable X is as shown in Fig. \ref{fig:2}.
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure2.eps}
+\caption{}
+\label{fig:2}
+\end{figure}
+
+The corresponding cumulative distribution function (CDF) has the form\\
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{4em}
+
+\item Fig. \ref{fig:3}
+
+%\includegraphics{figure3.eps}
+\item Fig. \ref{fig:4}
+
+%\includegraphics{figure4.eps}
+\item Fig. \ref{fig:5}
+
+% \includegraphics{figure5.eps}
+\item Fig. \ref{fig:6}
+
+
+%\includegraphics{figure6.eps}
+
+\end{multicols}
+\end{enumerate}
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure3.eps}
+\caption{}
+\label{fig:3}
+\end{figure}
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure4.eps}
+\caption{}
+\label{fig:4}
+\end{figure}
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure5.eps}
+\caption{}
+\label{fig:5}
+\end{figure}
+
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure6.eps}
+\caption{}
+\label{fig:6}
+\end{figure}
+
+\item The distribution function $f_x(x)$ of a random variable X is shown in Fig. \ref{fig:12}. The probability that X=1 is
+%
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure12.eps}
+\caption{}
+\label{fig:12}
+\end{figure}
+
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{1em}
+
+\item Zero
+\item 0.25
+\item 0.55
+\item 0.30
+
+\end{multicols}
+\end{enumerate}
+%
+\item Let the probability density function of a random variable $X$ be 
+\begin{center}
+$ 
+f(x)=
+\begin{cases}
+x & 0\leq\ x< \frac{1}{2}\\
+c(2x-1)^2 &  \frac{1}{2}<x\leq\ 1\\
+0 & \text{otherwise}.
+\end{cases}
+$\\ 
+\end{center}
+
+
+Then,the value of $c$ is equal to \underline{\hspace{3cm}}
+\\
+\solution
+\input{solutions/ec/52/assignment2.tex}
+
+\item Let $X$ be a random variable with the following cumulative distribution function: 
+
+\begin{center}
+$ 
+F(x)=
+\begin{cases}
+0 & x<0 \\
+x^2 & 0\leq\ x <\frac{1}{2}\\
+\frac{3}{4} & \frac{1}{2}\leq\ x<1\\
+1 & x\geq\ 1.
+\end{cases}
+$\\ 
+
+\end{center}
+Then $P\brak{\frac{1}{4}<X<1}$ is equal to \underline{\hspace{3cm}}
+\\
+\solution
+\input{solutions/ec/54/Assignment_2.tex}
+
+
+
+\item Let $X_1$ be an exponential random variable with mean 1 and $X_2$ a gamma random variable with mean 2 and variance 2. If $X_1$ and $X_2$ are independently distributed,then $P(X_1<X_2)$ is equal to \underline{\hspace{3cm}}
+\\
+\solution
+\input{solutions/ec/55.tex}
+\begin{center}
+\centering\underline{\textbf{Common Data for the next two Questions :}}
+\end{center}
+
+\item 
+Let $X$ and $Y$ be jointly distributed random variables such that the conditional distribution of $Y$, given $X$ =$x$, is uniform on the interval $(x-1,x+1)$. Suppose $E(X)=1$ and $Var(X)=\frac{5}{3}$.
+\\
+The mean of the random variable $Y$ is 
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $ \frac{1}{2}$\\
+\item $1$\\
+\item $ \frac{3}{2}$\\
+\item $2$
+
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/56.tex}
+\item The variance of the random variable $Y$ is 
+\\
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $ \frac{1}{2}$\\
+\item $ \frac{2}{3}$\\
+\item $1$\\
+\item $2$
+
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/57.tex}
+
+\item Let the random variable $X$ have the distribution function: 
+\begin{center}
+$ 
+F(x)=
+\begin{cases}
+0 &  \ x<0 \\
+\frac{x}{2} &  \ 0\leq\ x <1 \\
+\frac{3}{5} &  \ 1\leq\ x<2\\
+\frac{1}{2}+\frac{x}{8} &  \ 2\leq\ x<3\\
+1 &  \ x\geq\ 3.
+\end{cases}
+$\\ 
+\end{center}
+
+Then $P\brak{2 \leq\ X<4}$ is equal to \underline{\hspace{3cm}}
+ \\
+\solution
+\input{solutions/ec/58/Assignment2.tex}
+%
+\item Let $X$ be a random variable having the distribution function: 
+\begin{center}
+$ 
+F(x)=
+\begin{cases}
+0 &  \ x<0 \\
+\frac{1}{4} &  \ 0\leq\ x <1 \\
+\frac{1}{3} &  \ 1\leq\ x<2\\
+\frac{1}{2} &  \ 2\leq\ x<\frac{11}{3}\\
+1 &  \ x\geq\ \frac{11}{3}.
+\end{cases}
+$\\ 
+\end{center}
+
+Then $E(X)$ is equal to \underline{\hspace{3cm}}
+%
+\item Let $\Omega= (0,1]$ be the sample space and let $P(\cdot)$ be a probability function defined by 
+
+\begin{center}
+$ 
+P((0,x])=
+\begin{cases}
+\frac{x}{2} &  \ 0 \leq\ x< \frac{1}{2} \\
+x &  \  \frac{1}{2} \leq\ x \leq\ 1.
+\end{cases}
+$\\ 
+\end{center}
+
+Then $P\brak{\lbrace\frac{1}{2}\rbrace}$ is equal to \underline{\hspace{3cm}}
+%
+\item Suppose the random variable $U$ has uniform distribution on $[0,1]$ and $X= -2\log U$. The density of $X$ is
+
+\begin{enumerate}
+
+\item $ 
+f(x)=
+\begin{cases}
+e^{-x} &  \ x>0\\
+0 & \text{otherwise}.
+\end{cases}
+$\\ 
+
+\item $ 
+f(x)=
+\begin{cases}
+2e^{-2x} & \ x>0\\
+0 & \text{otherwise}.
+\end{cases}
+$\\ 
+
+\item $ 
+f(x)=
+\begin{cases}
+\frac{1}{2}e^{-\frac{x}{2}} &  \ x>0\\
+0 & \text{otherwise}.
+\end{cases}
+$\\ 
+
+\item $ 
+f(x)=
+\begin{cases}
+\frac{1}{2} &  \ x \in [0,2]\\
+0 & \text{otherwise}.
+\end{cases}
+$\\ 
+
+
+
+\end{enumerate}
+
+\item Suppose $X$ is a real-valued random variable.Which of the following values \textbf{CANNOT} be attained by $E[X]$ and $E[X^2]$, respectively?
+
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $
+0 \ and \ 1
+$
+\item $
+2  \ and \ 3
+$
+\item $
+\frac{1}{2} \ and \ \frac{1}{3}
+$
+\item $
+2 \ and \ 5
+$
+
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/63.tex}
+
+\item Let $\Omega = (0,1]$ be the sample space and let $P(.)$ be a probability function defined by \\
+$
+P((0,x])=
+\begin{cases}
+\frac{x}{2} 
+&  0 \leqslant x < \frac{1}{2} \\
+x &  \frac{1}{2} \leqslant x \leqslant 1
+\end{cases}
+$ \\
+Then $P \bigg ( \{ \frac{1}{2} \} \bigg )$ is equal to.......
+
+\item Let X be a random variable with the following cumulative distribution function: \\
+
+$
+F(x)= 
+\begin{cases}
+0 & x<0 \\
+x^2 & 0 \leqslant x < \frac{1}{2} \\
+\frac{3}{4} & \frac{1}{2} \leqslant x < 1 \\
+1 & x \geqslant 1
+\end{cases}
+$ \\
+
+Then $P({\frac{1}{4}}<x<1)$ is equal to........
+\\
+\solution
+\input{solutions/ec/73/Assignment-2.tex}
+
+\item Let $X_1$ be an exponential random variable with mean 1 and $X_2$ a gamma random variable with mean 2 and variance 2. If $X_1$ and $X_2$ are independently distributed, then $P(X_1<X_2)$ is equal to.....
+
+\item Suppose the random variable U has uniform distribution on $[0,1]$ and $X= -2 \log U$. The density of X is \\
+
+\begin{enumerate}
+\setlength\itemsep{2em}
+
+\item $
+f(x)=
+\begin{cases}
+e^{-x} &  x>0\\
+0 & \text{otherwise}
+\end{cases}
+$
+
+\item $
+f(x)=
+\begin{cases}
+2e^{-2x} &  x>0 \\
+0 & \text{otherwise}
+\end{cases}
+$
+
+\item $
+f(x)=
+\begin{cases}
+\dfrac{1}{2}e^-{\frac{x}{2}} &  x>0 \\
+0 & \text{otherwise}
+\end{cases}
+$
+
+\item $
+f(x)=
+\begin{cases}
+\dfrac{1}{2} &  x \in [0,2] \\
+0 & \text{otherwise}
+\end{cases}
+$
+
+\end{enumerate}
+\solution
+\input{solutions/ec/79.tex}
+
+
+\item Suppose X is a real-valued random variable. Which of the following values CANNOT be attained by $E[X]$ and $E[X^2]$, respectively?
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item 0 and 1
+\item 2 and 3
+\item $\dfrac{1}{2}$ and $\dfrac{1}{3}$
+\item 2 and 5
+\end{multicols}
+\end{enumerate}
+\solution
+\input{solutions/ec/80.tex}
+
+\item Probability density function $p(x)$ of a random variable x is as shown below. The value of $\alpha$ is 
+
+\begin{figure}[!h]
+\includegraphics[width=\columnwidth]{./figs/figure13.eps}
+\caption{}
+\label{fig:13}
+\end{figure}
+
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $\dfrac{2}{c}$
+\item $\dfrac{1}{c}$
+\item $\dfrac{2}{(b+c)}$
+\item $\dfrac{1}{(b+c)}$
+
+\end{multicols}
+\end{enumerate}
+
+
+%
+\item Let the probability density function of random variable,$X$,be given as:\\
+\\$f_x(x)$ = $\frac{3}{2}$$e^{-3x}$${u(x)}$ + $a$$e^{4x}$${u(-x)}$\\
+\\where u(x) is the unit step function.Then the value of a and Prob\{$X\leq0$\}, respectively,are:\\
+\\(A) 2,$\frac{1}{2}$\\
+\\(B) 4,$\frac{1}{2}$\\
+\\(C) 2,$\frac{1}{4}$\\
+\\(D) 4,$\frac{1}{4}$\\
+\solution
+\input{solutions/ee/2016/33/Assignment_2.tex}
+
+%
+\item Suppose $X_i$ for $i = 1, 2, 3$ are independent
+and identically distributed random variables
+whose probability mass functions are
+$\pr{X_i = 0} = \pr{X_i = 1} = \frac{1}{2}$ for $i = 1, 2, 3$.
+Define another random variable $Y = X_1 X_2 \oplus X_3$, where $\oplus$ denotes XOR. Then $\pr{Y = 0|X_3 = 0} =$
+\\
+\solution 
+\input{solutions/cs/2015/37.tex}
+
+%
+\item A continuous random variable X has a probability density function 
+\begin{align}
+ \fn{x} = e^{-x}, \text{where, } 0<x<\infty.
+\end{align}
+Then \pr{X > 1} is ?
+\solution
+\input{solutions/ee/2013/11.tex}
+
+%
+\item Assume that the duration in minutes of a telephone conversation follows the exponential distribution f(x) = $\frac{1}{5}e^{-\frac{x}{5}}$, x $\ge$ 0. The probability that the conversation will exceed five minutes is...
+\begin{enumerate}
+\item $\frac{1}{e}$ 
+\item 1 - $\frac{1}{e}$ 
+\item $\frac{1}{e^2}$ 
+\item 1 - $\frac{1}{e^2}$
+\end{enumerate}
+%
+%
+\solution
+\input{solutions/in/2007/27.tex}
+
+%
+\item Suppose $Y$ is distributed uniformly in the open interval (1,6). The probability that the polynomial 3$x^2$+6$xY$+3$Y$+6 has only real roots is (rounded off to 1 decimal place) 
+%
+\solution
+ \input{solutions/cs/2019/47.tex}
+
+%
+\item Let \(X\) be a continuous random variable denoting the temperature measured. The range of temperature is [0,100] degree Celsius and let probability density function of \(X\) be \(f(x)\)=0.01 for 0 \(\leq X \leq\) 100.\newline
+The mean of \(X\) is ?\newline
+%
+\begin{enumerate}[label=(\Alph*)]
+    \item \(2.5\)
+    \item \(5.0\)
+    \item \(25.0\)
+    \item \(50.0\)
+\end{enumerate}
+%
+\solution
+\input{solutions/ee/2021/8.tex}
+
+%
+\item The PDF of a Gaussian random variable X is given by 
+P$_{X}(x) = \dfrac{1}{3\sqrt{2\pi}}e^{\dfrac{-(x-4)^{2}}{18}}$.The probability of the event { X = 4} is\\
+\begin{enumerate}
+    \item  $\dfrac{1}{2}$\\
+    \item  $\dfrac{1}{3\sqrt{2\pi}}$\\
+    \item  0\\
+    \item  $\dfrac{1}{4}$\\
+\end{enumerate}
+%
+\solution
+\input{solutions/ec/2001/1.20.tex}
+%
+
+\item Probability density function $p(x)$ of random variable x is as shown below. The value of a is
+\begin{enumerate}[label=\Alph*)]
+    \item $\frac{2}{c}$
+    \item $\frac{1}{c}$
+    \item $\frac{2}{(b+c)}$
+    \item $\frac{1}{(b+c)}$
+\end{enumerate}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\columnwidth]{solutions/in/2006/2/figures/convolution.png}
+\caption{PDF}
+\label{in2006-2:fig:convolution}
+\end{figure}
+%
+\solution
+\input{solutions/in/2006/2/latex3.tex}
+
+
+\end{enumerate}

@@ -1,0 +1,114 @@
+
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+
+\item Consider a communication scheme where the binary valued signal X satisfies $P\{X = +1\} = 0.75$ and $P\{X = -1\} = 0.25$. The received signal $Y = X+Z$, where Z is a Gaussian random variable with zero mean and variance $\sigma^2$. The received signal Y is fed to the threshold detector. The output of the threshold detector $\hat X$ is:\\
+{\centering $
+{\hat X}= 
+\begin{cases} 
++1 & Y> \tau \\
+-1 & Y \leqslant \tau 
+\end{cases}
+$\\}
+To achieve minimum probability of error $P\{\hat X \neq X\}$, the threshols $ \tau$ should be
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item strictly positive
+\item zero
+\item strictly negative
+\item strictly positive, zero or strictly negative depending on the nonzero value of $\sigma ^2$
+
+\end{multicols}
+\end{enumerate}
+%
+
+\item 
+\begin{center}
+    \centering\underline{\textbf{Common Data for the following two Questions :}}
+    \end{center}
+    Let $X$ be a random variable with probability density function $f \in \{f_0,f_1\},$ where     
+$ 
+f_0(x)=
+\begin{cases}
+2x & 0<x<1 \\
+0 & \text{otherwise}
+\end{cases}
+$ \\
+
+$ 
+f_1(x)=
+\begin{cases}
+3x^2 &  0<x<1 \\
+0 & \text{otherwise}
+\end{cases}
+$\\
+
+For testing the null hypothesis $H_0:f \equiv f_0$ against the alternative hypothesis $H_1:f \equiv f_1$ at level of significance $\alpha = 0.19$, the power of the most powerful test is
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $ 0.729$
+\item $ 0.271$
+\item $ 0.615$
+\item $ 0.385$
+
+\end{multicols}
+\end{enumerate}
+
+
+\item The variance of the random variable $X$ is
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $ \frac{1}{12}$
+\item $ \frac{1}{4}$
+\item $ \frac{7}{12}$
+\item $ \frac{5}{12}$
+
+\end{multicols}
+\end{enumerate}
+
+
+\item The covariance between the random variables $X$ and $Y$ is
+
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{2em}
+
+\item $ \frac{1}{3}$\\
+\item $ \frac{1}{4}$\\
+\item $ \frac{1}{6}$\\
+\item $ \frac{1}{12}$\\
+
+\end{multicols}
+\end{enumerate}
+
+
+\item A screening test is carried out to detect a certain disease. It is found that $12\%$ of the positive
+reports and $15\%$ of the negative reports are incorrect. Assuming that the probability of a
+person getting positive report is 0.01, the probability that a person tested gets an incorrect
+report is \dots
+\\
+\solution
+\input{solutions/in/2009.tex}
+
+\item A diagnostic test for a certain disease is 90\% accurate. That is, the probability of a person having (respectively, not having) the disease tested positive (respectively, negative) is 0.9. Fifty percent of the population has the disease. What is the probability that a randomly chosen person has the disease given that the person tested negative?
+\\
+\solution
+\input{solutions/xe/2016-8.tex}
+
+
+\end{enumerate}
