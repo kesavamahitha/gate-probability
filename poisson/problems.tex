@@ -70,7 +70,46 @@ point of time is \ldots (\textit{round off to the nearest integer}).
 %
 \solution
 \input{solutions/me/2011/19.tex}
+%
+\item The number $N$ of persons getting injured in a bomb blast at a busy market place is a random variable having a Poisson Distribution with parameter $\lambda(\geq 1)$.
+ A person injured in the explosion may either suffer a minor injury requiring first aid or suffer a major injury requiring hospitalisation. Let the number of persons with minor injury be $N_1$ and the conditional distribution of $N_1$ given N is
+ \begin{align}
+     \pr{N_1 = i \vert N} = \frac{1}{N}
+     \label{condition}
+ \end{align}
+ Find the expected number of persons requiring hospitalisation.
+ %
+\solution
+\input{solutions/adv/ma/2001/18.tex}
+%
+\item Suppose customers arrive at an ATM facility according to Poisson process with rate 5 customers per hour. The probability (rounded off to two decimal places) that no customer arrives at the ATM facility from 1:00pm to 1:18pm.
+%
+\solution
+  \input{solutions/adv/st/2019/48.tex}
 
+  \item  Consider an amusement park where visitors are arriving according to a Poisson process with rate 1. Upon arrival, a visitor spends a random amount of time in the park and then departs. The time spent by the visitors is independent of one another, as well as of the arrival process and have common probability density function 
+  \begin{align}
+      f(x) = 
+      \begin{cases}
+          e^{-x}, & x > 0\\
+          0,      & otherwise
+      \end{cases}
+  \end{align}
+  If at a given point, there are 10 visitors in the park, and p is the probability that there will be exactly two more arrivals before the next departure, then $\frac{1}{p}$ equals.....
+  \solution
+    \input{solutions/adv/st/2021/50/main.tex}
+%
+\item Let X and Y be two independent Poisson random variables with parameters 1 and 2 respectively. Then, $\pr{X=1 | X+Y = 4}$ is 
+\begin{enumerate}[label=\Alph*)]
+    \item 0.426
+    \item 0.293
+    \item 0.395
+    \item 0.512
+\end{enumerate}
+%
+\solution
+  \input{solutions/adv/ma/2006/16.tex}
+  
 
 
 \end{enumerate}

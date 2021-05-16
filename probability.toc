@@ -1,17 +1,17 @@
 \contentsline {section}{\numberline {1}Axioms}{1}{section.1}%
-\contentsline {section}{\numberline {2}Elementary Probability}{7}{section.2}%
-\contentsline {section}{\numberline {3}Binary Channels}{28}{section.3}%
-\contentsline {section}{\numberline {4}Independence}{31}{section.4}%
-\contentsline {section}{\numberline {5}Geometric Distribution}{35}{section.5}%
-\contentsline {section}{\numberline {6}Binomial Distribution}{38}{section.6}%
-\contentsline {section}{\numberline {7}Exponential Distribution}{46}{section.7}%
-\contentsline {section}{\numberline {8}Gaussian Distribution}{47}{section.8}%
-\contentsline {section}{\numberline {9}Poisson Distribution}{51}{section.9}%
-\contentsline {section}{\numberline {10}Random Variables}{59}{section.10}%
-\contentsline {section}{\numberline {11}Independence}{75}{section.11}%
-\contentsline {section}{\numberline {12}Integral Transforms}{80}{section.12}%
-\contentsline {section}{\numberline {13}Two Dimensions}{85}{section.13}%
-\contentsline {section}{\numberline {14}Markov Chains}{89}{section.14}%
-\contentsline {section}{\numberline {15}Random Process}{93}{section.15}%
-\contentsline {section}{\numberline {16}Convergence}{94}{section.16}%
-\contentsline {section}{\numberline {17}Statistics}{94}{section.17}%
+\contentsline {section}{\numberline {2}Elementary Probability}{10}{section.2}%
+\contentsline {section}{\numberline {3}Binary Channels}{31}{section.3}%
+\contentsline {section}{\numberline {4}Independence}{34}{section.4}%
+\contentsline {section}{\numberline {5}Geometric Distribution}{42}{section.5}%
+\contentsline {section}{\numberline {6}Binomial Distribution}{45}{section.6}%
+\contentsline {section}{\numberline {7}Exponential Distribution}{54}{section.7}%
+\contentsline {section}{\numberline {8}Gaussian Distribution}{61}{section.8}%
+\contentsline {section}{\numberline {9}Poisson Distribution}{66}{section.9}%
+\contentsline {section}{\numberline {10}Random Variables}{78}{section.10}%
+\contentsline {section}{\numberline {11}Independence}{101}{section.11}%
+\contentsline {section}{\numberline {12}Integral Transforms}{109}{section.12}%
+\contentsline {section}{\numberline {13}Two Dimensions}{115}{section.13}%
+\contentsline {section}{\numberline {14}Markov Chains}{127}{section.14}%
+\contentsline {section}{\numberline {15}Random Process}{131}{section.15}%
+\contentsline {section}{\numberline {17}Statistics}{133}{section.17}%
+\contentsline {section}{\numberline {16}Convergence}{134}{section.16}%

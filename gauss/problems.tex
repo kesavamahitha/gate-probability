@@ -120,6 +120,66 @@ where the threshold $\theta  \in [-1,1]$ is chosen so as to minimize the probabi
 \solution
 \input{solutions/ec/2013/26.tex}
 %
+%
+\item Let X be a standard normal random variable. Then $\pr{X < 0 |\;\abs{\lfloor X\rfloor} = 1}$ is equal to
+\begin{enumerate}[label = \alph*)]
+    \item $\cfrac{\Phi(1) - \frac{1}{2}}{\Phi(2) - \frac{1}{2}}$
+    \item $\cfrac{\Phi(1) + \frac{1}{2}}{\Phi(2) + \frac{1}{2}}$
+    \item $\cfrac{\Phi(1) - \frac{1}{2}}{\Phi(2) + \frac{1}{2}}$
+    \item $\cfrac{\Phi(1) + 1}{\Phi(2) + 1}$
+\end{enumerate}
+%
+\solution
+\input{solutions/adv/ma/2016/49.tex}
+%
+\item Let $(X,Y)$ have a bivariate normal distribution with the joint probability density function
+\begin{align}
+f_{X,Y}(x,y)=\frac{1}{\pi}e^{(\frac{3}{2}xy-\frac{25}{32}x^2-2y^2)}\\
+-\infty < x,y < \infty
+\end{align}
+Then $E(XY)$ equals 
+%
+\\
+\solution
+  \input{solutions/adv/st/2021/44.tex}
 
+  \item Let \(X_1,X_2\)... be a sequence of independent and identically distributed random variable with
+  \begin{align}
+      \pr{X_1=-1}=\pr{X_1=1}=1/2
+  \end{align}
+  Suppose for the standard normal random variable Z,
+  \begin{align}
+  &\pr{-0.1\leq Z \leq 0.1}=0.08 .\label{qneq} \\ \nonumber
+  &\text{If } S_n= \sum_{i=1}^{n^2} X_i ,\text{then} \lim_{n\to\infty} \pr{S_n >\frac{n}{10}} =
+  \end{align}
+  \begin{enumerate}
+      \item 0.42
+      \item 0.46
+      \item 0.50
+      \item 0.54
+  \end{enumerate}
+  \solution
+    \input{solutions/adv/ma/2007/55.tex}
+%
+\item Robot Ltd. wishes to maintain enough safety
+stock during the lead time period between
+starting a new production run and its completion
+such that the probability of satisfying the
+customer demand during the lead time period
+is 95\%. The lead time periods is 5 days and
+daily customer demand can be assumed to follow
+the Gaussian (normal) distribution with mean
+50 units and a standard deviation of 10 units.
+Using $\phi^{-1}$(0.95) =1.64 , where $\phi$ represents the
+cumulative distribution function of the standard
+normal random variable, the amount of safety
+stock that must be maintained by Robot Ltd. to
+achieve this demand fulfillment probability for
+the lead time period is \rule{1cm}{0.15mm}  units (round off to
+two decimal places).
+%
+\solution
+  \input{solutions/adv/me/2021/20.tex}
+  
 
 \end{enumerate}
