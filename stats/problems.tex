@@ -110,5 +110,59 @@ report is \dots
 \solution
 \input{solutions/xe/2016-8.tex}
 
+%
+\item The probability density function of a random variable X is
+\begin{equation}
+f(x)=
+\begin{cases}
+\frac{1}{\lambda}e^{\brak{-\frac{x}{\lambda}}}, & x>0\\
+0, & x\leq 0
+\end{cases}
+\end{equation}
+where $\lambda>0.$ For testing the hypothesis $H_{0}:\lambda=3$ against $H_{1}:\lambda=5$, a test is given as "Reject $H_0$ if $X\geq 4.5$".The probability of type 1 error and power of the test are respectively: 
+\begin{enumerate}
+\begin{multicols}{2}
+\setlength\itemsep{1em}
+\item 0.1353 and 0.4966\\
+\item 0.1827 and 0.379\\
+\item 0.2021 and 0.4493\\
+\item 0.2231 and 0.4066
+\end{multicols}
+\end{enumerate}
+%
+  \solution
+  \input{solutions/adv/ma/2012/30.tex}
+%
+\item Let $Y_{1},Y_{2},...,Y_{15}$ be a random sample of size 15 from the probability density function 
+\begin{align}
+\tag{Eq:1}
+    f_{y}(y)=3(1-y)^{2} , 0<y<1
+\end{align}
+Use the central limit theorem to approximate $P\brak{\frac{1}{8}<\Bar{Y}<\frac{3}{8}}$
+%
+\solution
+  \input{solutions/adv/ma/1996/25.tex}
+  %
+  \item Let X be a non-constant positive Random Variable such that $E(X) = 9$.\\
+  Then which of the following statements is True?
+  \begin{enumerate}
+  \item  $E\brak{\frac{1}{X+1}} > 0.1$ and $\pr{X \ge 10} \le 0.9$
+  \item   $E\brak{\frac{1}{X+1}} < 0.1$ and $\pr{X \ge 10} \le 0.9$
+  \item   $E\brak{\frac{1}{X+1}} > 0.1$ and $\pr{X \ge 10} > 0.9$
+  \item   $E\brak{\frac{1}{X+1}} < 0.1$ and $\pr{X \ge 10} > 0.9$
+  \end{enumerate}
+  %
+  \solution
+    \input{solutions/adv/st/2021/1.tex}
+%
+\item Let $X_{1},X_{2},X_{3},\cdots$ be a sequence of i.i.d uniform \brak{0,1} random variables. Then the value of 
+\begin{align} \lim_{n\to\infty} \pr{-\ln{\brak{1-X_{1}}}-\cdots-\ln{\brak{1-X_{n}}} > n} 
+\end{align} is equal to 
+%
+%
+\\
+\solution
+  \input{solutions/adv/ma/2016/48.tex}
+
 
 \end{enumerate}
