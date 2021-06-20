@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  16 MAY 2021 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  17 JUN 2021 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4773,17 +4773,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--90
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/1.tex) (./solutions/ec/9.tex
+(./markov/solutions/1.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[127]
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 30.
+(Font)              scaled to size 8.54997pt on input line 85.
 
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
-
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
- [127])
+) (./solutions/ec/9.tex [128])
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -4799,10 +4801,23 @@ Underfull \hbox (badness 5388) in paragraph at lines 4--25
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128])
-(./solutions/xe/2020/11.tex [129]
+ [129]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1478) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130])
+(./solutions/xe/2020/11.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -4810,7 +4825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
-
+[131]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
@@ -4830,7 +4845,7 @@ Underfull \hbox (badness 7151) in paragraph at lines 84--85
 []\OT1/txr/m/n/12 If the out-comes are ei-ther (HEADS,
  []
 
-(./solutions/adv/cs/2016/29.tex [130]
+(./solutions/adv/cs/2016/29.tex
 Underfull \hbox (badness 2050) in paragraph at lines 82--110
 \OT1/txr/m/n/12 The canon-i-cal form di-vides the tran-si-tion
  []
@@ -4840,26 +4855,15 @@ Overfull \hbox (9.31201pt too wide) in paragraph at lines 82--110
 [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 5147) has occurred while \output is active []
-
-))
-(./process/problems.tex [131] (./process/solutions/1.tex)
+[132])) (./process/problems.tex (./process/solutions/1.tex)
 (./solutions/46/Assignment3.tex
+Underfull \vbox (badness 7326) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
+ [133])
 (./solutions/ec/2003/65.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132]))
+))
 (./conv/problems.tex (./solutions/me/2021/5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 \OT1/txr/m/n/12 consider two sets of Bernoulli tri-als
@@ -4877,9 +4881,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-Underfull \vbox (badness 5345) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-))
+ [134])
+(./solutions/adv/ma/2018/25.tex
+Underfull \hbox (badness 4378) in paragraph at lines 23--1
+[]\OT1/txr/m/n/12 Let $\OMS/txsy/m/n/12 f\OML/txmi/m/it/12 X[]\OMS/txsy/m/n/12 
+g$ \OT1/txr/m/n/12 be a se-quence of in-de-pen-dent
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136])
+(./solutions/adv/st/2021/19/Assignment4.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 24--26
+\OT1/txr/bx/n/12 If $[] []$=1, we say that $\OML/txmi/m/it/12 Y[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+<solutions/adv/st/2021/19/Figures/CDF_Z.png, id=4439, 393.47pt x 280.04625pt>
+File: solutions/adv/st/2021/19/Figures/CDF_Z.png Graphic file (type png)
+<use solutions/adv/st/2021/19/Figures/CDF_Z.png>
+Package pdftex.def Info: solutions/adv/st/2021/19/Figures/CDF_Z.png  used on in
+put line 75.
+(pdftex.def)             Requested size: 252.0pt x 179.35716pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]))
 (./stats/problems.tex
 Underfull \hbox (badness 2351) in paragraph at lines 19--20
 []\OT1/txr/m/n/12 To achieve min-i-mum prob-a-bil-ity of er-ror
@@ -4890,7 +4936,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 \OT1/txr/m/n/12 de-pend-ing on the
  []
 
-[133]
+
+Overfull \vbox (8.55492pt too high) has occurred while \output is active []
+
+
 Overfull \hbox (26.63998pt too wide) in paragraph at lines 36--37
  []$ 
  []
@@ -4932,18 +4981,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-(./solutions/in/2009.tex [134]) (./solutions/xe/2016-8.tex
+(./solutions/in/2009.tex [138 <./solutions/adv/st/2021/19/Figures/CDF_Z.png>])
+(./solutions/xe/2016-8.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [135]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+(./solutions/adv/ma/2012/30.tex
+Underfull \vbox (badness 2913) has occurred while \output is active []
+
+ [139])
+(./solutions/adv/ma/1996/25.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140])
+(./solutions/adv/st/2021/1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+) (./solutions/adv/ma/2016/48.tex
+Underfull \hbox (badness 7151) in paragraph at lines 6--9
+\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 Y[]; Y[]; []  ;$ \OT1/txr/m/n/12 be an-o
+ther se-quence of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
+
+ []
+
+[141]
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+)) [142
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
-
-(./probability.aux)
+ (./probability.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `probability.out' has not changed.
-(rerunfilecheck)             Checksum: 008FAAA55611389FEAF6464B577979A5;883.
+(rerunfilecheck)             Checksum: A67D2DE2C90EE25B037FEC333E696152;883.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4951,10 +5052,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 57719 strings out of 481239
- 1396496 string characters out of 5920377
- 1862529 words of memory out of 5000000
- 67983 multiletter control sequences out of 15000+600000
+ 57957 strings out of 481239
+ 1400150 string characters out of 5920377
+ 1863758 words of memory out of 5000000
+ 68044 multiletter control sequences out of 15000+600000
  657930 words of font info for 309 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  68i,30n,104p,728b,2161s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4973,10 +5074,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on probability.pdf (135 pages, 1617602 bytes).
+Output written on probability.pdf (142 pages, 1664864 bytes).
 PDF statistics:
- 5129 PDF objects out of 5155 (max. 8388607)
- 4741 compressed objects within 48 object streams
- 3239 named destinations out of 3580 (max. 500000)
- 505 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5367 PDF objects out of 6186 (max. 8388607)
+ 4968 compressed objects within 50 object streams
+ 3399 named destinations out of 3580 (max. 500000)
+ 510 words of extra memory for PDF output out of 10000 (max. 10000000)
 
