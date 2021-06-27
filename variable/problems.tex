@@ -5,6 +5,30 @@
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
+\item The probability density function(PDF) of a random variable X is as shown in the fig.
+The corresponding cumulative distribution function (CDF) has the form
+\begin{figure}[h]
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tikzpicture}
+\draw[thick,->] (0,0) -- (4.5,0)node[anchor=north west] {x axis};
+\draw[thick,->] (0,0) -- (0,4.5)node[anchor=north west] {y axis};
+\draw[thick,->] (0,0) -- (-4.5,0);
+\draw (-1,0) -- (0,1)-- (1,0);
+\foreach \x in {0,1,2,3,4}
+   \draw (\x cm,1pt) -- (\x cm,-1pt) node[anchor=north] {$\x$};
+\foreach \y in {0,1,2,3,4}
+    \draw (1pt,\y cm) -- (-1pt,\y cm) node[anchor=east] {$\y$};
+\end{tikzpicture}
+}
+\caption{PDF Graph}
+\label{fig:var/solutions/1/PDF Graph}
+\end{figure}
+%
+\\
+\solution
+\input{variable/solutions/1/assignment2.tex}
+
 
 \item A continuous random variable X has a probability density function $f(x) = e^{-x}, 0<x<\infty$. Then $P(X>1)$ is
 \begin{enumerate}

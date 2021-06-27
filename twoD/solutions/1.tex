@@ -1,0 +1,21 @@
+We have 
+\begin{align}
+\pr{X\leq \frac{2}{3}\bigg{|}Y = \frac{3}{4}} = \frac{\pr{X\leq \frac{2}{3}, Y = \frac{3}{4}}}{\pr{Y = \frac{3}{4}}}  
+\end{align}
+So we have to consider: $\pr{X \leq 2/3, Y = 3/4}$ and $\pr{Y = 3/4}$. They are both lines as can be seen in the Python plot. (In black and in both black and purple respectively)
+
+Hence instead of integrating over area in the $XY$ plane, we have to integrate over these line segments:
+\begin{align}
+L_1 : 0 < X \leq 2/3, Y = 3/4 \\ 
+L_2 : 0 < X < 3/4, Y = 3/4 
+\end{align}
+As stated before, $L_1$ segment is shown in black while $L_2$ segment is shown in black and purple.
+Therefore, we have:
+\begin{align}
+\pr{X\leq \frac{2}{3}\bigg{|}Y = \frac{3}{4}} &= \frac{\int\limits_{L_1} f_{XY}(x,y)\,dx}{\int\limits_{L_2} f_{XY}(x,y)\,dx} \\ 
+&= \frac{\int\limits_{0}^{2/3} 2\,dx}{\int\limits_{0}^{3/4} 2\,dx} 
+\end{align}
+
+\begin{align}
+\pr{X\leq \frac{2}{3}\bigg{|}Y = \frac{3}{4}} = \frac{4}{3} \times \frac{2}{3} = \frac{8}{9}
+\end{align}
