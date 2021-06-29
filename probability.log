@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.27)  28 JUN 2021 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  28 JUN 2021 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,8 +114,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
+(/root/texmf/tex/latex/tmeslatex/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -127,28 +127,62 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen158
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+(/root/texmf/tex/latex/tmeslatex/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen159
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count182
-LaTeX Info: Redefining \frac on input line 227.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count183
 \leftroot@=\count184
-LaTeX Info: Redefining \overline on input line 389.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count185
 \DOTSCASE@=\count186
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box47
 \strutbox@=\box48
 \big@size=\dimen160
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
 \macc@depth=\count187
 \c@MaxMatrixCols=\count188
 \dotsspace@=\muskip16
@@ -169,10 +203,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-14 L3 programming layer (loader) 
 
@@ -244,14 +277,15 @@ Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_number_align_skip=\skip57
 \l__siunitx_table_text_align_skip=\skip58
 
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
-Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+(/root/texmf/tex/latex/gvv-slides/base/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(/root/texmf/tex/latex/gvv-slides/base/translator/translator-language-mappings.
+tex))) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks22
 \thm@bodyfont=\toks23
@@ -263,6 +297,15 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip61
 \dth@everypar=\toks27
 )
+(/usr/share/texlive/texmf-dist/tex/generic/mleftright/mleftright.sty
+Package: mleftright 2019/12/03 v1.2 Math left/right delim. as open/close (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
@@ -498,6 +541,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
+
+LaTeX Warning: You have requested, on input line 116, version
+               `2016/11/05' of package amsmath,
+               but only version
+               `2000/07/18 v2.13 AMS math features'
+               is available.
+
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
@@ -511,8 +561,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen257
 \l_MT_above_shortintertext_sep=\dimen258
 \l_MT_below_shortintertext_sep=\dimen259
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -533,8 +582,8 @@ Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/root/texmf/tex/latex/tmeslatex/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -1005,7 +1054,7 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks48
 \verbatim@in@stream=\read3
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+(/root/texmf/tex/latex/tfrupee/tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
 Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 . Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
@@ -1030,18 +1079,11 @@ Package: blkarray 2015/02/27 v0.07 Block array (dpc)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -1717,103 +1759,103 @@ LaTeX Warning: Label `challenge/1second_value' multiply defined.
 )
 \openout1 = `probability.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 94.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 95.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-94.
+95.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-94.
+95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-94.
+95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 94.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 94.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 94.
+LaTeX Info: Redefining \celsius on input line 95.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 95.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 94.
-Package gensymb Info: Using \Omega for \ohm on input line 94.
+LaTeX Info: Redefining \ohm on input line 95.
+Package gensymb Info: Using \Omega for \ohm on input line 95.
 
 Package gensymb Warning: Not defining \micro.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
--English.dict
+(/root/texmf/tex/latex/gvv-slides/base/translator/dicts/translator-basic-dictio
+nary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
@@ -1857,10 +1899,10 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 94.
+ on input line 95.
 
 \AtBeginShipoutBox=\box152
-Package hyperref Info: Link coloring OFF on input line 94.
+Package hyperref Info: Link coloring OFF on input line 95.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1872,59 +1914,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count399
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./probability.out) (./probability.out)
 \@outlinefile=\write4
 \openout4 = `probability.out'.
 
 \c@lstlisting=\count400
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 94
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 95
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-94.
+95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 94.
+(Font)              scaled to size 11.39996pt on input line 95.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 94.
+(Font)              scaled to size 7.59998pt on input line 95.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 94.
+(Font)              scaled to size 5.69998pt on input line 95.
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-94.
+95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
@@ -1969,11 +2011,6 @@ Underfull \hbox (badness 1769) in paragraph at lines 69--70
  []
 
 (./solutions/ec/48.tex
-Overfull \hbox (20.01126pt too wide) detected at line 14
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3])
@@ -2009,11 +2046,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4])
-Overfull \hbox (3.83553pt too wide) detected at line 107
-[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
@@ -2184,8 +2216,8 @@ Underfull \hbox (badness 1365) in paragraph at lines 9--10
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (28.26837pt too wide) detected at line 24
-[]
+Overfull \hbox (4.26837pt too wide) in paragraph at lines 24--24
+[] 
  []
 
 )
@@ -2204,11 +2236,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
  []
 
 (./cond/solutions/2.tex) (./solutions/ec/2.tex [10]) (./solutions/3.tex
-Overfull \hbox (6.87917pt too wide) detected at line 13
-[]
- []
-
-
 Overfull \hbox (18.87914pt too wide) detected at line 18
  []$[]   [] []$ 
  []
@@ -2234,12 +2261,8 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 
 Underfull \vbox (badness 4608) has occurred while \output is active []
 
- [11 <./figs/3.png>]) (./solutions/19/19.tex) (./solutions/ec/30.tex
-Overfull \hbox (14.4473pt too wide) detected at line 25
-[]
- []
-
-) (./solutions/ec/31.tex [12]) (./solutions/ec/66.tex
+ [11 <./figs/3.png>]) (./solutions/19/19.tex) (./solutions/ec/30.tex)
+(./solutions/ec/31.tex [12]) (./solutions/ec/66.tex
 Underfull \hbox (badness 3769) in paragraph at lines 77--77
 []|\OT1/txr/m/n/12 Probability of tak-ing
  []
@@ -2352,8 +2375,8 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 4--5
  []
 
 [16]
-Overfull \hbox (58.20296pt too wide) detected at line 28
-[]
+Overfull \hbox (34.20296pt too wide) in paragraph at lines 28--28
+[] 
  []
 
 ) (./solutions/xe/2021/9.tex
@@ -2398,12 +2421,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18])
-(./solutions/ee/2018/8.tex
-Overfull \hbox (19.66382pt too wide) detected at line 25
-[]
- []
-
-)
+(./solutions/ee/2018/8.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2411,12 +2429,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19])
-(./solutions/cs/2010/27.tex
-Overfull \hbox (10.4373pt too wide) detected at line 18
-[]
- []
-
-) (./solutions/cs/2021/8.tex
+(./solutions/cs/2010/27.tex) (./solutions/cs/2021/8.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2428,12 +2441,7 @@ Overfull \hbox (30.98471pt too wide) in paragraph at lines 52--53
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-Overfull \hbox (17.36986pt too wide) detected at line 79
-[]
- []
-
-)
+ [20])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2452,12 +2460,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/me/2013/45.tex) (./solutions/me/2014/28.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (21.11807pt too wide) detected at line 25
-[]
- []
-
-) (./solutions/me/2015/26.tex
+)
+(./solutions/me/2015/26.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23])
@@ -2465,12 +2469,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/cs/2010/26.tex
-Overfull \hbox (2.3219pt too wide) detected at line 24
-[]
- []
-
-) (./solutions/cs/2019/20.tex
+(./solutions/cs/2010/26.tex) (./solutions/cs/2019/20.tex
 Underfull \vbox (badness 3179) has occurred while \output is active []
 
  [24]
@@ -2484,17 +2483,7 @@ Overfull \hbox (68.35709pt too wide) in paragraph at lines 37--462
  []
 
 (./solutions/cs/2017/60.tex
-Overfull \hbox (21.06052pt too wide) detected at line 13
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (0.88339pt too wide) detected at line 24
-[]
- []
 
 )
 Underfull \hbox (badness 10000) in paragraph at lines 479--480
@@ -2548,21 +2537,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (23.59235pt too wide) detected at line 57
-[]
- []
-
 ) (./solutions/cs/1996/32.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26])
 (./solutions/cs/2012/33.tex
-Overfull \hbox (11.00827pt too wide) detected at line 33
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2604,22 +2583,18 @@ Overfull \hbox (27.43185pt too wide) detected at line 35
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Overfull \hbox (6.26123pt too wide) detected at line 51
-[]
- []
-
-) (./solutions/ma/2002/2.23.tex
-Overfull \hbox (39.63857pt too wide) detected at line 6
-[]
+ [29])
+(./solutions/ma/2002/2.23.tex
+Overfull \hbox (15.63857pt too wide) in paragraph at lines 6--6
+ [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (45.64455pt too wide) detected at line 17
-[]
+Overfull \hbox (21.64455pt too wide) in paragraph at lines 17--17
+ [] 
  []
 
 ) (./solutions/adv/ma/2018/11.tex
@@ -2643,10 +2618,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 Package epstopdf Info: Source file: <./figs/figure7.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 16562 bytes
 (epstopdf)             Output file: <./figs/figure7-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:13:26
 (epstopdf)                    size: 6944 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure7-eps-convert
 ed-to.pdf ./figs/figure7.eps>
@@ -2663,11 +2638,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./solutions/ec/17.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (9.65903pt too wide) detected at line 8
-[]
- []
 
 ) [31 <./figs/figure7-eps-converted-to.pdf>] (./solutions/24/latex2.tex
 <solutions/24/Figure.png, id=1116, 479.99326pt x 254.1495pt>
@@ -2695,10 +2665,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./solutions/24/Figure.png>])
 Package epstopdf Info: Source file: <./figs/figure1.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:00
 (epstopdf)                    size: 12062 bytes
 (epstopdf)             Output file: <./figs/figure1-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:14:59
 (epstopdf)                    size: 5701 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure1-eps-convert
 ed-to.pdf ./figs/figure1.eps>
@@ -2721,8 +2691,8 @@ line 60.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./solutions/cs/2021/assignment2.tex
-Overfull \hbox (26.34831pt too wide) detected at line 25
-[]
+Overfull \hbox (2.34831pt too wide) in paragraph at lines 25--25
+[] 
  []
 
 ) (./solutions/ec/2012/35.tex [33 <./figs/figure1-eps-converted-to.pdf> <./solu
@@ -2777,8 +2747,8 @@ l.21 \end{align}
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (40.56418pt too wide) detected at line 28
-[]
+Overfull \hbox (16.56418pt too wide) in paragraph at lines 28--28
+[] 
  []
 
 ) (./solutions/ec/34/Assignment_3.tex
@@ -2814,11 +2784,6 @@ input line 167.
 (./solutions/ec/2018.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (20.93419pt too wide) detected at line 10
-[]
- []
-
 ) [38 <./solutions/ec/34/Figures/Assignment_3_PDF.png> <./solutions/ec/34/Figur
 es/Assignment_3_CDF.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 121--123
@@ -2843,8 +2808,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--1
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-Overfull \hbox (25.21106pt too wide) detected at line 22
-[]
+Overfull \hbox (1.21106pt too wide) in paragraph at lines 22--22
+[] 
  []
 
 
@@ -2864,13 +2829,8 @@ n-dent and
  []
 
 
-Overfull \hbox (17.44421pt too wide) detected at line 6
-[]
- []
-
-
-Overfull \hbox (53.14183pt too wide) detected at line 25
-[]
+Overfull \hbox (29.14183pt too wide) in paragraph at lines 25--25
+[] 
  []
 
 
@@ -2879,11 +2839,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [40])
 (./solutions/adv/challenge/1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (19.91785pt too wide) detected at line 53
-[]
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2895,8 +2850,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
  []
 
 
-Overfull \hbox (52.38692pt too wide) detected at line 29
-[]
+Overfull \hbox (28.38692pt too wide) in paragraph at lines 29--29
+[] 
  []
 
 )
@@ -2908,8 +2863,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (53.73555pt too wide) detected at line 39
-[]
+Overfull \hbox (29.73555pt too wide) in paragraph at lines 39--39
+[] 
  []
 
 
@@ -2927,16 +2882,6 @@ Underfull \hbox (badness 1796) in paragraph at lines 60--2
 \OML/txmi/m/it/12 p\OT1/txr/m/n/12 )[]$ , $\OML/txmi/m/it/12 k \OT1/txr/m/n/12 
 = 1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txmi/m/it/12 ; []$ \OT1/txr/m/n/12
  Then the value of
- []
-
-
-Overfull \hbox (4.80334pt too wide) detected at line 10
-[]
- []
-
-
-Overfull \hbox (9.96979pt too wide) detected at line 25
-[]
  []
 
 
@@ -2963,11 +2908,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
  [47]
-Overfull \hbox (14.07903pt too wide) detected at line 28
-[]
- []
-
-
 Overfull \hbox (28.9805pt too wide) detected at line 36
  []$[] \OT1/txr/m/n/12 = ^^F[][]$ 
  []
@@ -3102,21 +3042,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-(./solutions/me/2018/18.tex
-Overfull \hbox (0.50285pt too wide) detected at line 6
-[]
- []
-
-)
+(./solutions/me/2018/18.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./solutions/me/2008/4.tex) (./solutions/adv/ma/2018/53.tex
-Overfull \hbox (7.14609pt too wide) detected at line 23
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
@@ -3142,26 +3072,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/adv/ma/2014/36.tex
-Overfull \hbox (2.08136pt too wide) detected at line 44
-[]
- []
-
-
 Underfull \vbox (badness 1077) has occurred while \output is active []
 
  [55]
-Overfull \hbox (1.42136pt too wide) detected at line 49
-[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 
-Overfull \hbox (29.66185pt too wide) detected at line 54
-[]
+Overfull \hbox (5.66185pt too wide) in paragraph at lines 54--54
+[] 
  []
 
 )
@@ -3232,8 +3152,8 @@ Underfull \hbox (badness 7832) in paragraph at lines 82--84
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (52.94505pt too wide) detected at line 49
-[]
+Overfull \hbox (28.94505pt too wide) in paragraph at lines 49--49
+[] 
  []
 
 
@@ -3246,40 +3166,21 @@ $ \OT1/txr/m/n/14 is kth or-der
  []
 
 
-Overfull \hbox (32.11848pt too wide) detected at line 94
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (44.59576pt too wide) detected at line 121
-[]
+Overfull \hbox (8.59576pt too wide) in paragraph at lines 121--121
+[] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-Overfull \hbox (8.27559pt too wide) detected at line 134
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (14.13637pt too wide) detected at line 152
-[]
- []
-
-
-Overfull \hbox (7.43562pt too wide) detected at line 159
-[]
- []
-
-)) (./gauss/problems.tex
+))
+(./gauss/problems.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
@@ -3342,11 +3243,6 @@ Underfull \hbox (badness 2744) in paragraph at lines 6--8
  []
 
 ) (./solutions/adv/ma/2007/55.tex
-Overfull \hbox (11.3958pt too wide) detected at line 9
-[]
- []
-
-
 Underfull \vbox (badness 4981) has occurred while \output is active []
 
  [65])
@@ -3418,11 +3314,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
  []
 
 
-Overfull \hbox (19.54054pt too wide) detected at line 74
-[]
- []
-
-
 Overfull \hbox (24.0pt too wide) detected at line 74
 [][][]
  []
@@ -3465,12 +3356,8 @@ nput line 31.
 (./solutions/cs/2013/2.tex
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
- [68 <./solutions/xe/2019/simulated_theoritical.png>]
-Overfull \hbox (8.79898pt too wide) detected at line 33
-[]
- []
-
-) (./solutions/xe/2019/1.tex
+ [68 <./solutions/xe/2019/simulated_theoritical.png>]) (./solutions/xe/2019/1.t
+ex
 Underfull \hbox (badness 3965) in paragraph at lines 45--1
 \OT1/txr/m/n/12 pa-ram-e-ter $\OML/txmi/m/it/12 ^^U$ \OT1/txr/m/n/12 = 1. Then,
  the prob-a-bil-ity
@@ -3566,11 +3453,6 @@ Overfull \hbox (20.9993pt too wide) detected at line 78
  []
 
 
-Overfull \hbox (4.09665pt too wide) detected at line 105
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [76])
@@ -3582,17 +3464,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77]))
 (./variable/problems.tex (./variable/solutions/1/assignment2.tex
-Overfull \hbox (15.7715pt too wide) detected at line 19
-[]
- []
-
 <variable/solutions/1/graph.jpg, id=2601, 390.45876pt x 279.0425pt>
 File: variable/solutions/1/graph.jpg Graphic file (type jpg)
 <use variable/solutions/1/graph.jpg>
 Package pdftex.def Info: variable/solutions/1/graph.jpg  used on input line 32.
 
 (pdftex.def)             Requested size: 252.0pt x 180.09386pt.
-) (./solutions/ec/14/Assignment_2.tex [78 <./variable/solutions/1/graph.jpg>]
+)
+(./solutions/ec/14/Assignment_2.tex [78 <./variable/solutions/1/graph.jpg>]
 <solutions/ec/14/FIGURES/Figure.png, id=2634, 390.45876pt x 262.9825pt>
 File: solutions/ec/14/FIGURES/Figure.png Graphic file (type png)
 <use solutions/ec/14/FIGURES/Figure.png>
@@ -3675,10 +3554,10 @@ Underfull \hbox (badness 4621) in paragraph at lines 19--38
 
 )
 Package epstopdf Info: Source file: <./figs/figure2.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 6234 bytes
 (epstopdf)             Output file: <./figs/figure2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:00
 (epstopdf)                    size: 3998 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure2-eps-convert
 ed-to.pdf ./figs/figure2.eps>
@@ -3705,10 +3584,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
  []
 
 Package epstopdf Info: Source file: <./figs/figure3.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 6930 bytes
 (epstopdf)             Output file: <./figs/figure3-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:01
 (epstopdf)                    size: 4210 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure3-eps-convert
 ed-to.pdf ./figs/figure3.eps>
@@ -3721,10 +3600,10 @@ Package pdftex.def Info: ./figs/figure3-eps-converted-to.pdf  used on input lin
 e 156.
 (pdftex.def)             Requested size: 252.0pt x 223.60542pt.
 Package epstopdf Info: Source file: <./figs/figure4.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 7259 bytes
 (epstopdf)             Output file: <./figs/figure4-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:02
 (epstopdf)                    size: 4269 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure4-eps-convert
 ed-to.pdf ./figs/figure4.eps>
@@ -3740,10 +3619,10 @@ e 161.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <./figs/figure5.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 6995 bytes
 (epstopdf)             Output file: <./figs/figure5-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:02
 (epstopdf)                    size: 4248 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure5-eps-convert
 ed-to.pdf ./figs/figure5.eps>
@@ -3759,10 +3638,10 @@ e 166.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <./figs/figure6.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 6381 bytes
 (epstopdf)             Output file: <./figs/figure6-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:03
 (epstopdf)                    size: 4065 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure6-eps-convert
 ed-to.pdf ./figs/figure6.eps>
@@ -3778,10 +3657,10 @@ e 172.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <./figs/figure12.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 19377 bytes
 (epstopdf)             Output file: <./figs/figure12-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:04
 (epstopdf)                    size: 7261 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure12-eps-conver
 ted-to.pdf ./figs/figure12.eps>
@@ -3801,11 +3680,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \hbox (badness 10000) in paragraph at lines 211--2
 []\OT1/txr/m/n/12 Then,the value of $\OML/txmi/m/it/12 c$ \OT1/txr/m/n/12 is eq
 ual to
- []
-
-
-Overfull \hbox (6.06055pt too wide) detected at line 14
-[]
  []
 
 
@@ -3920,16 +3794,6 @@ Underfull \vbox (badness 1502) has occurred while \output is active []
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
- []
-
-
-Overfull \hbox (8.09149pt too wide) detected at line 72
-[]
- []
-
-
-Overfull \hbox (16.57019pt too wide) detected at line 75
-[]
  []
 
 
@@ -4095,10 +3959,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89 <./solutions/ec/73/Assignment2.png>])
 Package epstopdf Info: Source file: <./figs/figure13.eps>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 12:55:01
 (epstopdf)                    size: 9725 bytes
 (epstopdf)             Output file: <./figs/figure13-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-28 12:20:27
+(epstopdf)                    date: 2021-03-18 13:15:05
 (epstopdf)                    size: 5265 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/figure13-eps-conver
 ted-to.pdf ./figs/figure13.eps>
@@ -4166,13 +4030,8 @@ Underfull \vbox (badness 2951) has occurred while \output is active []
 
  [91 <./solutions/ee/2016/33/Assignment_2_Fig_2.png> <./solutions/ee/2016/33/As
 signment_2_Fig_1.png>]) (./solutions/ee/2013/11.tex
-Overfull \hbox (28.82841pt too wide) detected at line 12
-[]
- []
-
-
-Overfull \hbox (16.49643pt too wide) detected at line 21
-[]
+Overfull \hbox (4.82841pt too wide) in paragraph at lines 12--12
+[] 
  []
 
 )
@@ -4182,12 +4041,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/in/2007/27.tex) (./solutions/cs/2019/47.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
-Overfull \hbox (2.29918pt too wide) detected at line 41
-[]
- []
-
-)
+ [92])
 Underfull \hbox (badness 3199) in paragraph at lines 551--554
 []\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 X$ \OT1/txr/m/n/12 be a con-tin-u-ous 
 ran-dom vari-able
@@ -4356,11 +4210,6 @@ L/txmi/m/it/12 :\OT1/txr/m/n/12 2)[](0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 2)[]
  []
 
 
-Overfull \hbox (2.61964pt too wide) detected at line 27
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [98 <./solutions/ma/2017/46/figures/plot.png>])
@@ -4480,8 +4329,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
                                                   
 l.81 
      ] (./solutions/ec/28.tex
-Overfull \hbox (40.56418pt too wide) detected at line 28
-[]
+Overfull \hbox (16.56418pt too wide) in paragraph at lines 28--28
+[] 
  []
 
 ) (./solutions/ec/34/Assignment_3.tex
@@ -4509,12 +4358,7 @@ input line 167.
 (./solutions/ec/2018.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105]
-Overfull \hbox (20.93419pt too wide) detected at line 10
-[]
- []
-
-)
+ [105])
 Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
@@ -4538,8 +4382,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--1
  []
 
 
-Overfull \hbox (25.21106pt too wide) detected at line 22
-[]
+Overfull \hbox (1.21106pt too wide) in paragraph at lines 22--22
+[] 
  []
 
 
@@ -4558,27 +4402,17 @@ n-dent and
  []
 
 
-Overfull \hbox (17.44421pt too wide) detected at line 6
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (53.14183pt too wide) detected at line 25
-[]
+Overfull \hbox (29.14183pt too wide) in paragraph at lines 25--25
+[] 
  []
 
 ) (./solutions/adv/challenge/1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108]
-Overfull \hbox (19.91785pt too wide) detected at line 53
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ))
@@ -4651,11 +4485,6 @@ i/m/it/12 n\OT1/txr/m/n/12 )$ =
  []
 
 
-Overfull \hbox (10.22331pt too wide) detected at line 31
-[]
- []
-
-
 Underfull \hbox (badness 1817) in paragraph at lines 31--33
 \OT1/txr/m/n/12 upon sum-ming up the ge-o-met-ric pro-gres-
  []
@@ -4664,11 +4493,6 @@ Underfull \hbox (badness 1817) in paragraph at lines 31--33
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112 <./solutions/ee/2015/2/Figure_1.png>]
-Overfull \hbox (11.01541pt too wide) detected at line 44
-[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
@@ -4725,11 +4549,6 @@ n/12 (\OML/txmi/m/it/12 n \OMS/txsy/m/n/12 ^^@ \OT1/txr/m/n/12 21)$
 
 Overfull \hbox (16.25136pt too wide) detected at line 80
  []$[] \OT1/txr/m/n/12 + [] []$ []  
- []
-
-
-Overfull \hbox (3.03426pt too wide) detected at line 103
-[]
  []
 
 
@@ -4862,13 +4681,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [123]
 (./solutions/adv/ma/2014/37.tex
-Overfull \hbox (30.28735pt too wide) detected at line 11
-[]
- []
-
-
-Overfull \hbox (11.982pt too wide) detected at line 31
-[]
+Overfull \hbox (6.28735pt too wide) in paragraph at lines 11--11
+[] 
  []
 
 
@@ -4919,11 +4733,6 @@ Underfull \vbox (badness 1127) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (4.54326pt too wide) detected at line 31
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [127 <./solutions/adv/ma/2001/2.23/figures/distribution_2.png>]
@@ -4971,106 +4780,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-(./solutions/ec/25.tex
-Underfull \hbox (badness 10000) in paragraph at lines 38--2
+(./markov/solutions/2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
- []
-
-
-Underfull \hbox (badness 5388) in paragraph at lines 4--25
-\OT1/txr/m/n/12 Let's de-fine a Markov chain $\OMS/txsy/m/n/12 f\OML/txmi/m/it/
-12 X[]; n \OT1/txr/m/n/12 =
  []
 
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 37.
-[128]) (./markov/solutions/1.tex
+(Font)              scaled to size 8.54997pt on input line 56.
+[128]
+Underfull \hbox (badness 2080) in paragraph at lines 59--75
+\OT1/txr/m/it/12 R arises from Tran-si-tion prob-a-bil-ity from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--75
+\OT1/txr/m/it/12 where N is the fun-da-men-tal ma-trix.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--75
+
+ []
+
+)
+Underfull \vbox (badness 4291) has occurred while \output is active []
+
+
+(./solutions/ec/25.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[129])
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[129]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
-
- []
-
-[130]) (./solutions/ec/9.tex
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
+(./markov/solutions/1.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./solutions/xe/2020/11.tex [131]
+[130])
+Underfull \vbox (badness 6792) has occurred while \output is active []
+
+ [131]
+(./solutions/ec/9.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./solutions/xe/2020/11.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
 (./solutions/adv/ec/25.tex)
 Underfull \hbox (badness 7151) in paragraph at lines 97--98
 []\OT1/txr/m/n/12 If the out-comes are ei-ther (HEADS,
  []
 
-[132] (./solutions/adv/cs/2016/29.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+Underfull \vbox (badness 2573) has occurred while \output is active []
 
-Underfull \hbox (badness 2050) in paragraph at lines 82--110
-\OT1/txr/m/n/12 The canon-i-cal form di-vides the tran-si-tion
+ [133]
+(./solutions/adv/cs/2016/29.tex
+Overfull \hbox (9.31201pt too wide) in paragraph at lines 91--92
+ [][] 
  []
 
-
-Overfull \hbox (9.31201pt too wide) in paragraph at lines 82--110
-[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [133]))
-(./process/problems.tex (./process/solutions/1.tex
-Overfull \hbox (21.68996pt too wide) detected at line 15
-[]
- []
-
-
-Underfull \vbox (badness 4595) has occurred while \output is active []
+[134])) (./process/problems.tex (./process/solutions/1.tex
+Underfull \vbox (badness 2096) has occurred while \output is active []
 
 )
-(./solutions/46/Assignment3.tex) [134] (./solutions/ec/2003/65.tex))
-(./conv/problems.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./solutions/me/2021/5.tex
+(./solutions/46/Assignment3.tex) (./solutions/ec/2003/65.tex [135]))
+(./conv/problems.tex (./solutions/me/2021/5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 \OT1/txr/m/n/12 consider two sets of Bernoulli tri-als
  []
@@ -5086,10 +4868,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 \OT1/txr/m/n/12 'p'$[]$. Now
  []
 
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135])
+ [136]
 (./solutions/adv/ma/2018/25.tex
 Underfull \hbox (badness 4378) in paragraph at lines 23--1
 []\OT1/txr/m/n/12 Let $\OMS/txsy/m/n/12 f\OML/txmi/m/it/12 X[]\OMS/txsy/m/n/12 
@@ -5102,14 +4884,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [137]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/adv/st/2021/19/Assignment4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137]
+ [138]
 Underfull \hbox (badness 1590) in paragraph at lines 24--26
 \OT1/txr/bx/n/12 If $[] []$=1, we say that $\OML/txmi/m/it/12 Y[]$
  []
@@ -5122,21 +4904,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (2.7688pt too wide) detected at line 72
-[]
- []
-
-<solutions/adv/st/2021/19/Figures/CDF_Z.png, id=4471, 393.47pt x 280.04625pt>
+<solutions/adv/st/2021/19/Figures/CDF_Z.png, id=4485, 393.47pt x 280.04625pt>
 File: solutions/adv/st/2021/19/Figures/CDF_Z.png Graphic file (type png)
 <use solutions/adv/st/2021/19/Figures/CDF_Z.png>
 Package pdftex.def Info: solutions/adv/st/2021/19/Figures/CDF_Z.png  used on in
 put line 75.
 (pdftex.def)             Requested size: 252.0pt x 179.35716pt.
-)) (./stats/problems.tex
+))
+(./stats/problems.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138 <./solutions/adv/st/2021/19/Figures/CDF_Z.png>]
+ [139 <./solutions/adv/st/2021/19/Figures/CDF_Z.png>]
 Underfull \hbox (badness 2351) in paragraph at lines 19--20
 []\OT1/txr/m/n/12 To achieve min-i-mum prob-a-bil-ity of er-ror
  []
@@ -5188,7 +4966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-(./solutions/in/2009.tex) (./solutions/xe/2016-8.tex [139])
+(./solutions/in/2009.tex) (./solutions/xe/2016-8.tex [140])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5206,23 +4984,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-(./solutions/adv/ma/2012/30.tex) [140] (./solutions/adv/ma/1996/25.tex
+(./solutions/adv/ma/2012/30.tex) [141] (./solutions/adv/ma/1996/25.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (6.2231pt too wide) detected at line 74
-[]
- []
-
-) (./solutions/adv/st/2021/1.tex
+)
+(./solutions/adv/st/2021/1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [141]
-Overfull \hbox (11.01265pt too wide) detected at line 20
-[]
- []
-
-
+ [142]
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
@@ -5243,30 +5012,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-
-Overfull \hbox (23.11107pt too wide) detected at line 38
-[]
- []
-
-)) [142]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+)) [143]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
  (./probability.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
 Package rerunfilecheck Info: File `probability.out' has not changed.
 (rerunfilecheck)             Checksum: A67D2DE2C90EE25B037FEC333E696152;883.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 57977 strings out of 481239
- 1400463 string characters out of 5920377
- 1861276 words of memory out of 5000000
- 68049 multiletter control sequences out of 15000+600000
+ 58022 strings out of 481239
+ 1401349 string characters out of 5920377
+ 1862721 words of memory out of 5000000
+ 68073 multiletter control sequences out of 15000+600000
  657930 words of font info for 309 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  68i,30n,104p,728b,2161s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5285,10 +5049,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on probability.pdf (142 pages, 1678522 bytes).
+Output written on probability.pdf (143 pages, 1683976 bytes).
 PDF statistics:
- 5392 PDF objects out of 6186 (max. 8388607)
- 4991 compressed objects within 50 object streams
- 3418 named destinations out of 3580 (max. 500000)
+ 5410 PDF objects out of 6186 (max. 8388607)
+ 5007 compressed objects within 51 object streams
+ 3429 named destinations out of 3580 (max. 500000)
  515 words of extra memory for PDF output out of 10000 (max. 10000000)
 

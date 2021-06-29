@@ -12,6 +12,6 @@
 \contentsline {section}{\numberline {12}Integral Transforms}{109}{section.12}%
 \contentsline {section}{\numberline {13}Two Dimensions}{116}{section.13}%
 \contentsline {section}{\numberline {14}Markov Chains}{128}{section.14}%
-\contentsline {section}{\numberline {15}Random Process}{134}{section.15}%
-\contentsline {section}{\numberline {16}Convergence}{135}{section.16}%
-\contentsline {section}{\numberline {17}Statistics}{139}{section.17}%
+\contentsline {section}{\numberline {15}Random Process}{135}{section.15}%
+\contentsline {section}{\numberline {16}Convergence}{136}{section.16}%
+\contentsline {section}{\numberline {17}Statistics}{140}{section.17}%
