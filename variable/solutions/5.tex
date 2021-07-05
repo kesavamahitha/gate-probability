@@ -1,0 +1,33 @@
+Let X and Y be continuous random variables as mentioned in the question above.\\\\
+For a joint PDF we know that,
+$$\int \limits_{x=-\infty}^{x=\infty} f_X(x,y) \, \mathrm{d}x = 1\\\\$$
+
+Similarly,
+$$\int \limits_{y=-\infty}^{y=\infty} \int \limits_{x=-\infty}^{x=y}  f_{XY}(x,y) \, \mathrm{d}x \, \mathrm{d}y = 1 \\\\$$
+Now,
+\begin{align}
+\int \limits_{y=-\infty}^{y=0} \int \limits_{x=-\infty}^{x=y}  f_{XY}(x,y) \, \mathrm{d}x \, \mathrm{d}y + \int \limits_{y=0}^{y=\infty} \int \limits_{x=0}^{x=y}  a \times {e}^{-2y} \, \mathrm{d}x \, \mathrm{d}y &= 1 \\
+0 + \int \limits_{y=0}^{y=\infty} \brak{\int \limits_{x=0}^{x=y}  a \times {e}^{-2y} \, \mathrm{d}x} \, \mathrm{d}y &= 1 \\
+\int \limits_{y=0}^{y=\infty} \brak{a \times y \times {e}^{-2y}} \, \mathrm{d}y &= 1 \\
+a \times \brak{\frac{-y}{2} \times {e}^{-2y} - \frac{{e}^{-2y}}{4}}_0^\infty &= 1 \\
+a \times \frac{1}{4} &= 1\\
+a &= 4 
+\end{align}
+ Therefore, the answer is (A). 
+
+Marginal density of X is,
+\begin{align}
+f_X(X) &= \int \limits_{y=-\infty}^{y=\infty} f_{XY}(x,y) \, \mathrm{d}y \\
+&= \int \limits_{y=-\infty}^{y=0} f_{XY}(x,y) \, \mathrm{d}y + \int \limits_{y=0}^{y=\infty} 4 \times {e}^{-2y} \, \mathrm{d}y \\
+&= 0 + 2 \\
+&= 2 
+\end{align}
+\\\\
+
+Marginal density of Y is,
+\begin{align}
+f_Y(Y) &= \int \limits_{x=-\infty}^{x=\infty} f_{XY}(x,y) \, \mathrm{d}x \\
+&= \int \limits_{x=-\infty}^{x=0} f_{XY}(x,y) \, \mathrm{d}x + \int \limits_{x=0}^{x=\infty} 4 \times {e}^{-2y} \, \mathrm{d}x \\
+&= 0 + \brak{4y \times {e}^{-2y}}_0^\infty \\
+&= 4y{e}^{-2y} \hspace{2cm} \forall  y \epsilon \brak{0,\infty}\\
+\end{align}

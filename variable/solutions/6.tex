@@ -1,0 +1,71 @@
+\begin{definition}[Heaviside step function]
+    \label{var/6/Heaviside step function}
+    Heaviside step function $u(x)$ is 
+    \begin{align*}
+    u(x)=                
+        \begin{cases}
+        0 & x<0 \\
+        1 & x\geq 0
+        \end{cases}
+    \end{align*}
+    Using the Heaviside step function $u(x)$, a function $F(t)$ can be obtained whose output is $f(t)$ for the interval $[a,b)$ and $0$ everywhere else
+    \begin{align*}
+        F(t)=f(t)[u(t-a) - u(t-b)] \tag{1} \label{var/6/1}
+    \end{align*}
+    \end{definition}
+    \begin{definition}[Dirac delta function]
+    \label{var/6/Dirac delta function}
+    Dirac delta function is the derivative of the Heaviside step function $u(x)$
+    \begin{align*}
+        \delta(x) = \frac{du(x)}{dx} \tag{2} \label{var/6/2}
+    \end{align*}
+    An important property of the Dirac delta function is 
+    \begin{align*}
+        \int_{-\infty}^{\infty}f(x)\delta(x-x_0)dx = f(x_0) \tag{3} \label{var/6/3}
+    \end{align*}
+    \end{definition}
+    Using Definition \ref{var/6/Heaviside step function}, we get CDF $F(x)$ in terms of Heaviside step function $u(x)$
+    \begin{multline*}
+    F(x)=\frac{1}{4}\cbrak{u(x)-u(x-1)}+\frac{1}{3}\cbrak{u(x-1)-u(x-2)}+\\
+    \frac{1}{2}\cbrak{u(x-2)-u\brak{x-\frac{11}{3}}}+u\brak{x-\frac{11}{3}}
+    \end{multline*}
+    \begin{align*}
+    \implies F(x)=\frac{u(x)}{4}+\frac{u(x-1)}{12}+\frac{u(x-2)}{6}+\frac{u\brak{x-\frac{11}{3}}}{2} \tag{4} \label{var/6/4}
+    \end{align*}
+    Differentiating \eqref{var/6/4} and using Definition \ref{var/6/Dirac delta function}, we obtain PDF $f(x)$ 
+    \begin{align*}
+    f(x)=\frac{\delta(x)}{4}+\frac{\delta(x-1)}{12}+\frac{\delta(x-2)}{6}+\frac{\delta\brak{x-\frac{11}{3}}}{2} \tag{5} \label{var/6/5}
+    \end{align*}
+     Using \eqref{var/6/5}, we can state that Random Variable $X$ is discrete and it takes values at the points where $f(x) \to \infty$ \\
+    \begin{align*}
+    \therefore X \in \cbrak{0, 1, 2, \frac{11}{3}} \tag{6} \label{var/6/6}
+    \end{align*}
+    To obtain the PMF$\brak{p_X(k)}$ we use the formula
+    \begin{align*}
+    \brak{p_X(k)} = 
+    \lim_{x\to k}\int_{k}^{x}f(x)dx  
+    \tag{7} \label{var/6/7}
+    \end{align*}
+    \begin{definition}[PMF of Random Variable $X$]
+    \label{var/6/PMF}
+     The PMF$\brak{p_X(k)}$ using \eqref{var/6/7} is :
+    \begin{align*}
+    \brak{p_X(k)}=
+    \begin{cases}
+    \frac{1}{4} & \text{if } k=0 \\
+    \frac{1}{12} & \text{if } k=1 \\
+    \frac{1}{6} & \text{if } k=2 \\
+    \frac{1}{2} & \text{if } k=\frac{11}{3} \\
+    0 & \text{otherwise}
+    \end{cases}
+    \end{align*}
+    \end{definition}
+    To obtain $E(x)$ we use the formula
+    \begin{align*}
+    E(X) = \sum  x\times \brak{p_X(k)} \label{var/6/8} \tag{8}
+    \end{align*}
+     Therefore, using PMF we get
+    \begin{align*}
+    E(X)& = \brak{0\times \frac{1}{4}} + \brak{1\times \frac{1}{12}} + \brak{2\times \frac{1}{6}} + \brak{\frac{11}{3}\times \frac{1}{2}} \\
+    \implies E(X) &= 2.25
+    \end{align*}
