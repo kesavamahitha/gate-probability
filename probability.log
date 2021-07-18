@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.4)  5 JUL 2021 06:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.7.7)  17 JUL 2021 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -114,8 +114,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+(/home/user/texmf/tex/latex/tmeslatex/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
@@ -127,28 +127,63 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen162
 ))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+(/home/user/texmf/tex/latex/tmeslatex/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen163
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count194
-LaTeX Info: Redefining \frac on input line 234.
+LaTeX Info: Redefining \tmspace on input line 145.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count195
 \leftroot@=\count196
-LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count197
 \DOTSCASE@=\count198
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
 \big@size=\dimen164
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+
+
+Package amsmath Warning: Unable to redefine math accent \hat.
+
+
+Package amsmath Warning: Unable to redefine math accent \check.
+
+
+Package amsmath Warning: Unable to redefine math accent \tilde.
+
+
+Package amsmath Warning: Unable to redefine math accent \acute.
+
+
+Package amsmath Warning: Unable to redefine math accent \grave.
+
+
+Package amsmath Warning: Unable to redefine math accent \dot.
+
+
+Package amsmath Warning: Unable to redefine math accent \ddot.
+
+
+Package amsmath Warning: Unable to redefine math accent \breve.
+
+
+Package amsmath Warning: Unable to redefine math accent \bar.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+
+Package amsmath Warning: Unable to redefine math accent \mathring.
+
 \macc@depth=\count199
 \c@MaxMatrixCols=\count266
 \dotsspace@=\muskip16
@@ -169,10 +204,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-)
-(/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 
@@ -508,6 +542,13 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
+
+LaTeX Warning: You have requested, on input line 117, version
+               `2016/11/05' of package amsmath,
+               but only version
+               `2000/07/18 v2.13 AMS math features'
+               is available.
+
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
@@ -523,8 +564,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen269
 \xmathstrut@box=\box67
 \xmathstrut@dim=\dimen270
-)
-(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -543,8 +583,8 @@ Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/user/texmf/tex/latex/tmeslatex/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
@@ -966,7 +1006,7 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks49
 \verbatim@in@stream=\read3
 )
-(/usr/share/texmf-dist/tex/latex/tfrupee/tfrupee.sty
+(/home/user/texmf/tex/latex/tfrupee/tfrupee.sty
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
 Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 . Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
@@ -1520,7 +1560,7 @@ Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-5.
+8.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1672,93 +1712,93 @@ LaTeX Warning: Label `challenge/1second_value' multiply defined.
 )
 \openout1 = `probability.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 95.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 98.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-95.
+98.
  (/usr/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-95.
+98.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-95.
+98.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
-5.
+8.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 95.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 98.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 95.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 95.
+LaTeX Info: Redefining \celsius on input line 98.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 98.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 95.
-Package gensymb Info: Using \Omega for \ohm on input line 95.
+LaTeX Info: Redefining \ohm on input line 98.
+Package gensymb Info: Using \Omega for \ohm on input line 98.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1805,9 +1845,9 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 95.
+ on input line 98.
 
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 98.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1819,59 +1859,59 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count406
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (./probability.out) (./probability.out)
 \@outlinefile=\write4
 \openout4 = `probability.out'.
 
 \c@lstlisting=\count407
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 95
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 98
 .
 
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-5.
+8.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-5.
+8.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-5.
+8.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-5.
+8.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-95.
+98.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 95.
+(Font)              scaled to size 11.39996pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 95.
+(Font)              scaled to size 7.59998pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 95.
+(Font)              scaled to size 5.69998pt on input line 98.
 LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 
-95.
+98.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
@@ -1916,11 +1956,6 @@ Underfull \hbox (badness 1769) in paragraph at lines 69--70
  []
 
 (./solutions/ec/48.tex
-Overfull \hbox (20.01126pt too wide) detected at line 14
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3])
@@ -1956,11 +1991,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4])
-Overfull \hbox (3.83553pt too wide) detected at line 107
-[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
@@ -2131,8 +2161,8 @@ Underfull \hbox (badness 1365) in paragraph at lines 9--10
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (28.26837pt too wide) detected at line 24
-[]
+Overfull \hbox (4.26837pt too wide) in paragraph at lines 24--24
+[] 
  []
 
 )
@@ -2151,11 +2181,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
  []
 
 (./cond/solutions/2.tex) (./solutions/ec/2.tex [10]) (./solutions/3.tex
-Overfull \hbox (6.87917pt too wide) detected at line 13
-[]
- []
-
-
 Overfull \hbox (18.87914pt too wide) detected at line 18
  []$[]   [] []$ 
  []
@@ -2180,12 +2205,8 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 
 Underfull \vbox (badness 4608) has occurred while \output is active []
 
- [11 <./figs/3.png>]) (./solutions/19/19.tex) (./solutions/ec/30.tex
-Overfull \hbox (14.4473pt too wide) detected at line 25
-[]
- []
-
-) (./solutions/ec/31.tex [12]) (./solutions/ec/66.tex
+ [11 <./figs/3.png>]) (./solutions/19/19.tex) (./solutions/ec/30.tex)
+(./solutions/ec/31.tex [12]) (./solutions/ec/66.tex
 Underfull \vbox (badness 1259) has occurred while \output is active []
 
 
@@ -2305,8 +2326,8 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 4--5
  []
 
 
-Overfull \hbox (58.20296pt too wide) detected at line 28
-[]
+Overfull \hbox (34.20296pt too wide) in paragraph at lines 28--28
+[] 
  []
 
 ) (./solutions/xe/2021/9.tex
@@ -2351,21 +2372,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/ee/2018/8.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (19.66382pt too wide) detected at line 25
-[]
- []
-
-) (./solutions/cs/2016/5.tex) (./solutions/cs/2014/48-1.tex
+)
+(./solutions/cs/2016/5.tex) (./solutions/cs/2014/48-1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19])
 (./solutions/cs/2010/27.tex
-Overfull \hbox (10.4373pt too wide) detected at line 18
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2375,11 +2387,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [20]
 Overfull \hbox (30.98471pt too wide) in paragraph at lines 52--53
  [][] 
- []
-
-
-Overfull \hbox (17.36986pt too wide) detected at line 79
-[]
  []
 
 
@@ -2402,21 +2409,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/me/2013/45.tex) (./solutions/me/2014/28.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (23.11807pt too wide) detected at line 25
-[]
- []
-
-) (./solutions/me/2015/26.tex [23]) (./solutions/me/2018/1.tex
+)
+(./solutions/me/2015/26.tex [23]) (./solutions/me/2018/1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/cs/2010/26.tex
-Overfull \hbox (2.3219pt too wide) detected at line 24
-[]
- []
-
-) (./solutions/cs/2019/20.tex
+(./solutions/cs/2010/26.tex) (./solutions/cs/2019/20.tex
 Underfull \vbox (badness 3179) has occurred while \output is active []
 
  [24]
@@ -2430,17 +2428,7 @@ Overfull \hbox (68.35709pt too wide) in paragraph at lines 37--462
  []
 
 (./solutions/cs/2017/60.tex
-Overfull \hbox (21.06052pt too wide) detected at line 13
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (0.88339pt too wide) detected at line 24
-[]
- []
 
 )
 Underfull \hbox (badness 10000) in paragraph at lines 479--480
@@ -2495,11 +2483,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--29
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (23.59235pt too wide) detected at line 57
-[]
- []
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -2511,11 +2494,6 @@ Underfull \vbox (badness 2990) has occurred while \output is active []
 
  [26])
 (./solutions/cs/2012/33.tex
-Overfull \hbox (11.00827pt too wide) detected at line 33
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2557,22 +2535,18 @@ Overfull \hbox (27.43185pt too wide) detected at line 35
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-Overfull \hbox (6.26123pt too wide) detected at line 51
-[]
- []
-
-) (./solutions/ma/2002/2.23.tex
-Overfull \hbox (39.63857pt too wide) detected at line 6
-[]
+ [29])
+(./solutions/ma/2002/2.23.tex
+Overfull \hbox (15.63857pt too wide) in paragraph at lines 6--6
+ [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (45.64455pt too wide) detected at line 17
-[]
+Overfull \hbox (21.64455pt too wide) in paragraph at lines 17--17
+ [] 
  []
 
 ) (./solutions/adv/ma/2018/11.tex
@@ -2628,12 +2602,8 @@ e 31.
 Underfull \vbox (badness 1888) has occurred while \output is active []
 
  [31 <./binchan/solutions/1/BSC diagram.jpg> <./figs/figure7-eps-converted-to.p
-df>]
-Overfull \hbox (9.65903pt too wide) detected at line 8
-[]
- []
-
-) (./solutions/24/latex2.tex
+df>])
+(./solutions/24/latex2.tex
 <solutions/24/Figure.png, id=1117, 479.99326pt x 254.1495pt>
 File: solutions/24/Figure.png Graphic file (type png)
 <use solutions/24/Figure.png>
@@ -2696,8 +2666,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./solutions/cs/2021/assignment2.tex [33 <./figs/figure1-eps-converted-to.pdf>]
 
-Overfull \hbox (26.34831pt too wide) detected at line 25
-[]
+Overfull \hbox (2.34831pt too wide) in paragraph at lines 25--25
+[] 
  []
 
 ) (./solutions/ec/2012/35.tex
@@ -2756,8 +2726,8 @@ sy/m/n/12 2
  []
 
 ) (./solutions/ec/28.tex
-Overfull \hbox (40.56418pt too wide) detected at line 28
-[]
+Overfull \hbox (16.56418pt too wide) in paragraph at lines 28--28
+[] 
  []
 
 [37]) (./solutions/ec/34/Assignment_3.tex
@@ -2787,12 +2757,7 @@ input line 167.
 (pdftex.def)             Requested size: 226.79846pt x 152.75465pt.
 )
 (./solutions/ec/2018.tex [39 <./solutions/ec/34/Figures/Assignment_3_PDF.png> <
-./solutions/ec/34/Figures/Assignment_3_CDF.png>]
-Overfull \hbox (20.93419pt too wide) detected at line 10
-[]
- []
-
-)
+./solutions/ec/34/Figures/Assignment_3_CDF.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
@@ -2819,8 +2784,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--1
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (25.21106pt too wide) detected at line 22
-[]
+Overfull \hbox (1.21106pt too wide) in paragraph at lines 22--22
+[] 
  []
 
 
@@ -2836,16 +2801,11 @@ n-dent and
  []
 
 
-Overfull \hbox (17.44421pt too wide) detected at line 6
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-Overfull \hbox (53.14183pt too wide) detected at line 25
-[]
+Overfull \hbox (29.14183pt too wide) in paragraph at lines 25--25
+[] 
  []
 
 ) (./solutions/adv/challenge/1.tex
@@ -2854,19 +2814,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
-Overfull \hbox (19.91785pt too wide) detected at line 53
-[]
- []
-
-)) (./geometric/problems.tex (./solutions/6/6.tex) (./solutions/ec/13.tex
+ [42]))
+(./geometric/problems.tex (./solutions/6/6.tex) (./solutions/ec/13.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
 
-Overfull \hbox (52.38692pt too wide) detected at line 29
-[]
+Overfull \hbox (28.38692pt too wide) in paragraph at lines 29--29
+[] 
  []
 
 
@@ -2881,8 +2837,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (53.73555pt too wide) detected at line 39
-[]
+Overfull \hbox (29.73555pt too wide) in paragraph at lines 39--39
+[] 
  []
 
 
@@ -2903,16 +2859,6 @@ Underfull \hbox (badness 1796) in paragraph at lines 60--2
 \OML/txmi/m/it/12 p\OT1/txr/m/n/12 )[]$ , $\OML/txmi/m/it/12 k \OT1/txr/m/n/12 
 = 1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txmi/m/it/12 ; []$ \OT1/txr/m/n/12
  Then the value of
- []
-
-
-Overfull \hbox (6.80334pt too wide) detected at line 10
-[]
- []
-
-
-Overfull \hbox (9.96979pt too wide) detected at line 25
-[]
  []
 
 
@@ -2939,11 +2885,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48])
 (./solutions/xe/2015.tex) (./solutions/xe/2017/AI1103_Assignment3.tex
-Overfull \hbox (14.07903pt too wide) detected at line 28
-[]
- []
-
-
 Overfull \hbox (28.9805pt too wide) detected at line 36
  []$[] \OT1/txr/m/n/12 = ^^F[][]$ 
  []
@@ -2954,7 +2895,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/xe/2017/figures/assign3_stem.png, id=1760, 397.485pt x 262.9825pt>
+<solutions/xe/2017/figures/assign3_stem.png, id=1749, 397.485pt x 262.9825pt>
 File: solutions/xe/2017/figures/assign3_stem.png Graphic file (type png)
 <use solutions/xe/2017/figures/assign3_stem.png>
 Package pdftex.def Info: solutions/xe/2017/figures/assign3_stem.png  used on in
@@ -3075,20 +3016,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
  []
 
 (./solutions/me/2018/18.tex
-Overfull \hbox (0.50285pt too wide) detected at line 6
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54])
 (./solutions/me/2008/4.tex) (./solutions/adv/ma/2018/53.tex
-Overfull \hbox (9.14609pt too wide) detected at line 23
-[]
- []
-
-
 Overfull \hbox (17.10066pt too wide) detected at line 59
  []$[]   [] [] \OT1/txr/m/n/12 = [] + [] + []$ 
  []
@@ -3107,23 +3038,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56])
 (./solutions/adv/ma/2014/36.tex
-Overfull \hbox (2.08136pt too wide) detected at line 44
-[]
- []
-
-
-Overfull \hbox (1.42136pt too wide) detected at line 49
-[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 
-Overfull \hbox (29.66185pt too wide) detected at line 54
-[]
+Overfull \hbox (5.66185pt too wide) in paragraph at lines 54--54
+[] 
  []
 
 )
@@ -3190,8 +3111,8 @@ Underfull \hbox (badness 7832) in paragraph at lines 82--84
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-Overfull \hbox (52.94505pt too wide) detected at line 49
-[]
+Overfull \hbox (28.94505pt too wide) in paragraph at lines 49--49
+[] 
  []
 
 
@@ -3204,40 +3125,21 @@ $ \OT1/txr/m/n/14 is kth or-der
  []
 
 
-Overfull \hbox (32.11848pt too wide) detected at line 94
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
-Overfull \hbox (44.59576pt too wide) detected at line 121
-[]
+Overfull \hbox (8.59576pt too wide) in paragraph at lines 121--121
+[] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (8.27559pt too wide) detected at line 134
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-Overfull \hbox (14.13637pt too wide) detected at line 152
-[]
- []
-
-
-Overfull \hbox (7.43562pt too wide) detected at line 159
-[]
- []
-
-)) (./gauss/problems.tex
+ [61]))
+(./gauss/problems.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3263,7 +3165,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63]
-<solutions/ec/45/Figures/Figure_3.png, id=2193, 400.49625pt x 285.065pt>
+<solutions/ec/45/Figures/Figure_3.png, id=2154, 400.49625pt x 285.065pt>
 File: solutions/ec/45/Figures/Figure_3.png Graphic file (type png)
 <use solutions/ec/45/Figures/Figure_3.png>
 Package pdftex.def Info: solutions/ec/45/Figures/Figure_3.png  used on input li
@@ -3300,12 +3202,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 6--8
 \OT1/txr/m/n/12 Joint pdf of bi-vari-ate nor-mal dis-tri-bu-tion
  []
 
-) (./solutions/adv/ma/2007/55.tex
-Overfull \hbox (13.3958pt too wide) detected at line 9
-[]
- []
-
-) (./solutions/adv/me/2021/20.tex
+) (./solutions/adv/ma/2007/55.tex) (./solutions/adv/me/2021/20.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67]))
@@ -3344,13 +3241,13 @@ Overfull \hbox (2.1232pt too wide) in paragraph at lines 6--27
  [][] 
  []
 
-<solutions/ec/43/Figures/figure1.png, id=2353, 528.17325pt x 65.043pt>
+<solutions/ec/43/Figures/figure1.png, id=2307, 528.17325pt x 65.043pt>
 File: solutions/ec/43/Figures/figure1.png Graphic file (type png)
 <use solutions/ec/43/Figures/figure1.png>
 Package pdftex.def Info: solutions/ec/43/Figures/figure1.png  used on input lin
 e 38.
 (pdftex.def)             Requested size: 252.0pt x 31.0327pt.
-<solutions/ec/43/Figures/figure2.png, id=2355, 534.49687pt x 75.28125pt>
+<solutions/ec/43/Figures/figure2.png, id=2309, 534.49687pt x 75.28125pt>
 File: solutions/ec/43/Figures/figure2.png Graphic file (type png)
 <use solutions/ec/43/Figures/figure2.png>
 Package pdftex.def Info: solutions/ec/43/Figures/figure2.png  used on input lin
@@ -3370,11 +3267,6 @@ Underfull \hbox (badness 2469) in paragraph at lines 51--52
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
- []
-
-
-Overfull \hbox (19.54054pt too wide) detected at line 74
-[]
  []
 
 
@@ -3410,7 +3302,7 @@ Underfull \hbox (badness 3965) in paragraph at lines 26--1
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [69 <./solutions/ec/43/Figures/figure2.png>]
-<solutions/xe/2019/simulated_theoritical.png, id=2411, 387.4475pt x 248.93pt>
+<solutions/xe/2019/simulated_theoritical.png, id=2358, 387.4475pt x 248.93pt>
 File: solutions/xe/2019/simulated_theoritical.png Graphic file (type png)
 <use solutions/xe/2019/simulated_theoritical.png>
 Package pdftex.def Info: solutions/xe/2019/simulated_theoritical.png  used on i
@@ -3419,12 +3311,8 @@ nput line 31.
 ) (./solutions/cs/2013/2.tex
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
-
-Overfull \hbox (8.79898pt too wide) detected at line 33
-[]
- []
-
-) (./solutions/xe/2019/1.tex
+)
+(./solutions/xe/2019/1.tex
 Underfull \hbox (badness 3965) in paragraph at lines 45--1
 \OT1/txr/m/n/12 pa-ram-e-ter $\OML/txmi/m/it/12 ^^U$ \OT1/txr/m/n/12 = 1. Then,
  the prob-a-bil-ity
@@ -3520,12 +3408,8 @@ Overfull \hbox (20.9993pt too wide) detected at line 78
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (4.09665pt too wide) detected at line 105
-[]
- []
-
-) (./solutions/adv/ma/2006/16.tex
+)
+(./solutions/adv/ma/2006/16.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
@@ -3542,8 +3426,8 @@ Overfull \hbox (35.05255pt too wide) detected at line 31
  []
 
 
-Overfull \hbox (28.29506pt too wide) detected at line 34
-[]
+Overfull \hbox (4.29506pt too wide) in paragraph at lines 34--34
+[] 
  []
 
 
@@ -3552,8 +3436,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
  []
 
 
-Overfull \hbox (37.62035pt too wide) detected at line 71
-[]
+Overfull \hbox (13.62035pt too wide) in paragraph at lines 71--71
+[] 
  []
 
 
@@ -3563,11 +3447,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./variable/solutions/5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 40--3
 
- []
-
-
-Overfull \hbox (15.76068pt too wide) detected at line 15
-[]
  []
 
 
@@ -3596,7 +3475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81]
-<variable/solutions/4/Figures/Assignment-4(1).png, id=2775, 393.47pt x 262.9825
+<variable/solutions/4/Figures/Assignment-4(1).png, id=2709, 393.47pt x 262.9825
 pt>
 File: variable/solutions/4/Figures/Assignment-4(1).png Graphic file (type png)
 <use variable/solutions/4/Figures/Assignment-4(1).png>
@@ -3608,7 +3487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<variable/solutions/4/Figures/Assignment-4(2).png, id=2776, 393.47pt x 262.9825
+<variable/solutions/4/Figures/Assignment-4(2).png, id=2710, 393.47pt x 262.9825
 pt>
 File: variable/solutions/4/Figures/Assignment-4(2).png Graphic file (type png)
 <use variable/solutions/4/Figures/Assignment-4(2).png>
@@ -3648,15 +3527,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./variable/solutions/1/assignment2.tex
-Overfull \hbox (17.7715pt too wide) detected at line 19
-[]
- []
-
-
 Underfull \vbox (badness 2368) has occurred while \output is active []
 
  [83]
-<variable/solutions/1/graph.jpg, id=2829, 390.45876pt x 279.0425pt>
+<variable/solutions/1/graph.jpg, id=2762, 390.45876pt x 279.0425pt>
 File: variable/solutions/1/graph.jpg Graphic file (type jpg)
 <use variable/solutions/1/graph.jpg>
 Package pdftex.def Info: variable/solutions/1/graph.jpg  used on input line 32.
@@ -3664,7 +3538,7 @@ Package pdftex.def Info: variable/solutions/1/graph.jpg  used on input line 32.
 (pdftex.def)             Requested size: 252.0pt x 180.09386pt.
 )
 (./solutions/ec/14/Assignment_2.tex
-<solutions/ec/14/FIGURES/Figure.png, id=2832, 390.45876pt x 262.9825pt>
+<solutions/ec/14/FIGURES/Figure.png, id=2765, 390.45876pt x 262.9825pt>
 File: solutions/ec/14/FIGURES/Figure.png Graphic file (type png)
 <use solutions/ec/14/FIGURES/Figure.png>
 Package pdftex.def Info: solutions/ec/14/FIGURES/Figure.png  used on input line
@@ -3682,7 +3556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 (./solutions/ec/15/AI1103_Assignment2.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/ec/15/figures/assign2.png, id=2880, 393.47pt x 279.0425pt>
+<solutions/ec/15/figures/assign2.png, id=2809, 393.47pt x 279.0425pt>
 File: solutions/ec/15/figures/assign2.png Graphic file (type png)
 <use solutions/ec/15/figures/assign2.png>
 Package pdftex.def Info: solutions/ec/15/figures/assign2.png  used on input lin
@@ -3692,13 +3566,13 @@ e 42.
 Underfull \vbox (badness 4805) has occurred while \output is active []
 
  [85 <./solutions/ec/15/figures/assign2.png>]
-<solutions/ec/15/figures/assign2_2.png, id=2915, 397.485pt x 279.0425pt>
+<solutions/ec/15/figures/assign2_2.png, id=2843, 397.485pt x 279.0425pt>
 File: solutions/ec/15/figures/assign2_2.png Graphic file (type png)
 <use solutions/ec/15/figures/assign2_2.png>
 Package pdftex.def Info: solutions/ec/15/figures/assign2_2.png  used on input l
 ine 70.
 (pdftex.def)             Requested size: 252.0pt x 176.91325pt.
-<solutions/ec/15/figures/assign2_1.png, id=2916, 390.45876pt x 280.04625pt>
+<solutions/ec/15/figures/assign2_1.png, id=2844, 390.45876pt x 280.04625pt>
 File: solutions/ec/15/figures/assign2_1.png Graphic file (type png)
 <use solutions/ec/15/figures/assign2_1.png>
 Package pdftex.def Info: solutions/ec/15/figures/assign2_1.png  used on input l
@@ -3723,13 +3597,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [86 <./solutions/ec/15/figures/assign2_2.png> <./solutions/ec/15/figures/assig
 n2_1.png>]
-<solutions/ec/20/figures/graph_pdf.png, id=2947, 403.5075pt x 264.99pt>
+<solutions/ec/20/figures/graph_pdf.png, id=2874, 403.5075pt x 264.99pt>
 File: solutions/ec/20/figures/graph_pdf.png Graphic file (type png)
 <use solutions/ec/20/figures/graph_pdf.png>
 Package pdftex.def Info: solutions/ec/20/figures/graph_pdf.png  used on input l
 ine 46.
 (pdftex.def)             Requested size: 252.0pt x 165.493pt.
-<solutions/ec/20/figures/graph_cdf.png, id=2948, 390.45876pt x 264.99pt>
+<solutions/ec/20/figures/graph_cdf.png, id=2875, 390.45876pt x 264.99pt>
 File: solutions/ec/20/figures/graph_cdf.png Graphic file (type png)
 <use solutions/ec/20/figures/graph_cdf.png>
 Package pdftex.def Info: solutions/ec/20/figures/graph_cdf.png  used on input l
@@ -3756,7 +3630,7 @@ Package epstopdf Info: Source file: <./figs/figure2.eps>
 ed-to.pdf ./figs/figure2.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure2-eps-converted-to.pdf, id=2953, 180.675pt x 143.53625pt>
+<./figs/figure2-eps-converted-to.pdf, id=2880, 180.675pt x 143.53625pt>
 File: ./figs/figure2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure2-eps-converted-to.pdf  used on input lin
@@ -3788,7 +3662,7 @@ Package epstopdf Info: Source file: <./figs/figure3.eps>
 ed-to.pdf ./figs/figure3.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure3-eps-converted-to.pdf, id=2990, 142.5325pt x 126.4725pt>
+<./figs/figure3-eps-converted-to.pdf, id=2914, 142.5325pt x 126.4725pt>
 File: ./figs/figure3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure3-eps-converted-to.pdf  used on input lin
@@ -3804,7 +3678,7 @@ Package epstopdf Info: Source file: <./figs/figure4.eps>
 ed-to.pdf ./figs/figure4.eps>
 (epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure4-eps-converted-to.pdf, id=2991, 139.52126pt x 125.46875pt>
+<./figs/figure4-eps-converted-to.pdf, id=2915, 139.52126pt x 125.46875pt>
 File: ./figs/figure4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure4-eps-converted-to.pdf  used on input lin
@@ -3824,7 +3698,7 @@ Package epstopdf Info: Source file: <./figs/figure5.eps>
 ed-to.pdf ./figs/figure5.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure5-eps-converted-to.pdf, id=2992, 137.51375pt x 127.47626pt>
+<./figs/figure5-eps-converted-to.pdf, id=2916, 137.51375pt x 127.47626pt>
 File: ./figs/figure5-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure5-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure5-eps-converted-to.pdf  used on input lin
@@ -3843,7 +3717,7 @@ Package epstopdf Info: Source file: <./figs/figure6.eps>
 ed-to.pdf ./figs/figure6.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure6-eps-converted-to.pdf, id=2993, 139.52126pt x 178.6675pt>
+<./figs/figure6-eps-converted-to.pdf, id=2917, 139.52126pt x 178.6675pt>
 File: ./figs/figure6-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure6-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure6-eps-converted-to.pdf  used on input lin
@@ -3862,7 +3736,7 @@ Package epstopdf Info: Source file: <./figs/figure12.eps>
 ted-to.pdf ./figs/figure12.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure12-eps-converted-to.pdf, id=2995, 364.36125pt x 183.68625pt>
+<./figs/figure12-eps-converted-to.pdf, id=2919, 364.36125pt x 183.68625pt>
 File: ./figs/figure12-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure12-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure12-eps-converted-to.pdf  used on input li
@@ -3879,20 +3753,15 @@ ual to
 
 [88 <./figs/figure2-eps-converted-to.pdf> <./figs/figure3-eps-converted-to.pdf>
  <./figs/figure4-eps-converted-to.pdf> <./figs/figure5-eps-converted-to.pdf>]
-Overfull \hbox (6.06055pt too wide) detected at line 14
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/ec/52/figures/pdfimage.png, id=3028, 309.40594pt x 194.22563pt>
+<solutions/ec/52/figures/pdfimage.png, id=2952, 309.40594pt x 194.22563pt>
 File: solutions/ec/52/figures/pdfimage.png Graphic file (type png)
 <use solutions/ec/52/figures/pdfimage.png>
 Package pdftex.def Info: solutions/ec/52/figures/pdfimage.png  used on input li
 ne 17.
 (pdftex.def)             Requested size: 252.0pt x 158.19615pt.
-<solutions/ec/52/figures/cdfimage.png, id=3030, 298.86656pt x 197.98969pt>
+<solutions/ec/52/figures/cdfimage.png, id=2954, 298.86656pt x 197.98969pt>
 File: solutions/ec/52/figures/cdfimage.png Graphic file (type png)
 <use solutions/ec/52/figures/cdfimage.png>
 Package pdftex.def Info: solutions/ec/52/figures/cdfimage.png  used on input li
@@ -3973,7 +3842,7 @@ LaTeX Warning: Command \textless invalid in math mode on input line 10.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 10.
 
-<solutions/ec/54/codes/graph.png, id=3053, 387.4475pt x 279.0425pt>
+<solutions/ec/54/codes/graph.png, id=2974, 387.4475pt x 279.0425pt>
 File: solutions/ec/54/codes/graph.png Graphic file (type png)
 <use solutions/ec/54/codes/graph.png>
 Package pdftex.def Info: solutions/ec/54/codes/graph.png  used on input line 14
@@ -3994,16 +3863,6 @@ Underfull \vbox (badness 1502) has occurred while \output is active []
 g>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
- []
-
-
-Overfull \hbox (8.09149pt too wide) detected at line 72
-[]
- []
-
-
-Overfull \hbox (16.57019pt too wide) detected at line 75
-[]
  []
 
 
@@ -4074,7 +3933,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--1
 Underfull \vbox (badness 2591) has occurred while \output is active []
 
  [92]
-<solutions/ec/58/CDF.png, id=3172, 390.45876pt x 279.0425pt>
+<solutions/ec/58/CDF.png, id=3079, 390.45876pt x 279.0425pt>
 File: solutions/ec/58/CDF.png Graphic file (type png)
 <use solutions/ec/58/CDF.png>
 Package pdftex.def Info: solutions/ec/58/CDF.png  used on input line 14.
@@ -4147,7 +4006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 464--473
  []
 
 (./solutions/ec/73/Assignment-2.tex
-<solutions/ec/73/Assignment2.png, id=3208, 462.528pt x 346.896pt>
+<solutions/ec/73/Assignment2.png, id=3115, 462.528pt x 346.896pt>
 File: solutions/ec/73/Assignment2.png Graphic file (type png)
 <use solutions/ec/73/Assignment2.png>
 Package pdftex.def Info: solutions/ec/73/Assignment2.png  used on input line 12
@@ -4178,7 +4037,7 @@ Package epstopdf Info: Source file: <./figs/figure13.eps>
 ted-to.pdf ./figs/figure13.eps>
 (epstopdf)             \includegraphics on input line 541.
 Package epstopdf Info: Output file is already uptodate.
-<./figs/figure13-eps-converted-to.pdf, id=3237, 298.11375pt x 218.8175pt>
+<./figs/figure13-eps-converted-to.pdf, id=3144, 298.11375pt x 218.8175pt>
 File: ./figs/figure13-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figs/figure13-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/figure13-eps-converted-to.pdf  used on input li
@@ -4216,7 +4075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 561--2
  []
 
 [95 <./figs/figure13-eps-converted-to.pdf>]
-<solutions/ee/2016/33/Assignment_2_Fig_2.png, id=3283, 397.485pt x 262.9825pt>
+<solutions/ee/2016/33/Assignment_2_Fig_2.png, id=3190, 397.485pt x 262.9825pt>
 File: solutions/ee/2016/33/Assignment_2_Fig_2.png Graphic file (type png)
 <use solutions/ee/2016/33/Assignment_2_Fig_2.png>
 Package pdftex.def Info: solutions/ee/2016/33/Assignment_2_Fig_2.png  used on i
@@ -4225,7 +4084,7 @@ nput line 35.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/ee/2016/33/Assignment_2_Fig_1.png, id=3285, 390.45876pt x 262.9825pt
+<solutions/ee/2016/33/Assignment_2_Fig_1.png, id=3192, 390.45876pt x 262.9825pt
 >
 File: solutions/ee/2016/33/Assignment_2_Fig_1.png Graphic file (type png)
 <use solutions/ee/2016/33/Assignment_2_Fig_1.png>
@@ -4241,13 +4100,8 @@ Underfull \vbox (badness 2951) has occurred while \output is active []
 
 )
 (./solutions/ee/2013/11.tex
-Overfull \hbox (28.82841pt too wide) detected at line 12
-[]
- []
-
-
-Overfull \hbox (16.49643pt too wide) detected at line 21
-[]
+Overfull \hbox (4.82841pt too wide) in paragraph at lines 12--12
+[] 
  []
 
 )
@@ -4257,11 +4111,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ex)
 (./solutions/cs/2019/47.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.29918pt too wide) detected at line 41
-[]
- []
 
 )
 Underfull \hbox (badness 3199) in paragraph at lines 610--613
@@ -4308,7 +4157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--631
  []
 
 (./solutions/ec/2001/1.20.tex)
-<solutions/in/2006/2/figures/convolution.png, id=3378, 284.262pt x 166.221pt>
+<solutions/in/2006/2/figures/convolution.png, id=3283, 284.262pt x 166.221pt>
 File: solutions/in/2006/2/figures/convolution.png Graphic file (type png)
 <use solutions/in/2006/2/figures/convolution.png>
 Package pdftex.def Info: solutions/in/2006/2/figures/convolution.png  used on i
@@ -4322,7 +4171,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 51--53
 [] 
  []
 
-<solutions/in/2006/2/figures/con6.png, id=3409, 885.3075pt x 404.712pt>
+<solutions/in/2006/2/figures/con6.png, id=3314, 885.3075pt x 404.712pt>
 File: solutions/in/2006/2/figures/con6.png Graphic file (type png)
 <use solutions/in/2006/2/figures/con6.png>
 Package pdftex.def Info: solutions/in/2006/2/figures/con6.png  used on input li
@@ -4338,20 +4187,20 @@ Underfull \hbox (badness 3954) in paragraph at lines 64--66
 \OT1/txr/m/n/12 vari-ables lie in the range $[]$ and
  []
 
-<solutions/in/2006/2/figures/sim3.png, id=3412, 373.395pt x 278.03876pt>
+<solutions/in/2006/2/figures/sim3.png, id=3317, 373.395pt x 278.03876pt>
 File: solutions/in/2006/2/figures/sim3.png Graphic file (type png)
 <use solutions/in/2006/2/figures/sim3.png>
 Package pdftex.def Info: solutions/in/2006/2/figures/sim3.png  used on input li
 ne 72.
 (pdftex.def)             Requested size: 252.0pt x 187.64684pt.
-<solutions/in/2006/2/figures/sim4.png, id=3413, 390.45876pt x 292.09125pt>
+<solutions/in/2006/2/figures/sim4.png, id=3318, 390.45876pt x 292.09125pt>
 File: solutions/in/2006/2/figures/sim4.png Graphic file (type png)
 <use solutions/in/2006/2/figures/sim4.png>
 Package pdftex.def Info: solutions/in/2006/2/figures/sim4.png  used on input li
 ne 78.
 (pdftex.def)             Requested size: 252.0pt x 188.5155pt.
 ) (./solutions/adv/ma/2016/30/Assignment4.tex
-<solutions/ma/2016/30/figs/Assignment4_CDF.png, id=3414, 433.62pt x 289.08pt>
+<solutions/ma/2016/30/figs/Assignment4_CDF.png, id=3319, 433.62pt x 289.08pt>
 File: solutions/ma/2016/30/figs/Assignment4_CDF.png Graphic file (type png)
 <use solutions/ma/2016/30/figs/Assignment4_CDF.png>
 Package pdftex.def Info: solutions/ma/2016/30/figs/Assignment4_CDF.png  used on
@@ -4364,7 +4213,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/adv/ma/2016/10/Assignment5.tex
-<solutions/adv/ma/2016/10/figures/plot.png, id=3437, 377.41pt x 279.0425pt>
+<solutions/adv/ma/2016/10/figures/plot.png, id=3342, 377.41pt x 279.0425pt>
 File: solutions/adv/ma/2016/10/figures/plot.png Graphic file (type png)
 <use solutions/adv/ma/2016/10/figures/plot.png>
 Package pdftex.def Info: solutions/adv/ma/2016/10/figures/plot.png  used on inp
@@ -4378,7 +4227,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [101 <./solutions/ma/2016/30/figs/Assignment4_CDF.png>]
-<solutions/adv/ma/2015/9/Fig_assign_5.png, id=3456, 390.45876pt x 262.9825pt>
+<solutions/adv/ma/2015/9/Fig_assign_5.png, id=3363, 390.45876pt x 262.9825pt>
 File: solutions/adv/ma/2015/9/Fig_assign_5.png Graphic file (type png)
 <use solutions/adv/ma/2015/9/Fig_assign_5.png>
 Package pdftex.def Info: solutions/adv/ma/2015/9/Fig_assign_5.png  used on inpu
@@ -4392,7 +4241,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 739--740
 (./solutions/adv/ma/2018/23/main.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/adv/ma/2018/23/Figure/Plot.png, id=3457, 462.528pt x 346.896pt>
+<solutions/adv/ma/2018/23/Figure/Plot.png, id=3364, 462.528pt x 346.896pt>
 File: solutions/adv/ma/2018/23/Figure/Plot.png Graphic file (type png)
 <use solutions/adv/ma/2018/23/Figure/Plot.png>
 Package pdftex.def Info: solutions/adv/ma/2018/23/Figure/Plot.png  used on inpu
@@ -4409,7 +4258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/ma/2017/46/figures/plot.png, id=3490, 393.47pt x 262.9825pt>
+<solutions/ma/2017/46/figures/plot.png, id=3395, 393.47pt x 262.9825pt>
 File: solutions/ma/2017/46/figures/plot.png Graphic file (type png)
 <use solutions/ma/2017/46/figures/plot.png>
 Package pdftex.def Info: solutions/ma/2017/46/figures/plot.png  used on input l
@@ -4426,11 +4275,6 @@ i/m/it/12 :\OT1/txr/m/n/12 2)[](0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 2)[]  $
 Overfull \hbox (10.6022pt too wide) detected at line 8
 [][] [] [] \OT1/txr/m/n/12 = [][](0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 6)[](0\OM
 L/txmi/m/it/12 :\OT1/txr/m/n/12 2)[](0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 2)[]
- []
-
-
-Overfull \hbox (2.61964pt too wide) detected at line 27
-[]
  []
 
 
@@ -4456,7 +4300,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/adv/ma/2018/24/main.tex
-<solutions/adv/ma/2018/24/cdf_plot.png, id=3560, 462.528pt x 346.896pt>
+<solutions/adv/ma/2018/24/cdf_plot.png, id=3458, 462.528pt x 346.896pt>
 File: solutions/adv/ma/2018/24/cdf_plot.png Graphic file (type png)
 <use solutions/adv/ma/2018/24/cdf_plot.png>
 Package pdftex.def Info: solutions/adv/ma/2018/24/cdf_plot.png  used on input l
@@ -4471,7 +4315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 799--800
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [105]
-<solutions/adv/ma/2015/27/Figure/fig4.png, id=3596, 390.45876pt x 262.9825pt>
+<solutions/adv/ma/2015/27/Figure/fig4.png, id=3489, 390.45876pt x 262.9825pt>
 File: solutions/adv/ma/2015/27/Figure/fig4.png Graphic file (type png)
 <use solutions/adv/ma/2015/27/Figure/fig4.png>
 Package pdftex.def Info: solutions/adv/ma/2015/27/Figure/fig4.png  used on inpu
@@ -4506,7 +4350,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 830--831
 (./solutions/adv/st/2019/43/Assignment5.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/adv/st/2019/43/Figures/Figure_1.png, id=3625, 462.528pt x 346.896pt>
+<solutions/adv/st/2019/43/Figures/Figure_1.png, id=3518, 462.528pt x 346.896pt>
 
 File: solutions/adv/st/2019/43/Figures/Figure_1.png Graphic file (type png)
 <use solutions/adv/st/2019/43/Figures/Figure_1.png>
@@ -4557,8 +4401,8 @@ l.21 \end{align}
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (40.56418pt too wide) detected at line 28
-[]
+Overfull \hbox (16.56418pt too wide) in paragraph at lines 28--28
+[] 
  []
 
 ) (./solutions/ec/34/Assignment_3.tex
@@ -4590,11 +4434,6 @@ input line 167.
 (./solutions/ec/2018.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (20.93419pt too wide) detected at line 10
-[]
- []
-
 ) [112]
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
@@ -4618,8 +4457,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--1
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [113]
-Overfull \hbox (25.21106pt too wide) detected at line 22
-[]
+Overfull \hbox (1.21106pt too wide) in paragraph at lines 22--22
+[] 
  []
 
 
@@ -4639,13 +4478,8 @@ n-dent and
  []
 
 
-Overfull \hbox (17.44421pt too wide) detected at line 6
-[]
- []
-
-
-Overfull \hbox (53.14183pt too wide) detected at line 25
-[]
+Overfull \hbox (29.14183pt too wide) in paragraph at lines 25--25
+[] 
  []
 
 
@@ -4654,11 +4488,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [114])
 (./solutions/adv/challenge/1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (19.91785pt too wide) detected at line 53
-[]
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4677,7 +4506,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [116])
 (./solutions/in/2021/main.tex
-<solutions/in/2021/figures/figure.png, id=3955, 644.4075pt x 609.27625pt>
+<solutions/in/2021/figures/figure.png, id=3829, 644.4075pt x 609.27625pt>
 File: solutions/in/2021/figures/figure.png Graphic file (type png)
 <use solutions/in/2021/figures/figure.png>
 Package pdftex.def Info: solutions/in/2021/figures/figure.png  used on input li
@@ -4697,7 +4526,7 @@ xsy/m/n/12 g \OT1/txr/m/n/12 and Set B =
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [117 <./solutions/in/2021/figures/figure.png>]
-<solutions/ee/2015/2/Figure_1.png, id=3982, 578.16pt x 361.35pt>
+<solutions/ee/2015/2/Figure_1.png, id=3856, 578.16pt x 361.35pt>
 File: solutions/ee/2015/2/Figure_1.png Graphic file (type png)
 <use solutions/ee/2015/2/Figure_1.png>
 Package pdftex.def Info: solutions/ee/2015/2/Figure_1.png  used on input line 5
@@ -4737,11 +4566,6 @@ i/m/it/12 n\OT1/txr/m/n/12 )$ =
  []
 
 
-Overfull \hbox (10.22331pt too wide) detected at line 31
-[]
- []
-
-
 Underfull \hbox (badness 1817) in paragraph at lines 31--33
 \OT1/txr/m/n/12 upon sum-ming up the ge-o-met-ric pro-gres-
  []
@@ -4750,16 +4574,11 @@ Underfull \hbox (badness 1817) in paragraph at lines 31--33
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (11.01541pt too wide) detected at line 44
-[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-<solutions/cs/2014/48/figures/assignment4.png, id=4026, 408.52625pt x 262.9825p
+<solutions/cs/2014/48/figures/assignment4.png, id=3897, 408.52625pt x 262.9825p
 t>
 File: solutions/cs/2014/48/figures/assignment4.png Graphic file (type png)
 <use solutions/cs/2014/48/figures/assignment4.png>
@@ -4814,11 +4633,6 @@ Overfull \hbox (16.25136pt too wide) detected at line 80
  []
 
 
-Overfull \hbox (3.03426pt too wide) detected at line 103
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -4849,7 +4663,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [121]
-<solutions/adv/st/2020/16/figs/Assignment5.png, id=4116, 433.62pt x 289.08pt>
+<solutions/adv/st/2020/16/figs/Assignment5.png, id=3975, 433.62pt x 289.08pt>
 File: solutions/adv/st/2020/16/figs/Assignment5.png Graphic file (type png)
 <use solutions/adv/st/2020/16/figs/Assignment5.png>
 Package pdftex.def Info: solutions/adv/st/2020/16/figs/Assignment5.png  used on
@@ -4861,11 +4675,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ))
 (./twoD/problems.tex
-Overfull \hbox (15.28596pt too wide) detected at line 16
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122 <./solutions/adv/st/2020/16/figs/Assignment5.png>]
@@ -4897,8 +4706,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (43.90652pt too wide) detected at line 47
-[]
+Overfull \hbox (19.90652pt too wide) in paragraph at lines 47--47
+[] 
  []
 
 [123])
@@ -4937,7 +4746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
  []
 
 (./solutions/ec/75/assignment2.tex
-<solutions/ec/75/P(x+y_2)_graph.png, id=4251, 666.23906pt x 679.03688pt>
+<solutions/ec/75/P(x+y_2)_graph.png, id=4104, 666.23906pt x 679.03688pt>
 File: solutions/ec/75/P(x+y_2)_graph.png Graphic file (type png)
 <use solutions/ec/75/P(x+y_2)_graph.png>
 Package pdftex.def Info: solutions/ec/75/P(x+y_2)_graph.png  used on input line
@@ -5000,13 +4809,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [131]
 (./solutions/adv/ma/2014/37.tex
-Overfull \hbox (30.28735pt too wide) detected at line 11
-[]
- []
-
-
-Overfull \hbox (11.982pt too wide) detected at line 31
-[]
+Overfull \hbox (6.28735pt too wide) in paragraph at lines 11--11
+[] 
  []
 
 
@@ -5021,7 +4825,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [133]
 (./solutions/adv/ma/2001/2.23/main.tex
-<solutions/adv/ma/2001/2.23/figures/tanx.png, id=4515, 403.5075pt x 264.99pt>
+<solutions/adv/ma/2001/2.23/figures/tanx.png, id=4357, 403.5075pt x 264.99pt>
 File: solutions/adv/ma/2001/2.23/figures/tanx.png Graphic file (type png)
 <use solutions/adv/ma/2001/2.23/figures/tanx.png>
 Package pdftex.def Info: solutions/adv/ma/2001/2.23/figures/tanx.png  used on i
@@ -5034,7 +4838,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<solutions/adv/ma/2001/2.23/figures/distribution_2.png, id=4519, 406.51875pt x 
+<solutions/adv/ma/2001/2.23/figures/distribution_2.png, id=4361, 406.51875pt x 
 262.9825pt>
 File: solutions/adv/ma/2001/2.23/figures/distribution_2.png Graphic file (type 
 png)
@@ -5055,11 +4859,6 @@ Underfull \vbox (badness 1127) has occurred while \output is active []
 
  [134 <./solutions/adv/ma/2001/2.23/figures/tanx.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (6.54326pt too wide) detected at line 31
-[]
- []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5176,17 +4975,23 @@ Overfull \hbox (9.31201pt too wide) in paragraph at lines 91--92
  [][] 
  []
 
-[142])) (./process/problems.tex (./process/solutions/1.tex
-Overfull \hbox (21.68996pt too wide) detected at line 15
-[]
- []
+[142]) (./markov/solutions/8/Assignment18.tex
+<markov/solutions/8/Figure18.png, id=4580, 383.4325pt x 279.0425pt>
+File: markov/solutions/8/Figure18.png Graphic file (type png)
+<use markov/solutions/8/Figure18.png>
+Package pdftex.def Info: markov/solutions/8/Figure18.png  used on input line 12
+1.
+(pdftex.def)             Requested size: 252.0pt x 183.39368pt.
+)) (./process/problems.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 2096) has occurred while \output is active []
+ [143]
+(./process/solutions/1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/46/Assignment3.tex) (./solutions/ec/2003/65.tex [143]))
-(./conv/problems.tex (./solutions/me/2021/5.tex
+(./solutions/46/Assignment3.tex) (./solutions/ec/2003/65.tex [144 <./markov/sol
+utions/8/Figure18.png>])) (./conv/problems.tex (./solutions/me/2021/5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 \OT1/txr/m/n/12 consider two sets of Bernoulli tri-als
  []
@@ -5202,11 +5007,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 \OT1/txr/m/n/12 'p'$[]$. Now
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [144]
-(./solutions/adv/ma/2018/25.tex
+) (./solutions/adv/ma/2018/25.tex
 Underfull \hbox (badness 4378) in paragraph at lines 23--1
 []\OT1/txr/m/n/12 Let $\OMS/txsy/m/n/12 f\OML/txmi/m/it/12 X[]\OMS/txsy/m/n/12 
 g$ \OT1/txr/m/n/12 be a se-quence of in-de-pen-dent
@@ -5215,17 +5016,20 @@ g$ \OT1/txr/m/n/12 be a se-quence of in-de-pen-dent
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [145]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145]
+ [146]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./solutions/adv/st/2021/19/Assignment4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [146]
+ [147]
 Underfull \hbox (badness 1590) in paragraph at lines 24--26
 \OT1/txr/bx/n/12 If $[] []$=1, we say that $\OML/txmi/m/it/12 Y[]$
  []
@@ -5238,21 +5042,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (4.7688pt too wide) detected at line 72
-[]
- []
-
-<solutions/adv/st/2021/19/Figures/CDF_Z.png, id=4890, 393.47pt x 280.04625pt>
+<solutions/adv/st/2021/19/Figures/CDF_Z.png, id=4742, 393.47pt x 280.04625pt>
 File: solutions/adv/st/2021/19/Figures/CDF_Z.png Graphic file (type png)
 <use solutions/adv/st/2021/19/Figures/CDF_Z.png>
 Package pdftex.def Info: solutions/adv/st/2021/19/Figures/CDF_Z.png  used on in
 put line 75.
 (pdftex.def)             Requested size: 252.0pt x 179.35716pt.
-)) (./stats/problems.tex
+))
+(./stats/problems.tex
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
- [147 <./solutions/adv/st/2021/19/Figures/CDF_Z.png>]
+ [148 <./solutions/adv/st/2021/19/Figures/CDF_Z.png>]
 Underfull \hbox (badness 2351) in paragraph at lines 19--20
 []\OT1/txr/m/n/12 To achieve min-i-mum prob-a-bil-ity of er-ror
  []
@@ -5304,7 +5104,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-(./solutions/in/2009.tex) (./solutions/xe/2016-8.tex [148])
+(./solutions/in/2009.tex) (./solutions/xe/2016-8.tex [149])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5322,23 +5122,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-(./solutions/adv/ma/2012/30.tex [149]) (./solutions/adv/ma/1996/25.tex
+(./solutions/adv/ma/2012/30.tex [150]) (./solutions/adv/ma/1996/25.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (6.2231pt too wide) detected at line 74
-[]
- []
-
-) (./solutions/adv/st/2021/1.tex
+)
+(./solutions/adv/st/2021/1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [150]
-Overfull \hbox (11.01265pt too wide) detected at line 20
-[]
- []
-
-
+ [151]
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
@@ -5364,15 +5155,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-Overfull \hbox (23.11107pt too wide) detected at line 38
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [151]))
-[152
+ [152]))
+[153
 
 ] (./probability.aux)
 
@@ -5382,579 +5168,30 @@ Package rerunfilecheck Info: File `probability.out' has not changed.
 (rerunfilecheck)             Checksum: D66555DE0567D78F8059268F37821D7B;2143.
  ) 
 Here is how much of TeX's memory you used:
- 63106 strings out of 478994
- 1499888 string characters out of 5864752
- 2092397 words of memory out of 5000000
- 74984 multiletter control sequences out of 15000+600000
+ 62956 strings out of 478994
+ 1497979 string characters out of 5864752
+ 2091966 words of memory out of 5000000
+ 74989 multiletter control sequences out of 15000+600000
  529022 words of font info for 312 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  102i,30n,111p,740b,2180s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.890.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.885.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.885.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.885.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.885.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.885.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.885.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.863.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.862.20} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.862.37} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.862.31} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.856.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.856.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.849.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.849.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.845.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.840.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.829.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.829.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.813.21} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.813.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.813.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.813.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.813.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.813.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.24} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.20} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.804.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.787.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.787.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.736.26} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.736.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.736.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.736.23} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.736.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.736.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.730.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.729.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.18} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.719.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.718.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.712.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.712.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.712.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.710.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.710.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.708.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.710.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.662.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.662.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.654.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.654.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.654.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.654.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.654.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.648.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.612.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.612.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.572.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.572.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.572.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.572.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.567.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.567.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.561.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.560.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.561.15} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.562.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.561.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.561.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.561.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.561.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.557.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.557.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.557.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.541.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.541.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.541.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.533.23} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.532.18} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.532.15} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.532.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.532.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.532.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.524.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.512.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.27} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.21} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.506.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.497.27} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.497.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.497.24} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.497.15} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.497.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.488.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.488.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.488.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.488.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.488.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.488.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.483.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.476.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.476.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.466.15} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.466.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.466.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.466.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.460.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.460.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.443.27} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.443.23} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.443.26} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.443.25} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.443.24} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.443.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.442.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.442.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.9} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.441.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.437.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.437.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.386.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.21} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.20} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.379.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.359.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.19} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.340.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.330.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.703.20} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.703.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.701.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.701.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.699.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.699.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.699.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.699.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.693.13} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.693.12} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.667.11} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.667.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.667.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts
-/type1/public/txfonts/rtxb.pfb></usr/share/texmf-dist/fonts/type1/public/txfont
-s/rtxi.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texmf-dist/fonts
-/type1/public/txfonts/rtxsc.pfb></usr/share/texmf-dist/fonts/type1/public/txfon
-ts/txex.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-dist/font
-s/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist/fonts/type1/public/txfo
-nts/txsyb.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr
-/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on probability.pdf (152 pages, 1769796 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
+ts/type1/public/txfonts/rtxb.pfb></usr/share/texmf-dist/fonts/type1/public/txfo
+nts/rtxi.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/
+share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texmf-dist/fon
+ts/type1/public/txfonts/rtxsc.pfb></usr/share/texmf-dist/fonts/type1/public/txf
+onts/txex.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txexa.pfb></usr
+/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texmf-dist/fo
+nts/type1/public/txfonts/txsya.pfb></usr/share/texmf-dist/fonts/type1/public/tx
+fonts/txsyb.pfb></usr/share/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></u
+sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/u
+tmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
+texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on probability.pdf (153 pages, 1782347 bytes).
 PDF statistics:
- 5902 PDF objects out of 6186 (max. 8388607)
- 5481 compressed objects within 55 object streams
- 3789 named destinations out of 4296 (max. 500000)
- 530 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5711 PDF objects out of 6186 (max. 8388607)
+ 5289 compressed objects within 53 object streams
+ 3628 named destinations out of 4296 (max. 500000)
+ 535 words of extra memory for PDF output out of 10000 (max. 10000000)
 
