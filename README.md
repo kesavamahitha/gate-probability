@@ -1,2 +1,2 @@
-# gate
-Solved problems from GATE exam
+# digital-communication
+A simulation based approach
