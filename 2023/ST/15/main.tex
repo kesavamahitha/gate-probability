@@ -174,7 +174,7 @@ function
     \begin{cases}
         \phi(x), &  x < -1 \\
         \phi(x+1) , &  x \ge -1
-    \end{cases} \label{eq:15st/2022}
+    \end{cases} \label{eq:15st/2023}
 \end{align}
 then which one of the following statements is true?
 \begin{enumerate}
@@ -188,17 +188,17 @@ then which one of the following statements is true?
 \textbf{Gaussian}\\
 Q function is defined
 \begin{align}
-	\qfunc{x} &= \frac{1}{\sqrt{2\pi}}\int_{x}^{\infty} e^{\frac{-u^2}{2}} du \label{eq:15st/2022/1}
+	\qfunc{x} &= \frac{1}{\sqrt{2\pi}}\int_{x}^{\infty} e^{\frac{-u^2}{2}} du \label{eq:15st/2023/1}
 \end{align}
-From \eqref{eq:15st/2022} and \eqref{eq:15st/2022/1};
+From \eqref{eq:15st/2023} and \eqref{eq:15st/2023/1};
 \begin{align}
 	F_X(x) &= 
 	\begin{cases}
         \qfunc{-x} , &  x < -1 \\
         1-\qfunc{x+1} , &  x \ge -1
-        \end{cases} \label{eq:15st/2022/3}
+        \end{cases} \label{eq:15st/2023/2}
 \end{align}
-From \eqref{eq:15st/2022/3};
+From \eqref{eq:15st/2023/2};
 \begin{enumerate}
 \item \begin{align}
 	\pr{X \le -1} = F_X(-1) &= 1 - \qfunc{0} \\
@@ -207,9 +207,9 @@ From \eqref{eq:15st/2022/3};
 So Option A i.e., $P(X < -1) = \frac{1}{2}$ is correct
 \item The pdf of X can be defined in terms of cdf as 
 \begin{align}
-	\pr{X = b} = F_X(b) - \lim_{x \to b^-}F_X(x) \label{eq:15st/2022/3}
+	\pr{X = b} = F_X(b) - \lim_{x \to b^-}F_X(x) \label{eq:15st/2023/3}
 \end{align}
-From \eqref{eq:15st/2022/3};
+From \eqref{eq:15st/2023/3};
 \begin{align}
 	\pr{X = -1} &= F_X(-1) - \lim_{x \to -1^-}F_X(x)\\
 	&= 1-\qfunc{0} - \qfunc{-(-1)}\\
@@ -229,10 +229,10 @@ So Option C i.e., $P(X < -1) = \frac{1}{2}$ is incorrect
 So Option D i.e., $P(X \leq 0) = \frac{1}{2}$ is incorrect
 \end{enumerate}
 \newpage
-Guassian CDF plot of X is given in fig\ref{fig:15st/2022}
+Guassian CDF plot of X is given in fig\ref{fig:15st/2023}
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=\columnwidth]{2023/ST/15/figs/figure1.png}
+    \includegraphics[width=\columnwidth]{EC/2023/15/figs/figure1.png}
     \caption{}
-    \label{fig:15st/2022}
+    \label{fig:15st/2023}
 \end{figure}
