@@ -1,34 +1,16 @@
 \begin{enumerate}
-\item Let $\phi(.)$ denote the cumulative distribution function of a standard normal
-random variable. If the random variable $X$ has the cumulative distribution
-function 
-\begin{align}
-	F(x)&= 
-    \begin{cases}
-        \phi(x), &  x < -1 \\
-        \phi(x+1) , &  x \ge -1
-    \end{cases} 
-\end{align}
-then which one of the following statements is true?
-\begin{enumerate}
-\item $P(X \leq -1) = \frac{1}{2}$
-\item $P(X = -1) = \frac{1}{2}$
-\item $P(X < -1) = \frac{1}{2}$
-\item $P(X \leq 0) = \frac{1}{2}$
+\item Let $\{X_n\}_{n \geq 1}$ and Let $\{Y_n\}_{n \geq 1}$ be two sequences of random variables and $X$ and $Y$
+be two random variables, all of them defined on the same probability space.
+Which one of the following statements is true?
+\begin{enumerate}[label=(\Alph*)]
+\item If $\{X_n\}_{n \geq 1}$ converges in distribution to a real constant $c$, then $\{X_n\}_{n \geq 1}$
+converges in probability to $c$.
+\item If $\{X_n\}_{n \geq 1}$ converges in probability to $X$, then $\{X_n\}_{n \geq 1}$ converges in $3^{rd}$ mean
+to $X$.
+\item If $\{X_n\}_{n \geq 1}$ converges in distribution to $X$ and $\{Y_n\}_{n \geq 1}$ converges in
+distribution to $Y$, then $\{X_n + Y_n\}_{n \geq 1}$ converges in distribution to $X+Y$.
+\item If $\{E\brak{X_n}\}_{n \geq 1}$ converges to $E(X)$, then $\{X_n\}_{n \geq 1}$ converges in $1^{st}$ mean to $X$.
 \end{enumerate}
-\hfill(GATE ST 2023)
-\\
-\input{2023/ST/15/main.tex}
-\item Let $X$ be a random variable with the probability density function $f(x)$ such that
-\begin{align}
-f(x) &= 
-	\begin{cases}
-		\frac{1}{2\sqrt{3}}, & -\sqrt{3} \leq x \leq \sqrt{3} \\
-		0, & \text{otherwise}
-	\end{cases}
-\end{align}
-Then the variance of $X$ is?
-\hfill(GATE XH-C1 2023)
-\\
-\input{2023/XH/62/main.tex}
+\hfill (GATE ST 2023)
+\input{2023/ST/21/main.tex}
 \end{enumerate}
