@@ -2,10 +2,9 @@
 \contentsline {schapter}{Introduction}{iii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Axioms}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Distributions}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Conditional Probability}{9}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Moments}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Random Algebra}{13}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Hypothesis Testing}{17}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Bivariate Random Variables}{19}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Random Processes}{21}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Information Theory}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {3}Conditional Probability}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Moments}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Random Algebra}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Hypothesis Testing}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Bivariate Random Variables}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Random Processes}{15}{chapter.8}%
