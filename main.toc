@@ -10,3 +10,4 @@
 \contentsline {chapter}{\numberline {8}Random Processes}{21}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Convergence}{23}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Information Theory}{29}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Markov Chain}{41}{chapter.11}%
