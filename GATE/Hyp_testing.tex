@@ -81,4 +81,29 @@ The t-statistic for testing the null hypothesis $\beta_1 = 0$ is
 \hfill (GATE XH 2023)
 \\
 \input{2023/XH/61/main.tex}
+\item Let \{0.13, 0.12, 0.78, 0.51\} be a realization of a random sample of size 4 from a population with cumulative distribution function $F(.)$. Consider testing
+\begin{align}
+H_0 : F = F_0 \quad \text{against} \quad H_1 : F \ne F_0
+\end{align}
+where,
+\begin{align}
+    F_0(x) &= 
+    \begin{cases}
+        0 &  x<0  \\
+        x & 0\le x<1 \\
+        1 & x\ge 1
+    \end{cases}
+\end{align}
+Let $D$ denote the Kolmogorov-Smirnov test statistic. If $P (D > 0.669) = 0.01$ under $H_0$ and
+\begin{align}
+    \psi &= 
+    \begin{cases}
+        1 &  \text{if } H_0 \text{ is accepted at level } 0.01 \\
+        0 &  \text{otherwise} 
+    \end{cases} 
+\end{align}
+then based on the given data, the observed value of $D + \psi$ (rounded off to two decimal places) equals
+\hfill(GATE ST 2023)
+\\
+\input{2023/ST/65/2023}
 \end{enumerate}
