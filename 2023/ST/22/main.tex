@@ -228,7 +228,7 @@ EE22BTECH11006
 
 Question: Let $X$ be a random variable with probability density function
 \begin{align}
-\label{eq:22/2023/1}f(x;\lambda)&=
+\label{eq:22/2023/ST/1}f(x;\lambda)&=
 \begin{cases}
 \frac{1}{\lambda}e^{-\frac{x}{\lambda}} & \text{if} x>0\\
 0 & \text{otherwise}
@@ -237,11 +237,11 @@ Question: Let $X$ be a random variable with probability density function
 where $\lambda > 0$ is an unknown parameter. Let $Y_1, Y_2,...,Y_n$ be a random sample of
 size $n$ from a population having the same distribution as $X^2$.If
 \begin{align}
-\label{eq:22/2023/2}\bar{Y} &= \frac{1}{n}\sum_{i=1}^n Y_i
+\label{eq:22/2023/ST/2}\bar{Y} &= \frac{1}{n}\sum_{i=1}^n Y_i
 \end{align}
 then which of the following statements is true?
 \begin{enumerate}
-\item \label{eq:22/2023/3}$\sqrt{\frac{\bar{Y}}{2}} \text{is a method of moments estimator of}         \lambda$
+\item \label{eq:22/2023/ST/3}$\sqrt{\frac{\bar{Y}}{2}} \text{is a method of moments estimator of}         \lambda$
 \item $\sqrt{\bar{Y}} \text{is a method of moments estimator of}\lambda$
 \item ${\frac{1}{2}\sqrt{\bar{Y}}} \text{is a method of moments estimator of }\lambda$
 \item $2\sqrt{\bar{Y}} \text{is a method of moments estimator of} \lambda$
@@ -250,7 +250,7 @@ then which of the following statements is true?
 \fi
 \solution\\
 \begin{enumerate}
-\item Using PDF in \eqref{eq:22/2023/1} we need to find an estimator for the unknown parameter $\lambda$ in terms of sample mean $\bar{Y}$\\
+\item Using PDF in \eqref{eq:22/2023/ST/1} we need to find an estimator for the unknown parameter $\lambda$ in terms of sample mean $\bar{Y}$\\
 we know $Y_i=X_i^2$
 then,
 \begin{align}
@@ -258,7 +258,7 @@ E(Y_i)&=E(X_i^2)\\
 &= \int_{0}^{\infty}x^2\frac{1}{\lambda}e^{-\frac{x}{\lambda}}\\
 &= 2{\lambda}^2
 \end{align} 
-Method of moment is defined by \eqref{eq:22/2023/2} which gives,
+Method of moment is defined by \eqref{eq:22/2023/ST/2} which gives,
 \begin{align}
 \bar{Y} & = E(Y_i)\\
 &= 2{\lambda}^2
@@ -267,7 +267,7 @@ where
 \begin{align}
 \lambda &= \sqrt{\frac{\bar{Y}}{2}}
 \end{align}
-$\therefore$ Option \eqref{eq:22/2023/3} is correct.
+$\therefore$ Option \eqref{eq:22/2023/ST/3} is correct.
 \item The simulation steps to estimate $\lambda$ using method of moment estimator in python.
 \begin{enumerate}
 \item Generate a random value of $\lambda$ within the specified range using \textbf{np.random.uniform(1,10)}
